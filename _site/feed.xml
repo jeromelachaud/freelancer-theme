@@ -3,10 +3,10 @@
   <channel>
     <title>Jerome Lachaud</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Jul 2014 17:52:10 +0200</pubDate>
-    <lastBuildDate>Sat, 26 Jul 2014 17:52:10 +0200</lastBuildDate>
+    <link>http://s148919412.onlinehome.fr/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com/</link>
+    <atom:link href="http://s148919412.onlinehome.fr/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 26 Jul 2014 17:54:37 +0200</pubDate>
+    <lastBuildDate>Sat, 26 Jul 2014 17:54:37 +0200</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Sun, 20 Jul 2014 02:47:37 +0200</pubDate>
-        <link>/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/welcome-to-jekyll.html</guid>
+        <link>http://s148919412.onlinehome.fr/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://s148919412.onlinehome.fr/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com/welcome-to-jekyll.html</guid>
         
         
       </item>
@@ -49,8 +49,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Sun, 20 Jul 2014 02:47:37 +0200</pubDate>
-        <link>/mon-deuxieme-billet.html</link>
-        <guid isPermaLink="true">/mon-deuxieme-billet.html</guid>
+        <link>http://s148919412.onlinehome.fr/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com/mon-deuxieme-billet.html</link>
+        <guid isPermaLink="true">http://s148919412.onlinehome.fr/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com/mon-deuxieme-billet.html</guid>
         
         
       </item>
