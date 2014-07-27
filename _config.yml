@@ -1,12 +1,23 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Jerome Lachaud
+email: jeromelachaud@gmail.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: "freelancer-theme"
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+
+host: "localhost"
+port: "4002"
+baseurl: "http://s148919412.onlinehome.fr/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com"
+
+#Social
+twitter_username: jeromelachaud
+github_username:  jeromelachaud
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
+
+# Deployment
+ftp_host: 's148919412.onlinehome.fr'
+ftp_dir: '/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com/'
+ftp_passive: false
+ftp_username: 'u39488688'     # default read from stdin
+ftp_password: 'a6jeiubi' # default read from stdin
