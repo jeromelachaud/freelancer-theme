@@ -1,18 +1,12 @@
 # Site settings
-title: Jerome Lachaud
-email: jeromelachaud@gmail.com
+title: Your awesome title
+email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
-# Server stuff
-host: "localhost"
-port: "4002"
-baseurl: "http://s148919412.onlinehome.fr/01-jeromelachaud.com/06-jekyll.jerome.lachaud.com"
-
-#Social
-twitter_username: jeromelachaud
-github_username:  jeromelachaud
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-permalink: none
-exclude: ["dploy.yaml"]
+permalink: pretty
