@@ -1,4 +1,4 @@
-Freelancer theme
+Freelancer Jekyll theme
 =========================
 
 Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
@@ -6,8 +6,8 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 After [downloading](https://github.com/jeromelachaud/freelancer-theme/archive/master.zip), use the normal process of serving a jekyll site. Navigate to the directory in terminal and type `jekyll build` followed by `jekyll serve`
 
 ## How to use
-1. Place a image in `/img/portoflio/`
-2. Create posts to display your projects. Use the follow as an example:
+ - Place a image in `/img/portoflio/`
+ - Create posts to display your projects. Use the follow as an example:
 ```txt
 ---
 layout: default
@@ -22,7 +22,6 @@ description: The description of the project
 
 ---
 ```
-3. And finally, serve Jekyll source as you would normally.
 
 ## [Demo](https://jeromelachaud.github.io/freelancer-theme)
 
