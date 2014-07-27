@@ -23,7 +23,7 @@ description: The description of the project
 ---
 ```
 
-## [Demo](https://jeromelachaud.github.io/freelancer-theme)
+## Demo
 
 View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
 
