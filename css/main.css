@@ -20,9 +20,14 @@ a,
 a:hover,
 a:focus,
 a:active,
-a.active {
+a.active,
+em {
     outline: 0;
     color: #18bc9c;
+}
+
+em {
+    font-style: inherit;
 }
 
 h1,
