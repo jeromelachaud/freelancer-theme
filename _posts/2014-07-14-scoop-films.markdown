@@ -3,10 +3,9 @@ layout: default
 modal-id: 5
 date: 2014-07-14
 img: scoop-films.jpg
-alt: image-alt
-project-date: April 2014
+alt: SCOOP Films
+project-date: Octobre 2013
 client: SCOOP Films
 category: D&eacute;veloppement Front-end
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+description: Site de la soci&eacute;t&eacute; de production cin&eacute;matographique britanique SCOOP Films, r&eacute;alis&eacute;e sur la plate-forme de gestion de contenu Wordpress.
 ---

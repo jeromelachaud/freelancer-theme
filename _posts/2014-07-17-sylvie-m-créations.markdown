@@ -3,10 +3,9 @@ layout: default
 modal-id: 2
 date: 2014-07-17
 img: sylvie.jpg
-alt: image-alt
-project-date: April 2014
+alt: Sylvie M Creations
+project-date: Septembre 2013
 client: Sylvie M Cr&eacute;ation
 category: D&eacute;veloppement Front-end, Web Design
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+description: Conception et r&eacute; de la 1&egrave;re version du site de Sylvie M Cr&eacute;ations r&eacute;alis&eacute;e en HTML5/CSS3.
 ---
