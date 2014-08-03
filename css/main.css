@@ -331,6 +331,11 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
+.help-block li {
+    list-style-type: none;
+    margin-left: -2em;
+}
+
 footer {
     color: #fff;
 }
