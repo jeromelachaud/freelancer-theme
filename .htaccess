@@ -1,0 +1,3 @@
+# 301 Redirect Entire Directory
+# RedirectMatch 301 /eibon-print/(.*) http://jeromelachaud.com/eibon-print//$1
+RedirectMatch 301 /eibon_print/(.*) http://jeromelachaud.com/eibon-print/
