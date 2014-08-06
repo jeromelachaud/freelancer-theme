@@ -41,8 +41,8 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-secondary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -51,34 +51,36 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-light {
+hr.star-primary {
     border-color: #fff;
 }
 
-hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-}
-
-hr.star-primary {
+hr.star-secondary {
     border-color: #2c3e50;
 }
 
-hr.star-primary:after {
-    color: #2c3e50;
+.box-star {
+    top: -3.3em;
+    position: relative;
+    width: 48px;
+    margin: 0 auto;
+}
+
+.box-star svg {
+    width: 28px;
+    height: 28px;
+}
+
+.box-star-primary {
+    fill: #fff;
+    background-color: #18bc9c;
+}
+
+.box-star-secondary {
+    fill: #2c3e50;
     background-color: #fff;
 }
+
 
 .img-centered {
     margin: 0 auto;
@@ -358,6 +360,10 @@ footer .footer-below {
     background-color: #233140;
 }
 
+svg {
+    pointer-events : none;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -373,6 +379,23 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
+}
+
+
+a.btn-social svg {
+fill: #fff;
+width: 16px;
+height: 16px;
+webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+
+}
+
+a.btn-social:hover svg {
+    fill: rgba(24, 188, 156, 1);
 }
 
 .scroll-top {
