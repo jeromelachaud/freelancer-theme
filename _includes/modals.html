@@ -13,7 +13,10 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>{{ post.title }}</h2>
-                                <hr class="star-primary">
+                                <hr class="star-secondary">
+                                <div class="box-star box-star-secondary">
+                                    <svg><use xlink:href="#icon-star" /></svg>
+                                </div>
                                 <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                                 <p>{{ post.description }}</p>
                                 <ul class="list-inline item-details">
@@ -30,7 +33,7 @@
                                         </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><svg><use xlink:href="#icon-close" /></svg>Fermer</button>
                             </div>
                         </div>
                     </div>
