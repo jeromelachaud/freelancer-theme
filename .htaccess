@@ -1,7 +1,3 @@
-# 301 Redirect Entire Directory
-# RedirectMatch 301 /eibon-print/(.*) http://jeromelachaud.com/eibon-print//$1
-RedirectMatch 301 /eibon_print/(.*) http://jeromelachaud.com/eibon-print/
-
 # Apache Server Configs v2.7.1 | MIT License
 # https://github.com/h5bp/server-configs-apache
 
@@ -82,7 +78,8 @@ Options -MultiViews
 # Customize what Apache returns to the client in case of an error.
 # http://httpd.apache.org/docs/current/mod/core.html#errordocument
 
-ErrorDocument 404 /404.html
+#ErrorDocument 404 /404.html
+ErrorDocument 404 http://jeromelachaud.com/
 
 
 # ##############################################################################
@@ -313,6 +310,12 @@ AddDefaultCharset utf-8
     RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
     RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
 </IfModule>
+
+# Redirect an old URL
+RedirectMatch 301 /eibon-print/(.*) http://works.jeromelachaud.com/eibon-print//$1
+#RedirectMatch 301 /(.*)/(.*) http://works.jeromelachaud.com//$1
+#RedirectMatch 301 /mail/contact_me.php http://jeromelachaud.com/mail/contact_me.php//$1
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
