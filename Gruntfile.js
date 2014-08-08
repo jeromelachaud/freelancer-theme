@@ -10,9 +10,6 @@ module.exports = function(grunt) {
 			svg: {
 				style: "display: none;"
 			},
-			formatting : {
-				indent_size : 2
-			}
 		},
 		default: {
 			files: {
