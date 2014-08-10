@@ -7,5 +7,5 @@ alt: Sylvie M Creations
 project-date: Septembre 2013
 client: Sylvie M Cr&eacute;ation
 category: D&eacute;veloppement Front-end, Web Design
-description: Conception et r&eacute; de la 1&egrave;re version du site de Sylvie M Cr&eacute;ations r&eacute;alis&eacute;e en HTML5/CSS3.
+description: Conception et integration de la 1&egrave;re version du site de Sylvie M Cr&eacute;ations r&eacute;alis&eacute;e en HTML5/CSS3.
 ---

@@ -7,5 +7,5 @@ alt: Eibon
 project-date: April 2013
 client: Eibon
 category: D&eacute;veloppement Front-end
-description: Site web r&eacute;alis&eacute; pour le groupe Eibon sur la plate-forme de gestion de contenu Wordpress.</h2>
+description: Site web r&eacute;alis&eacute; pour le groupe Eibon sur la plate-forme de gestion de contenu Wordpress.
 ---
