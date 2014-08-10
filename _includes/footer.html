@@ -23,6 +23,11 @@
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
+                            {% if site.twitter %}
+                            <li>
+                                <a href="{{ site.twitter }}" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            {% endif %}
                             {% if site.facebook %}
                             <li>
                                 <a href="{{ site.facebook }}" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
@@ -33,11 +38,7 @@
                                 <a href="{{ site.google-plus }}" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                             </li>
                             {% endif %}
-                            {% if site.twitter %}
-                            <li>
-                                <a href="{{ site.twitter }}" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            {% endif %}
+
                             {% if site.linkedin %}
                             <li>
                                 <a href="{{ site.linkedin }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>

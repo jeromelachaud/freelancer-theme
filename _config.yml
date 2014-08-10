@@ -3,6 +3,11 @@ title: Your awesome title
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+# Color settings
+primary: 80B3FF #18bc9c
+secondary: A2122F #233140
+secondary-light: FD6E8A #2c3e50
+
 # Social media usernames
 twitter: jekyllrb
 facebook: 
