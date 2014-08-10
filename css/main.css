@@ -59,7 +59,8 @@ hr.star-secondary {
     border-color: #2c3e50;
 }
 
-.box-star {
+.box-star{
+
     top: -3.3em;
     position: relative;
     width: 48px;
@@ -80,6 +81,18 @@ hr.star-secondary {
     fill: #2c3e50;
     background-color: #fff;
 }
+
+.box-chevron {
+    display: block;
+}
+
+.box-chevron svg {
+    width: 25px;
+    height: 25px;
+    margin-left: -3px;
+    fill: #ffffff;
+}
+
 
 
 .img-centered {
