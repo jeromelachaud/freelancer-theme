@@ -6,69 +6,24 @@
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
                         <p>
-                            {% if site.address-line1 %}
-                                {{ site.address-line1 }}
-                            {% endif %}
-                            {% if site.address-line2 %}
-                                <br>{{ site.address-line2 }}
-                            {% endif %}
-                            {% if site.address-line3 %}
-                                <br>{{ site.address-line3 }}
-                            {% endif %}
-                            {% if site.address-line4 %}
-                                <br>{{ site.address-line4 }}
-                            {% endif %}
+                            {% for adress in site.address %}
+                                {{ adress.line }} <br>
+		                    {% endfor %}
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
-                            {% if site.twitter %}
+                            {% for network in site.social %}
                             <li>
-                                <a href="{{ site.twitter }}" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                             </li>
-                            {% endif %}
-                            {% if site.facebook %}
-                            <li>
-                                <a href="{{ site.facebook }}" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            {% endif %}
-                            {% if site.google-plus %}
-                            <li>
-                                <a href="{{ site.google-plus }}" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            {% endif %}
-
-                            {% if site.linkedin %}
-                            <li>
-                                <a href="{{ site.linkedin }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            {% endif %}
-                            {% if site.dribbble %}
-                            <li>
-                                <a href="{{ site.dribbble }}" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                            {% endif %}
-                            {% if site.flickr %}
-                            <li>
-                                <a href="{{ site.flickr }}" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
-                            </li>
-                            {% endif %}
-                            {% if site.bitbucket %}
-                            <li>
-                                <a href="{{ site.bitbucket }}" class="btn-social btn-outline"><i class="fa fa-fw fa-bitbucket"></i></a>
-                            </li>
-                            {% endif %}
-                            {% if site.github %}
-                            <li>
-                                <a href="{{ site.github }}" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            {% endif %}
+		                    {% endfor %}
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Credits</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <p>{{ site.credits }}</p>
                     </div>
                 </div>
             </div>

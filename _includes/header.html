@@ -41,9 +41,9 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">{% if site.header %}{{ site.header }}{% else %}{{ site.title }}{% endif %}</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">{{ site.tagline }}</span>
                     </div>
                 </div>
             </div>
