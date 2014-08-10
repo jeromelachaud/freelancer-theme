@@ -116,7 +116,7 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+header .intro-text .name h1{
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -135,7 +135,7 @@ header .intro-text .skills {
         padding-bottom: 100px;
     }
 
-    header .intro-text .name {
+    header .intro-text .name h1{
         font-size: 4.75em;
     }
 
