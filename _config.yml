@@ -1,16 +1,6 @@
 # Site settings
 title: Freelancer
-header:
-tagline: Web Developer - Graphic Artist - User Experience Designer
-
-about-left: Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-
-about-right: Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! 
-
-credits: Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.
-
 email: your-email@domain.com
-
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -19,16 +9,20 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
-# Social mnetworks usernames (many more available: facebook, flickr, google-plus, dribbble, pinterest, instagram, tumblr, etc.)
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket 
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
 
-# Postal address
+# Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
