@@ -11,9 +11,14 @@ if(empty($_POST['name'])  		||
    }
 
 $name = $_POST['name'];
-$email_address = $_POST['email'];
+$email_address = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+if ($email === FALSE) {
+    echo 'Invalid email';
+    exit(1);
+}
 $phone = $_POST['phone'];
 $message = $_POST['message'];
+
 
 // Create the email and send the message
 $to = 'yourname@yourdomain.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
