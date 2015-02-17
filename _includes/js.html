@@ -11,7 +11,11 @@
 
     <!-- Contact Form JavaScript -->
     <script src="{{ "/js/jqBootstrapValidation.js" }}"></script>
-    <script src="{{ "/js/contact_me.js" }}"></script>
+    {% if site.contact == "static" %}
+    <script src="{{ "/js/contact_me_static.js" }}"></script>
+    {% else %}
+     <script src="{{ "/js/contact_me.js" }}"></script>
+    {% endif %}
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" }}"></script>
