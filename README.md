@@ -1,4 +1,4 @@
-Codebase of my web personal [web site](https://jeromelachaud.com/)
+Codebase of my web personal [web site](http://jeromelachaud.com/)
 
 #### Do not use it for your projects
 
