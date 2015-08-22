@@ -513,3 +513,10 @@ a.btn-social:hover svg {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+// Fix Modal mouse wheel issues
+// https://github.com/twbs/bootstrap/issues/16297 
+.modal.fade.in {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
