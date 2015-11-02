@@ -6,6 +6,12 @@ description: "Write an awesome description for your new site here. You can edit 
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
 
