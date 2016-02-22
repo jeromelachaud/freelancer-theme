@@ -2,7 +2,7 @@
 layout: default
 "modal-id": 1
 date: 2014-07-18T00:00:00.000Z
-img: submarine.png
+img: creepy.jpg
 alt: "image-alt"
 "project-date": April 2014
 client: Start Bootstrap
