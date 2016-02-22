@@ -38,21 +38,21 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
+  - title: ಟ್ವಿಟ್ಟರ್
     url: http://twitter.com/jekyllrb
-  - title: facebook
+  - title: ಫೇಸ್ಬುಕ್
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
     url: http://bitbucket.org/jekyll
-  - title: github
+  - title: ಗಿಟ್ ಹಬ್
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Bengaluru
-  - line: Karnataka
+  - line: ಸುದ್ಗುಂಟ್ಟೆಪಾಳ್ಯ, ಬೆಂಗಳೂರು,
+  - line: ಕರ್ನಾಟಕ
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
