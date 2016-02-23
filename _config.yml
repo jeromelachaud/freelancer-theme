@@ -3,7 +3,7 @@ title: ನೆನಪುಗಳು
 email: chethanphoenix13@gmail.com
 url: https://chethanphoenix.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "Event Management - Photography - Wedding Planners"
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -31,7 +31,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Nenapugalu
   location:  ಸ್ಥಳ
   social: Around the Web
   credits: Credits
@@ -41,7 +41,7 @@ social:
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
+    url: https://www.facebook.com/adarsh.kannada
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
