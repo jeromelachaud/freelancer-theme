@@ -1,9 +1,9 @@
 # Site settings
-title: ನೆನಪುಗಳು
-email: chethanphoenix13@gmail.com
+title: Chittara
+email: adarshkannada@outlook.com
 url: https://chethanphoenix.github.io
-description: "This is the website for the business Nenapugalu. Nenapugalu Provides service for Event Management, Wedding Planning and Photography."
-skills: "Event Management - Photography - Wedding Planners"
+description: "This is the website for the business Chittara. Chittara Provides services for Photography."
+skills: "Photography"
 meta_author: Chethan Adarsh
 
 # Google webmaster tools
@@ -31,10 +31,10 @@ color:
 
 # Footer settings
 footer:
-  copyright: ನೆನಪುಗಳು
-  location:  ಸ್ಥಳ
-  social: ನಿಮ್ಮ ಸುತ್ತ
-  credits: ಕೃಪೆ
+  copyright: Chittara
+  location:  Place
+  social: Around You
+  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -51,8 +51,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: ಸುದ್ಗುಂಟ್ಟೆಪಾಳ್ಯ, ಬೆಂಗಳೂರು,
-  - line: ಕರ್ನಾಟಕ
+  - line: Bengaluru
+  - line: Karnataka
 
 # Credits content
 credits: '<a href="http://startbootstrap.com">Start Bootstrap</a>'
