@@ -127,7 +127,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .headerContainer {
         padding-top: 0px;
-        padding-bottom: 100px;
+        padding-bottom: 10px;
     }
 
     header .intro-text .name {
