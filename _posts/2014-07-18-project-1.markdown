@@ -7,7 +7,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: In response to client reported challenges with search features, targeted navigation flow metrics were analyized to quantify specific issues. 
-Analysis informed several opportunities for quick fixes and revealed need for further surveys/interviews with various user segments - those qualitative findings drove subsequent UX/UI design projects.
+description: In response to client reported challenges with search features, targeted navigation flow metrics were analyized to quantify specific issues. Analysis informed several opportunities for quick fixes and revealed need for further surveys/interviews with various user segments - those qualitative findings drove subsequent UX/UI design projects.
 
 ---
