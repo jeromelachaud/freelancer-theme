@@ -6,6 +6,8 @@ description: "Write an awesome description for your new site here. You can edit 
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
+root: /freelancer-theme
+
 # Google webmaster tools
 google_verify:
 
