@@ -3,7 +3,21 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	  height: 625px;
+      width: 100%;
+      margin: auto;
+  }
+  
+.carousel-control.left, .carousel-control.right{
+background-image:none
+}
 
+.carousel-control {
+opacity:14.5;
+width:8%;
+}
 body {
     overflow-x: hidden;
 }
@@ -85,9 +99,11 @@ header {
     background: #{{ site.color.primary }};
 }
 
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+header .headerContainer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+	margin-left:0px;
+	margin-right:0px;
 }
 
 header img {
@@ -109,9 +125,9 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+    header .headerContainer {
+        padding-top: 0px;
+        padding-bottom: 10px;
     }
 
     header .intro-text .name {
@@ -132,7 +148,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 4em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -384,7 +400,9 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
-
+.modal-body{
+	padding:0px;
+}
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -413,8 +431,8 @@ footer .footer-below {
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 75px;
-    height: 75px;
+    width: 20px;
+    height: 20px;
     background-color: transparent;
     cursor: pointer;
 }
