@@ -3,24 +3,24 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>Contact Me</h2>
+				<h2>ನಮ್ಮ ಭೇಟಿ</h2>
 				<hr class="star-primary">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-				<form  action="//formspree.io/you@email.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+				<form  name="sentMessage" id="contactForm" novalidate>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Name</label>
-							<input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+							<label>ಹೆಸರು</label>
+							<input type="text" name="name" class="form-control"  placeholder="ಹೆಸರು" id="name" required data-validation-required-message="ನಿಮ್ಮ  ಹೆಸರನ್ನು ಬರೆಯಿರಿ.">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Email Address</label>
-							<input type="email" name="_replyto" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+							<label>ಮಿಂಚಂಚೆ ವಿಳಾಸ</label>
+							<input type="email" name="_replyto" class="form-control" placeholder="ಮಿಂಚಂಚೆ ವಿಳಾಸ " id="email" required data-validation-required-message="ನಿಮ್ಮ ಮಿಂಚಂಚೆ ವಿಳಾಸ ಬರೆಯಿರಿ.">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -30,8 +30,8 @@
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Message</label>
-							<textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+							<label>ಸಂದೇಶ</label>
+							<textarea rows="5" name="message"  class="form-control" placeholder="ಸಂದೇಶ" id="message" required data-validation-required-message="ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಬರೆಯಿರಿ"></textarea>
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -39,10 +39,35 @@
 					<div id="success"></div>
 					<div class="row">
 						<div class="form-group col-xs-12">
-							<button type="submit" class="btn btn-success btn-lg">Send</button>
+							<button id="formSubmit" type="submit" class="btn btn-success btn-lg">ಕಳಿಸಿರಿ</button>
 						</div>
 					</div>
 				</form>
+				<script>						
+						$("#formSubmit").on("click",function(){
+							var name = $("#name").val();
+							var email = $("#email").val();
+							var mes = $("#message").val();
+							if(name != "" && name != undefined && email != "" && email != undefined && mes != "" && mes != undefined)
+							{
+									$("#name").val("");
+									$("#email").val("");
+									$("#message").val("");
+									var message = {"name":name,"email":email,"message":mes};
+									
+									$.ajax({
+										url: "//formspree.io/chethanphoenix13@gmail.com", 
+										method: "POST",
+										data: message,
+										dataType: "json"
+									});
+									alert('Thanks for the email, we\'ll be in touch soon.');
+							}
+									
+									
+							return false;
+						});
+				</script>
 			</div>
 		</div>
 	</div>
