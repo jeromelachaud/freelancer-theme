@@ -7,5 +7,6 @@ alt: image-alt
 project-date: 19 octobre 2017
 client: Jean Michel Blabla
 category: Open Data
-description: Sixième intervenant de la journée, sur le thème de.
+description: Sixième intervenant de la journée. 
+
 ---
