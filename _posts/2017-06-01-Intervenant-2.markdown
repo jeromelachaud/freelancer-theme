@@ -8,6 +8,4 @@ project-date: 19 octobre 2017
 client: Jean Michel Blabla
 category: Open Data
 description: Deuxième intervenant de la journée. 
-
-
 ---
