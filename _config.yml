@@ -1,5 +1,5 @@
 # Site settings
-title: Breizh Data Days
+title: Breizh Data Days - 19 octobre 2017  
 email: contact@colinfay.me
 url: http://breizhdatadays.github.io/
 description: "Breizh Data Days, la première conférence de Bretagne pour les amoureux de la donnée !"
@@ -27,8 +27,8 @@ disqus_shortname: myshortname
 color:
   primary: 653696 #80B3FF
   primary-rgb: "101,54,150" #"128,179,255"
-  secondary: 83d1bf #FD6E8A
-  secondary-dark: 648bac #A2122F
+  secondary: 648bac #FD6E8A
+  secondary-dark: 83d1bf #A2122F
 
 # Footer settings
 footer:
