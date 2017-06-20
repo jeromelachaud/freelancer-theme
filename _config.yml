@@ -52,7 +52,7 @@ address:
   - line: 35000 RENNES
 
 # Credits content
-credits: 'Créer avec Jekyll et le thème Freelancer.'
+credits: 'Créé avec Jekyll et le thème Freelancer.'
 
 # Build settings
 markdown: kramdown
