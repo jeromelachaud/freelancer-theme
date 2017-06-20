@@ -1,10 +1,10 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+title: Breizh Data Days
+email: contact@colinfay.me
+url: http://breizhdatadays.github.io/
+description: "Breizh Data Days, la première conférence de Bretagne pour les amoureux de la donnée !"
+keywords: "breizh, data, data science, open data"
+skills: ""
 meta_author: LastName FirstName
 
 # Google webmaster tools
