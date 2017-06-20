@@ -1,8 +1,8 @@
 # Site settings
-title: Breizh Data Days - 19 octobre 2017  
+title: Breizh Data Day
 email: contact@colinfay.me
-url: http://breizhdatadays.github.io/
-description: "Breizh Data Days, la première conférence de Bretagne pour les amoureux de la donnée !"
+url: http://breizhdataday.github.io/
+description: "Breizh Data Day, la première conférence de Bretagne pour les amoureux de la donnée !"
 keywords: "breizh, data, data science, open data"
 skills: ""
 meta_author: LastName FirstName
@@ -40,9 +40,9 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/breizhdatadays
+    url: http://twitter.com/breizhdataday
   - title: github
-    url: https://github.com/breizhdatadays/
+    url: https://github.com/breizhdataday
 
 # Postal address (add as many lines as necessary)
 address:
