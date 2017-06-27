@@ -12,6 +12,11 @@ p {
     font-size: 20px;
 }
 
+p.titre {
+  text-transform:underline;
+  text-transform:bold;
+}
+
 p.small {
     font-size: 16px;
 }
