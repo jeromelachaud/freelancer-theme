@@ -8,5 +8,5 @@ project-date: 19 octobre 2017
 client: Fabien Baradel 
 category: Deep Learning
 description: Deep learning for video understanding.
-
+description-longue : Plus d'infos bientôt. 
 ---

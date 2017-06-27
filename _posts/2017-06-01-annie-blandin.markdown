@@ -8,5 +8,5 @@ project-date: 19 octobre 2017
 client: Annie Blandin
 category: Légale
 description: La protection des données. 
-
+description-longue : Intervention sur la protection des données.
 ---

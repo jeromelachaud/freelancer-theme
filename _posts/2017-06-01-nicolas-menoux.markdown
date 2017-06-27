@@ -8,5 +8,5 @@ project-date: 19 octobre 2017
 client: Nicolas Menoux
 category: À confirmer
 description: Plus d'infos très bientôt. 
-
+description-longue : Plus d'infos bientôt. 
 ---

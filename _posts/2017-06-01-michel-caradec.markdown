@@ -8,5 +8,5 @@ project-date: 19 octobre 2017
 client: Michel Caradec
 category: Data Journalisme
 description: Les Panama Papers. 
-
+description-longue : Plus d'infos bientôt. 
 ---
