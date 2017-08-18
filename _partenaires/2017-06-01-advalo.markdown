@@ -1,0 +1,9 @@
+---
+layout: default
+modal-id: 1
+date: 2017-10-19
+img: advalo.png
+alt: image-alt
+client: Advalo
+description-longue : Advalo propose une plateforme de marketing prédictif qui vous permet d'accéder à vos données marketing et d'optimiser vos campagnes omnicanal.
+---
