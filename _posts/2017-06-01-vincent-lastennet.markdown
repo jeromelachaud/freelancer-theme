@@ -8,5 +8,5 @@ project-date: 19 octobre 2017
 client: Vincent Lastennet
 category: Datajournalisme
 description: Le datajournalisme chez Dataspot. 
-description-longue : Intervention sur le datajournalisme chez Dataspot. 
+description-longue : Intervention sur le datajournalisme chez Dataspot
 ---
