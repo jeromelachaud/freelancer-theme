@@ -1,2 +1,19 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+
+bodygrid {
+  display: grid;
+  grid-template-columns: 200px 400px;
+}
+grid1 {
+  grid-column: 1; /* placement en colonne 1 */
+}
+grid2 {
+  grid-column: 2; /* placement en colonne 2 */
+}
+grid3 {
+  grid-column: 3; /* placement en colonne 3 */
+}
+grid4 {
+  grid-column: 4; /* placement en colonne 4 */
+}
