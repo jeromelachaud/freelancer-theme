@@ -1,2 +1,4 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+{% include css/portfolio.css %}
+{% include css/archive.css %}
