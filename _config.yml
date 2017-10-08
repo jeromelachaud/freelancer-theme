@@ -33,8 +33,9 @@ color:
  # primary-rgb: "122,144,120" "51,197,203"
  # Hovering Color
   primary-rgb: "199,105,78"
-  secondary: 006d84
+  secondary: 006d84 #006d84
   secondary-dark: 01446b #01446b
+  
 
 # Footer settings
 footer:
