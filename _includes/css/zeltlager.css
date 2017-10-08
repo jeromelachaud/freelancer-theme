@@ -1,3 +1,12 @@
+z1{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 500%;
+  position: relative;
+  bottom: 0.6em;
+}
 #zeltlager .zeltlager-item {
     right: 0;
     margin: 0 0 15px;
