@@ -1,2 +1,5 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+{% include css/recent.css %}
+{% include css/archive.css %}
+{% include css/zeltlager.css %}
