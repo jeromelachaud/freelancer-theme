@@ -338,3 +338,20 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.font{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  position: relative;
+  bottom: 0.6em;
+}
+
+.font-120{
+  font-size: 120%;
+}
+
+.font-400{
+  font-size: 400%;
+}

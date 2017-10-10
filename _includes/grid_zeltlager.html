@@ -16,7 +16,9 @@
                            data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <z1>{{ post.date | date: '%Y'}}</z1>
+                                    <div class="font font-400">
+                                      {{ post.date | date: '%Y'}}
+                                    </div>
                                 </div>
                             </div>
                             <img src="img/aktuelles/{{ post.img }}"
