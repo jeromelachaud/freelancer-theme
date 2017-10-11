@@ -1,0 +1,32 @@
+
+    <!-- archive Grid Section -->
+    <section class = "success" id="archive">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Vergangenes</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                {% for post in site.categories["archive"] %}
+                    <div class="col-sm-4 archive-item">
+                        <a href="#archiveModal-{{ post.modal-id }}"
+                           class="archive-link"
+                           data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                  <div class="font font-120">
+                                    {{ post.title }}
+                                  </div>
+                                </div>
+                            </div>
+                            <img src="img/aktuelles/{{ post.img }}"
+                                 class="img-responsive"
+                                 alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
