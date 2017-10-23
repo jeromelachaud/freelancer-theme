@@ -1,12 +1,11 @@
-Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
+Homepage der KJG Dortmund-Wickede
 =========================
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+Eine Webseite basierend auf Jekyll mit einem modifizierten [Freelancer bootstrap theme](http://startbootstrap.com/template-overviews/freelancer/)
 
 ## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
+ - Bilder kommen in `/img/aktuelles/`
+ - Posts haben die folgende Gestalt:
 ```txt
 ---
 layout: default
@@ -23,10 +22,7 @@ description: The description of the project
 ```
 
 ## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
-
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+[Hier](https://kjg-dortmund-wickede.github.io) findet sich das Jekyll Theme in Aktion.
 
 ---------
-For more details, read the [documentation](http://jekyllrb.com/)
+Für mehr Details muss die Jekyll [Dokumentation](http://jekyllrb.com/) gelesen werden.
