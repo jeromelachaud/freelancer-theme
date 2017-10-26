@@ -39,6 +39,9 @@ client: Start Brootstrap (nicht ändern)
 category: recent (oder archive, wenn etwas in Vergangenes geschoben werden soll)
 description: Beschreibung der Aktion (alles in eine Zeile)
 ```
+- Es kann nicht in den Branch "MASTER" direkt geschrieben werden, es muss ein neuer Branch angelegt werden. Am besten den Namen des Updates verwenden (Keine Leerschläge!)
+- Bei passenden Änderungen muss nun gespeichert werden, indem _Commit new File_ (grüner Knopf) gedrückt wird.
+
 nun muss noch das Bild hochgeladen werden:
 - in den Ordner `img/aktuelles` wechseln
 - dort das Bild hochladen über _Upload files_
@@ -46,8 +49,6 @@ nun muss noch das Bild hochgeladen werden:
 
  - - - -
  zu 3.:
-- Es kann nicht in den Branch "MASTER" direkt geschrieben werden, es muss ein neuer Branch angelegt werden. Am besten den Namen des Updates verwenden (Keine Leerschläge!)
-- Bei passenden Änderungen muss nun gespeichert werden, indem _Commit new File_ (grüner Knopf) gedrückt wird.
 - Nun muss noch ein Pull Request geöffnet werden, wobei als base fork: kjg-dortmund-wickede/kjg-dortmund-wickede.github.io gewählt wird !!!
 - Jetzt noch ein Kommentar einfügen und den grünen Knopf mit _Create pull request_ drücken.
  - - - -
