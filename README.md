@@ -26,6 +26,7 @@ selbsterklärend!
 [Jahr-Monat-Tag](des Posts)-Postname.md
 
 Beispiel: 2017-10-08-Jahresplanung.md
+
 nun müssen die Inhalte angepasst werden!
 ```txt
 layout: wird gleich gelassen
