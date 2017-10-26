@@ -15,10 +15,10 @@ Wenn ich einen neuen Post verfassen will muss folgendes erfüllt werden:
 5. der neue Post erscheint auf der Website
 
  - - - -
- zu 1.
+ zu 1.:
 selbsterklärend! 
  - - - -
- zu 2.
+ zu 2.:
  - in den Ordner `_posts` wechseln
  - vergangenen Post öffnen auf RAW klicken und Inhalt kopieren
  - Auf "Create new file" klicken
@@ -27,21 +27,27 @@ selbsterklärend!
 Beispiel: 2017-10-08-Jahresplanung.md
 nun müssen die Inhalte angepasst werden!
 ```txt
-- layout: wird gleich gelassen
-- modal-id: wird um einen erhöht
-- date: das Datum des Posts (wie im Dateinamen)
-- img: das Bild des Posts (muss auch hochgeladen werden)
-- alt: image-alt (keine Ahnung was das macht)
-- project-date: Datum, wann die Aktion stattfindet (wird bei kategorie recent angezeigt)
-- client: Start Brootstrap (nicht ändern)
-- category: recent (oder archive, wenn etwas in Vergangenes geschoben werden soll)
-- description: Beschreibung der Aktion (alles in eine Zeile)
+layout: wird gleich gelassen
+modal-id: wird um einen erhöht
+date: das Datum des Posts (wie im Dateinamen)
+img: das Bild des Posts (muss auch hochgeladen werden)
+alt: image-alt (keine Ahnung was das macht)
+project-date: Datum, wann die Aktion stattfindet (wird bei kategorie recent angezeigt)
+client: Start Brootstrap (nicht ändern)
+category: recent (oder archive, wenn etwas in Vergangenes geschoben werden soll)
+description: Beschreibung der Aktion (alles in eine Zeile)
 ```
+nun muss noch das Bild hochgeladen werden:
+- in den Ordner `img/aktuelles` wechseln
+- dort das Bild hochladen über Upload files
+- Commiten (in den selben Branch wie den Post)
 
  - - - -
- zu 3.
+ zu 3.:
 - Es kann nicht in den Branch "MASTER" direkt geschrieben werden, es muss ein neuer Branch angelegt werden. Am besten den Namen des Updates verwenden (Keine Leerschläge!)
 - Bei passenden Änderungen muss nun gespeichert werden, indem Commit new File (grüner Knopf) gedrückt wird.
+- Nun muss noch ein Pull Request geöffnet werden, wobei als base fork: kjg-dortmund-wickede/kjg-dortmund-wickede.github.io gewählt wird !!!
+- Jetzt noch ein Kommentar einfügen und den grünen Knopf mit _Create pull request_ drücken.
  - - - -
 Nun ist alles für den Autor gelaufen, jetzt muss einer der Administratoren den Post absegnen und der Post erscheint auf der Website
 
