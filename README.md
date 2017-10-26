@@ -21,7 +21,7 @@ selbsterklärend!
  zu 2.:
  - in den Ordner `_posts` wechseln
  - vergangenen Post öffnen auf _RAW_ klicken und Inhalt kopieren
- - Auf "Create new file" klicken
+ - Auf _Create new file_ klicken
  - Datei benennen nach folgendem Schema:
 [Jahr-Monat-Tag](des Posts)-Postname.md
 Beispiel: 2017-10-08-Jahresplanung.md
@@ -49,12 +49,12 @@ nun muss noch das Bild hochgeladen werden:
 - Nun muss noch ein Pull Request geöffnet werden, wobei als base fork: kjg-dortmund-wickede/kjg-dortmund-wickede.github.io gewählt wird !!!
 - Jetzt noch ein Kommentar einfügen und den grünen Knopf mit _Create pull request_ drücken.
  - - - -
-Nun ist alles für den Autor gelaufen, jetzt muss einer der Administratoren den Post absegnen und der Post erscheint auf der Website
+Nun ist alles für den Autor gelaufen, jetzt muss einer der Administratoren den Post absegnen und der Post erscheint auf der Website.
 
 
 ## Nützliche Hinweise
  - Bilder kommen in `/img/aktuelles/`
- - Zeilenumbruch in der desctription: </br>
+ - Zeilenumbruch in der desctription: `</br>`
  - Posts haben die folgende Gestalt:
 ```txt
 ---
