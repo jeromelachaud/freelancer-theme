@@ -20,7 +20,7 @@ selbsterklärend!
  - - - -
  zu 2.:
  - in den Ordner `_posts` wechseln
- - vergangenen Post öffnen auf RAW klicken und Inhalt kopieren
+ - vergangenen Post öffnen auf _RAW_ klicken und Inhalt kopieren
  - Auf "Create new file" klicken
  - Datei benennen nach folgendem Schema:
 [Jahr-Monat-Tag](des Posts)-Postname.md
@@ -39,13 +39,13 @@ description: Beschreibung der Aktion (alles in eine Zeile)
 ```
 nun muss noch das Bild hochgeladen werden:
 - in den Ordner `img/aktuelles` wechseln
-- dort das Bild hochladen über Upload files
+- dort das Bild hochladen über _Upload files_
 - Commiten (in den selben Branch wie den Post)
 
  - - - -
  zu 3.:
 - Es kann nicht in den Branch "MASTER" direkt geschrieben werden, es muss ein neuer Branch angelegt werden. Am besten den Namen des Updates verwenden (Keine Leerschläge!)
-- Bei passenden Änderungen muss nun gespeichert werden, indem Commit new File (grüner Knopf) gedrückt wird.
+- Bei passenden Änderungen muss nun gespeichert werden, indem _Commit new File_ (grüner Knopf) gedrückt wird.
 - Nun muss noch ein Pull Request geöffnet werden, wobei als base fork: kjg-dortmund-wickede/kjg-dortmund-wickede.github.io gewählt wird !!!
 - Jetzt noch ein Kommentar einfügen und den grünen Knopf mit _Create pull request_ drücken.
  - - - -
