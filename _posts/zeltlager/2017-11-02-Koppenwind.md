@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 10040
+date: 2017-11-02
+img: cabin.png
+alt: image-alt
+project-date: 2012-01-01
+client: Start Bootstrap
+category: zeltlager
+description: Das 39ste Zeltlager hat in Koppenwind stattgefunden. Wir hatten viel Spaß und hatten das Thema "Asterix und Obelix".
+---
