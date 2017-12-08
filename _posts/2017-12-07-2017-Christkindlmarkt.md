@@ -2,7 +2,7 @@
 layout: default
 modal-id: 7
 date: 2017-12-07
-img: Christkindlmarkt.jpg
+img: Christkindlmarkt2017.jpg
 alt: image-alt
 project-date: 03.12.2017
 client: Start Bootstrap
