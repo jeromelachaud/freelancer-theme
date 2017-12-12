@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 date: 2017-12-06
-img: Weihnachtswochenende2015_fit.jpg
+img: Weihnachtswochenende2017.jpg
 alt: image-alt
 project-date: 17.11.2017
 client: Start Bootstrap
