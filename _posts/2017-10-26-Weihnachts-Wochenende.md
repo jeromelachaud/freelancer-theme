@@ -6,6 +6,6 @@ img: WWE2017_fit.jpg
 alt: image-alt
 project-date: 17.11.2017
 client: Start Bootstrap
-category: recent
+category: archive
 description: Das diesjährige Weihnachtswochenende wird super.
 ---
