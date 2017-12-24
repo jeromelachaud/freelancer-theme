@@ -1,6 +1,6 @@
 # Site settings
 title: KJG Dortmund-Wickede
-email: kontakt@kjg-dortmund-wickede.de
+email: kjgdortmundwickede@gmail.com
 url: http://www.kjg-dortmund-wickede.de/
 description: "Write an awesome description for your new site here.
               You can edit this line in _config.yml.
@@ -35,7 +35,7 @@ color:
   primary-rgb: "199,105,78"
   secondary: 006d84 #006d84
   secondary-dark: 01446b #01446b
-  
+
 
 # Footer settings
 footer:
