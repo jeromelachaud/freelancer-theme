@@ -2,7 +2,7 @@
 layout: default
 modal-id: 5
 date: 2017-11-02
-img: Pfarrleitung2017_fit.jpg
+img: Pfarrleitung2017.jpg
 alt: image-alt
 project-date: 22.10.2017
 client: Start Bootstrap
