@@ -8,7 +8,7 @@ Dafür müssen folgende Bedingungen erfüllt sein:
 zu 1.: Das ist das leicht erfüllt!
 zu 2.:   
 ## a) einen Post schreiben  
-Dafür im *Master-Branch* in den Ordner *_posts* wechseln
+Dafür im *Master-Branch* in den Ordner *_posts* wechseln  
 ![Alternativer Text](/img/logo.png)    
 und nun auf den Button *"Create new file"* klicken  
 ![Alternativer Text](/pfad/zum/bild.jpg)  
