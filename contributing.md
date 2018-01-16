@@ -5,7 +5,8 @@ Dafür müssen folgende Bedingungen erfüllt sein:
 1. Bild auf dem Rechner haben
 2. einen Post schreiben, an den diese Bild gebunden wird.
 
-zu 1.: Das ist das leicht erfüllt!
+zu 1.: Das ist das leicht erfüllt!  
+Wichtig: Alle Bilder müssne die Maße 900x650 Pixel besitzen!
 zu 2.:   
 ## a) einen Post schreiben  
 Dafür im *Master-Branch* in den Ordner *_posts* wechseln  
@@ -23,7 +24,7 @@ wechseln
 Hier ist nun folgender Eintrag sichtbar:   
 ![ownPatch.png](/img/contributing/ownPatch.png)  
 mit einem Klick darauf wird auf das eigene, gerade erstellte Update gewechselt.  
-Jeetzt noch in den Ordner *"img"* navigieren:  
+Jetzt noch in den Ordner *"img"* navigieren:  
 ![gotoimg](/img/contributing/gotoimg.png)      
 Im Unterordner *"aktuelles"* werden die Bilder für Posts gesucht, also auch hier abgelegt.  
 Hierin wechseln und auf *"Uploade files"* klicken, dann erscheint folgendes Fenster:  
