@@ -9,40 +9,40 @@ zu 1.: Das ist das leicht erfüllt!
 zu 2.:   
 ## a) einen Post schreiben  
 Dafür im *Master-Branch* in den Ordner *_posts* wechseln  
-![_posts](/contributing/_posts.png)    
+![_posts](/img/contributing/_posts.png)    
 und nun auf den Button *"Create new file"* klicken  
-![createNewFile.png](/contributing/createNewFile.png) 
+![createNewFile](/img/contributing/createNewFile.png) 
 Hier den Post wie gehabt eintragen (Achtsamkeit bei der Formatierung!)  
 Hiweis: Schon jetzt den richtigen Bildnamen bei dem Eintrag *"img:"* reinschreiben  
-![dummypost](/contributing/dummypost.png)  
+![dummypost](/img/contributing/dummypost.png)  
 
 ## b) Das Bild hinzufügen
 Dafür am Besten auf  
-![LinktoAddImg](/contributing/LinktoAddImg.png)     
+![LinktoAddImg](/img/contributing/LinktoAddImg.png)     
 wechseln  
-Hier ist nun folgender Eintrag sichtbar:  
-![ownPatch.png](/contributing/ownPatch.png.png)  
+Hier ist nun folgender Eintrag sichtbar:   
+![ownPatch.png](/img/contributing/ownPatch.png)  
 mit einem Klick darauf wird auf das eigene, gerade erstellte Update gewechselt.  
 Jeetzt noch in den Ordner *"img"* navigieren:  
-![gotoimg](/contributing/gotoimg.png)      
+![gotoimg](/img/contributing/gotoimg.png)      
 Im Unterordner *"aktuelles"* werden die Bilder für Posts gesucht, also auch hier abgelegt.  
 Hierin wechseln und auf *"Uploade files"* klicken, dann erscheint folgendes Fenster:  
-![uploading](/contributing/uploading.png)      
+![uploading](/img/contributing/uploading.png)      
 hier das Bild reinziehen.  
 Nachdem das Bild hochgeladen ist erscheint es unten links in der Ecke des Fensters.  
-![ready](/contributing/ready.png)    
+![ready](/img/contributing/ready.png)    
 Kurze Beschreibung hinzufügen und in den gleichen Branch (Hier: patch-1) einfügen:  
-![commitImg](/contributing/commitImg.png)  
+![commitImg](/img/contributing/commitImg.png)  
 
 ## c) Update in den Master schieben
 Deswegen machen wir einen *"Compare & pull request"*:  
-![request](/contributing/request.png)    
+![request](/img/contributing/request.png)    
 Hier muss nun, wie gewont, ein Pullrequest eröffnet werden.  
 Wichtig: Richtigen Patch und richtiges Ziel auswählen!  
 In dem Fall des Beispieles: vom **patch-1** von **dummytuerex** in den **master** von der **website**  
-![wholerequest](/contributing/wholerequest.png)    
+![wholerequest](/img/contributing/wholerequest.png)    
 Noch kurz ne Beschreibung einfügen und den Pullrequest erstellen 
 ## d) Fertig
 nun übernehmen die Admins den Review der Änderung und er erscheind schnellstmöglich auf der Website!
 ## c) Für die Admins sieht das dann so aus
-![adminpower](/contributing/adminpower.png)    
+![adminpower](/img/contributing/adminpower.png)    
