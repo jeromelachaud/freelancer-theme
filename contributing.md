@@ -6,7 +6,7 @@ Dafür müssen folgende Bedingungen erfüllt sein:
 2. einen Post schreiben, an den diese Bild gebunden wird.
 
 zu 1.: Das ist das leicht erfüllt!  
-Wichtig: Alle Bilder müssne die Maße 900x650 Pixel besitzen!
+Wichtig: Alle Bilder müssne die Maße 900x650 Pixel besitzen!  
 zu 2.:   
 ## a) einen Post schreiben  
 Dafür im *Master-Branch* in den Ordner *_posts* wechseln  
