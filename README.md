@@ -12,7 +12,7 @@ Wenn ich einen neuen Post verfassen will muss folgendes erfüllt werden:
 2. Online Post erstellen
 3. Speichern und einen Pull-Request erstellen
 4. Administrator muss dem Post zustimmen
-5. der neue Post erscheint auf der Website
+5. der neue Post erscheint auf der Website  
 Hinweis: Es gibt eine ausführliche Anleitung, wie ein Bild mit einem Post verknüpft wird.  
 ist [hier](https://github.com/kjg-dortmund-wickede/kjg-dortmund-wickede.github.io/blob/master/contributing.md/ "Führt zum contributing") zu finden.
 
