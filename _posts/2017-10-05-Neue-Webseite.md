@@ -6,7 +6,7 @@ img: Website.png
 alt: image-alt
 project-date: Oktober 2017
 client: Start Bootstrap
-category: recent
+category: archive
 description: Unsere neue Webseite existiert nun, unsere Alte schläft bald ein. sweet dreames sweet prince.
 
 ---
