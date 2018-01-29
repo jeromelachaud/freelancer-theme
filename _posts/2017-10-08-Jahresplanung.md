@@ -6,7 +6,7 @@ img: Jahresplanung2017.png
 alt: image-alt
 project-date: 22.10.2017
 client: Start Bootstrap
-category: recent
+category: archive
 description: Jahresplanung findet statt, kommt alle!
 
 ---
