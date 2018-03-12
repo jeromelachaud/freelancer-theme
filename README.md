@@ -18,7 +18,7 @@ ist [hier](https://github.com/kjg-dortmund-wickede/kjg-dortmund-wickede.github.i
 
  - - - -
  zu 1.:
-selbsterklärend! 
+selbsterklärend!
  - - - -
  zu 2.:
  - in den Ordner `_posts` wechseln
@@ -75,6 +75,15 @@ description: The description of the project
 
 ---
 ```
+### Jekyll läuft nicht
+
+Evtl. bundler und gems neu installieren
+```txt
+rm -rf _site
+gem install bundler
+bundle install
+```
+Dann sollte das 'bundle exec jekyll serve' wieder wie gewohnt funktionieren.
 
 ## Demo
 [Hier](https://kjg-dortmund-wickede.github.io) findet sich das Jekyll Theme in Aktion.
