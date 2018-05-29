@@ -6,13 +6,13 @@ Gem::Specification.new do |spec|
   spec.authors                 = ["Start Bootstrap"]
 
   spec.summary                 = %q{Freelancer is a one page Bootstrap portfolio theme for freelancers.}
-  spec.homepage                = "https://github.com/lsolesen/creative-theme-jekyll"
+  spec.homepage                = "https://github.com/jeromelachaud/freelancer-theme"
   spec.license                 = "MIT License"
 
   spec.metadata["plugin_type"] = "theme"
 
   spec.files                   = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|CHANGELOG)((\.(txt|md|markdown)|$)))}i)
+    f.match(%r{^(assets|_(includes|layouts|posts)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
 
   spec.add_runtime_dependency "jekyll", "~> 3.6"
