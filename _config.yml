@@ -1,6 +1,6 @@
-# Site settings
+﻿# Site settings
 title: "JJ's world"
-email: your-email@domain.com
+email: juliejeanne.harengleleu@gmail.com
 url: https://juliejeanne.github.io
 description: "This is my website!"
 keywords: "art, design, graphic"
@@ -17,7 +17,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -25,14 +25,14 @@ disqus_shortname: juliejeanne
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 18bc9c #vert
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: 2c3e50 #bleu foncé
+  secondary-dark: 233140 #bleu très foncé
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Julie-Jeanne Hareng 2018
   location: Location
   social: Around the Web
   credits: Credits
