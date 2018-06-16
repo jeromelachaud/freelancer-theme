@@ -4,24 +4,10 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
-    {% include portfolio_grid.html %}
         
-     <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                  <p>{{ content }}</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    {% include portfolio_grid1.html %}
+    {% include portfolio_grid2.html %}
+    {% include about.html %}
 
     {% if site.contact == "static" %}
     {% include contact_static.html %}
