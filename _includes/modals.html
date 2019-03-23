@@ -19,9 +19,9 @@
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                {% if post.project-name %}
+                                    <li>Check it out at
+                                        <strong><a href="{{ post.project-link }}">{{ post.project-name }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
