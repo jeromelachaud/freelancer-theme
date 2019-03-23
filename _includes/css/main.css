@@ -44,6 +44,7 @@ hr.star-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+    overflow: visible;
 }
 
 hr.star-light:after,
