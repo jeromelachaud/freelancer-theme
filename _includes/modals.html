@@ -31,6 +31,13 @@
                                     <li>Service: &nbsp;<strong>{{ post.category }}</strong></li>
                                 {% endif %}
                             </ul>
+                            {% if post.categories %}
+                                <h3>Skills</h3>
+                                {% for skill in post.categories %}
+                                <strong>{{ skill }}</strong><br>
+                                {% endfor %}
+                            {% endif %}
+                            <br>
                             <button type="button" class="btn btn-default btn-sm" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
