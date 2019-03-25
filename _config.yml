@@ -1,15 +1,18 @@
 # Site settings
 title: Mike P. Sinn
 email: mike@quantimo.do
-baseurl: /resume
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+# baseurl: /resume
+url: https://mike.quantimo.do
+# description is the meta tag displayed in search results
+description: "Web Development - Data Science - Mobile Development"
+# skills is a subtitle on the homepage
 skills: "Web Development - Data Science - Mobile Development"
+# Last Name First Name
 meta_author: Sinn Mike
 keywords: "quantimodo, think by numbers, web development, business intelligence"
 
 # Google webmaster tools
-google_verify:
+google_verify: 
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

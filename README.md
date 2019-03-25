@@ -32,6 +32,5 @@ View this jekyll theme in action [here](https://jeromelachaud.github.io/freelanc
 For more details, read the [documentation](http://jekyllrb.com/)
 
 ## Run on Gitpod
-- `bundle install`
-- `bundle exec jekyll serve --port 3000 --host 0.0.0.0`
+- `bundle install && bundle exec jekyll serve --port 3000 --host 0.0.0.0`
 - Append /resume/ to provided preview url (i.e. https://3000-fde54813-c2d7-470a-b4a8-91f51e6e6f0c.ws-us0.gitpod.io/resume/)
