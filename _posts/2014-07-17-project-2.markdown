@@ -3,16 +3,14 @@ title: Economic Analysis
 date: 2014-07-17 00:00:00 Z
 categories:
 - Web Development
-layout: default
 modal-id: 2
 img: think-by-numbers.png
 alt: image-alt
-project-date: April 2014
+project-date: 2014-04-01 00:00:00 Z
 project-name: Think by Numbers
 project-url: https://thinkbynumbers.org
-description: Use this area of the page to describe your project. The icon above is
-  part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>.
-  On their website, you can download their free set with 16 icons, or you can purchase
-  the entire set with 146 icons for only $12!
+description: I created Think by Numbers where I use statistical analysis and entertaining
+  infographics to explore how data can be used to minimize global suffering.
+layout: default
 ---
 
