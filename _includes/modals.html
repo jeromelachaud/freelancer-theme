@@ -20,17 +20,18 @@
                             {% endif %}
                             {% if post.project-url %}
                                 <p>Check it out at</p>
-                                <h3><a href="{{ post.project-url }}" target="_blank">{{ post.project-name }}</a></h3>
+                                <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal" href="{{ post.project-url }}" target="_blank"><i class="fa fa-eye"></i> &nbsp; {{ post.project-name }}</button>
+                                <!--<h3><a href="{{ post.project-url }}" target="_blank">{{ post.project-name }}</a></h3>-->
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.project-date %}
-                                    <li>Date:<strong>{{ post.project-date }}</strong></li>
+                                    <!--<li>Date:<strong>{{ post.project-date }}</strong></li>-->
                                 {% endif %}
                                 {% if post.category %}
                                     <li>Service: &nbsp;<strong>{{ post.category }}</strong></li>
                                 {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default btn-sm" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
