@@ -1,67 +1,48 @@
-# Site settings
+---
 title: Mike P. Sinn
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: mike@quantimo.do
-# baseurl: /resume
 url: https://mike.quantimo.do
-# description is the meta tag displayed in search results
-description: "Web Development - Data Science - Mobile Development"
-# skills is a subtitle on the homepage
-skills: "Web Development - Data Science - Mobile Development"
-# Last Name First Name
+description: Web Development - Data Science - Mobile Development
+skills: Web Development - Data Science - Mobile Development
 meta_author: Sinn Mike
-keywords: "quantimodo, think by numbers, web development, business intelligence"
-
-# Google webmaster tools
+keywords: quantimodo, think by numbers, web development, business intelligence
 google_verify: 
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
+bing_verify: 
 contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: mikepsinn
-
-# Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
+  primary: 18bc9c
+  primary-rgb: '24,288,156'
+  secondary: 2c3e50
+  secondary-dark: 233140
 footer:
   copyright: Mike P. Sinn
   location: Location
   social: Around the Web
   credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/thinkbynumbers
-  - title: facebook
-    url: https://www.facebook.com/mikepsinn
-  - title: stack-overflow
-    url: http://stackoverflow.com/users/3785491/mikepsinn
-  - title: bitbucket
-    url: http://bitbucket.org/mikepsinn
-  - title: github
-    url: http://github.com/mikepsinn
-
-# Postal address (add as many lines as necessary)
+- title: twitter
+  url: http://twitter.com/thinkbynumbers
+- title: facebook
+  url: https://www.facebook.com/mikepsinn
+- title: stack-overflow
+  url: http://stackoverflow.com/users/3785491/mikepsinn
+- title: bitbucket
+  url: http://bitbucket.org/mikepsinn
+- title: github
+  url: http://github.com/mikepsinn
 address:
-  - line: 167 Glenwood Dr.
-  - line: Glen Carbon, IL 62034
-
-# Credits content
-credits: '<a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a> <br> <a href="http://startbootstrap.com">Start Bootstrap</a>'
-
-# Build settings
+- line: 167 Glenwood Dr.
+- line: Glen Carbon, IL 62034
+credits: <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a>
+  <br> <a href="http://startbootstrap.com">Start Bootstrap</a>
 markdown: kramdown
 permalink: pretty
