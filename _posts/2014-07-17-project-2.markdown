@@ -3,6 +3,12 @@ title: Economic Analysis
 date: 2014-07-17 00:00:00 Z
 categories:
 - Web Development
+- WordPress
+- Economic Analysis
+- Data Visualization
+- Graphic Design
+- Photoshop
+- Adobe Illustrator
 modal-id: 2
 img: think-by-numbers.png
 alt: image-alt
