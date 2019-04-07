@@ -14,8 +14,8 @@ description: Web Development - Data Science - Mobile Development
 skills: Web Development - Data Science - Mobile Development
 meta_author: Sinn Mike
 keywords: quantimodo, think by numbers, web development, business intelligence
-google_verify:
-bing_verify:
+google_verify: 
+bing_verify: 
 contact: static
 disqus_shortname: mikepsinn
 color:
@@ -47,6 +47,6 @@ credits: <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a
 markdown: kramdown
 permalink: pretty
 exclude:
-  - Gemfile.lock
-  - node_modules
-  - ".idea"
+- Gemfile.lock
+- node_modules
+- ".idea"
