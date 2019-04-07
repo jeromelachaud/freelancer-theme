@@ -1,11 +1,11 @@
 ---
-title: Project 6
+title: Business Intelligence
 date: 2014-07-15 00:00:00 Z
 categories:
 - Web Development
 layout: default
 modal-id: 6
-img: submarine.png
+img: business-intelligence.png
 alt: image-alt
 project-date: April 2014
 project-name: Start Bootstrap

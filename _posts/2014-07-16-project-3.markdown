@@ -4,7 +4,7 @@ date: 2014-07-16 00:00:00 Z
 categories:
 - Web Development
 modal-id: 3
-img: circus.png
+img: web-development.png
 alt: image-alt
 project-date: 2014-04-01 00:00:00 Z
 project-name: Start Bootstrap
