@@ -14,13 +14,19 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="max-height: 300px;">
+                            <a href="{{ post.project-url }}" target="_blank">
+                                <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered"
+                                     alt="{{ post.alt }}" style="max-height: 300px;">
+                            </a>
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             {% if post.project-url %}
-                                <p>Check it out at</p>
-                                <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal" href="{{ post.project-url }}" target="_blank"><i class="fa fa-eye"></i> &nbsp; {{ post.project-name }}</button>
+<!--                                <p>Check it out at</p>-->
+                                <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal"
+                                        href="{{ post.project-url }}" target="_blank">
+                                    <i class="fa fa-eye"></i> &nbsp; {{ post.project-name }}
+                                </button>
                                 <!--<h3><a href="{{ post.project-url }}" target="_blank">{{ post.project-name }}</a></h3>-->
                             {% endif %}
                             <ul class="list-inline item-details">
