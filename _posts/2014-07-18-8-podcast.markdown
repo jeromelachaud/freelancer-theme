@@ -1,0 +1,16 @@
+---
+title: Podcast Production
+date: 2014-07-18 00:00:00 Z
+categories:
+- Writing
+- Digital Recording
+- Audio Post-Production
+layout: default
+modal-id: 8
+img: music.png
+alt: image-alt
+project-name: Think by Numbers Podcast
+project-url: https://podcasts.apple.com/us/podcast/think-by-numbers/id660714690?mt=2
+description: The Plutonium Kidz were born of a secret government program involving the testing of plutonium exposure on human subjects. Through these experiments three normal children were thus transformed into the Plutonium Kidz!
+---
+
