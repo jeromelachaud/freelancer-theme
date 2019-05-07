@@ -9,7 +9,8 @@ alt: image-alt
 project-date: 2014-04-01 00:00:00 Z
 project-name: QuantiModo
 project-url: https://web.quantimo.do
-description: I built this mobile responsive site using the Javascript framework AngularJS for the front end and the Laravel PHP framework for the back-end API.
+description: I built this mobile responsive site using the Javascript framework AngularJS
+  for the front end and the Laravel PHP framework for the back-end API.
 layout: default
 ---
 
