@@ -23,8 +23,8 @@
                             {% endif %}
                             {% if post.project-url %}
 <!--                                <p>Check it out at</p>-->
-                                <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal"
-                                        href="{{ post.project-url }}" target="_blank">
+                                <button type="button" class="btn btn-lg btn-primary"
+                                    onclick="window.open('{{ post.project-url }}', '_blank');" target="_blank">
                                     <i class="fa fa-eye"></i> &nbsp; {{ post.project-name }}
                                 </button>
                                 <!--<h3><a href="{{ post.project-url }}" target="_blank">{{ post.project-name }}</a></h3>-->

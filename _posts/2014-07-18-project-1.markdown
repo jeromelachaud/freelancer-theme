@@ -2,7 +2,10 @@
 title: Data Science
 date: 2014-07-18 00:00:00 Z
 categories:
-- Web Development and Machine Learning
+- Web Development
+- Machine Learning
+- Mobile Development
+- PHP
 layout: default
 modal-id: 1
 img: brain.png
