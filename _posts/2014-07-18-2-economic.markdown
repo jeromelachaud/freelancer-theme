@@ -11,7 +11,7 @@ categories:
 - Adobe Illustrator
 modal-id: 2
 img: think-by-numbers.png
-alt: image-alt
+alt: think-by-numbers
 project-date: 2014-04-01 00:00:00 Z
 project-name: Think by Numbers
 project-url: https://thinkbynumbers.org

@@ -5,12 +5,14 @@ categories:
 - Writing
 - Digital Recording
 - Audio Post-Production
+- Audacity
+- Sony Vegas Audio
 layout: default
 modal-id: 8
-img: music.png
-alt: image-alt
+img: podcast.png
+alt: podcast
 project-name: Think by Numbers Podcast
 project-url: https://podcasts.apple.com/us/podcast/think-by-numbers/id660714690?mt=2
-description: The Plutonium Kidz were born of a secret government program involving the testing of plutonium exposure on human subjects. Through these experiments three normal children were thus transformed into the Plutonium Kidz!
+description: I can make you a podcast and publish it!  I wrote, edited and published this companion podcast for my Think by Numbers website.  I primarily used Sony Vegas for audio editing.
 ---
 

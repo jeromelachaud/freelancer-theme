@@ -9,7 +9,7 @@ categories:
 layout: default
 modal-id: 1
 img: brain.png
-alt: image-alt
+alt: brain
 project-name: QuantiModo
 project-url: https://studies.quantimo.do
 description: I built the first platform in the world that automatically aggregated

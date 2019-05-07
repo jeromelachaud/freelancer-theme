@@ -7,12 +7,15 @@ categories:
 - Vocals
 - Digital Recording
 - Audio Post-Production
+- Sony Vegas Audio
+- Audacity
+- Fruity Loops Digital Audio Workstation
 layout: default
 modal-id: 7
 img: music.png
-alt: image-alt
+alt: music
 project-name: Plutonium Kidz
 project-url: https://soundcloud.com/plutonium-kidz/sets/plutonium-kidz
-description: The Plutonium Kidz were born of a secret government program involving the testing of plutonium exposure on human subjects. Through these experiments three normal children were thus transformed into the Plutonium Kidz!
+description: I composed/performed/recorded/edited vocals, bass and guitar with Sony Vegas.  I wrote/programmed the drums and synthesizers with Fruity Loops Digital Audio Workstation.  I hope you love it!
 ---
 

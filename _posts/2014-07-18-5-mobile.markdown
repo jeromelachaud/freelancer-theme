@@ -7,13 +7,10 @@ categories:
 layout: default
 modal-id: 5
 img: mobile-development.png
-alt: image-alt
+alt: mobile-development
 project-date: April 2014
 project-name: QuantiModo
 project-url: https://itunes.apple.com/us/app/quantimodo-life-tracker/id1115037060?mt=8
-description: I built the first platform in the world that automatically aggregated
-  14 million data points from thousands of users and analyzed it generating 90,000
-  natural language research studies on the relationships between various factors and
-  the severity of chronic illnesses such as depression.
+description: I built an Android and iOS app that allowed people to easily record treatments and symptoms using interactive push notifications. It can import data from dozens of other apps and devices.  Then it analyzes it and reveals the most significant hidden factors worsening or improving your symptoms. 
 ---
 

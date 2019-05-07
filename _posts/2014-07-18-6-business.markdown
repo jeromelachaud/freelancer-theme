@@ -8,18 +8,15 @@ categories:
 - WordPress
 - Microsoft Access
 - Google My Business
+- Excel
 layout: default
 modal-id: 6
 img: business-intelligence.png
-alt: image-alt
+alt: business
 project-date: April 2014
 project-name: St. Louis Testing Laboratories
 project-url: https://info.stltestlab.com
-description: I helped to double annual sales revenue at St. Louis Testing Laboratories
-  as the Director of Chemical Testing by implementing a large scale Google Adwords
-  campaign consisting of hundreds of ads, keywords, and negative keywords for a wide
-  array of testing services offered.  I also saved the company thousands of man hours
-  by automating many formerly manual processes by building a laboratory information
-  management system.
+description:  As the director of Chemical Testing, I saved the St. Louis Testing Laboratories thousands of man hours
+  by automating many formerly manual processes by building a customlaboratory information management system.
 ---
 

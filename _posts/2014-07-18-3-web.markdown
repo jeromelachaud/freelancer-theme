@@ -3,14 +3,20 @@ title: Web Development
 date: 2014-07-16 00:00:00 Z
 categories:
 - Web Development
+- WordPress Plugin Development
+- AngularJS
+- MySQL
+- Javascript
+- PHP
+- Laravel
 modal-id: 3
 img: web-development.png
-alt: image-alt
+alt: web-development
 project-date: 2014-04-01 00:00:00 Z
 project-name: QuantiModo
 project-url: https://web.quantimo.do
 description: I built this mobile responsive site using the Javascript framework AngularJS
-  for the front end and the Laravel PHP framework for the back-end API.
+  for the front end. The back-end API, Analytics Engine, and Connector Framework was built using the Laravel PHP framework and MySQL.
 layout: default
 ---
 

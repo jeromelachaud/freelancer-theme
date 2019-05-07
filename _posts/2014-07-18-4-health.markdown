@@ -5,10 +5,11 @@ categories:
 - Web Development
 - Android Development
 - iOS Development
+- Chrome Browser Extension Development
 layout: default
 modal-id: 4
 img: digital-health.png
-alt: image-alt
+alt: digital-health
 project-date: April 2014
 project-name: QuantiModo
 project-url: https://quantimo.do
