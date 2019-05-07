@@ -14,12 +14,38 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
+                            {% unless post.wistia-id or post.youtube-id %}
                             <a href="{{ post.project-url }}" target="_blank">
                                 <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered"
                                      alt="{{ post.alt }}" style="max-height: 300px;">
                             </a>
+                            {% endunless %}
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
+                            {% endif %}
+                            {% if post.wistia-id %}
+                                <script src="https://fast.wistia.com/embed/medias/{{post.wistia-id}}.jsonp" async></script>
+                                <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper"
+                                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <div class="wistia_embed wistia_async_{{post.wistia-id}} videoFoam=true"
+                                            style="height:100%;position:relative;width:100%">
+                                            <div class="wistia_swatch"
+                                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                                <img src="https://fast.wistia.com/embed/medias/{{post.wistia-id}}/swatch"
+                                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                                    alt="" onload="this.parentNode.style.opacity=1;" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                            {% if post.youtube-id %}
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube-id}}"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
                             {% endif %}
                             {% if post.project-url %}
 <!--                                <p>Check it out at</p>-->

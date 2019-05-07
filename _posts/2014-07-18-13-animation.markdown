@@ -1,0 +1,18 @@
+---
+title: Animation
+date: 2014-07-18 00:00:00 Z
+categories:
+- Adobe Photoshop
+- Adobe Illustrator
+- After Effects
+- Sony Vegas Video Editor
+layout: default
+modal-id: 13
+img: animation.gif
+alt: animation
+wistia-id: zepo3x06g2
+project-name: 
+project-url: 
+description: I created this promotional animation primarily using Illustrator and Sony Vegas.  
+---
+
