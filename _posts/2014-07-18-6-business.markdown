@@ -16,8 +16,7 @@ alt: business
 project-date: April 2014
 project-name: St. Louis Testing Laboratories
 project-url: https://info.stltestlab.com
-description: As the director of Chemical Testing, I saved the St. Louis Testing Laboratories
-  thousands of man hours by automating many formerly manual processes by building
-  a customlaboratory information management system.
+description:  As the director of Chemical Testing, I saved the St. Louis Testing Laboratories thousands of man hours
+  by automating many formerly manual processes by building a customlaboratory information management system.
 ---
 
