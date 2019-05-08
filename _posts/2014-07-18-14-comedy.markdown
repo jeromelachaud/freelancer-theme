@@ -1,0 +1,18 @@
+---
+title: Comedy
+date: 2014-07-18 00:00:00 Z
+categories:
+- Writing
+- Video Production
+- Sony Vegas Video
+- Photoshop
+- Acting
+layout: default
+modal-id: 14
+img: comedy.png
+alt: comedy
+youtube-id: 5WBAJMerbxk
+project-name: 
+project-url:
+description: I wrote, animated, and filmed Catsoline primarily using Photoshop and Sony Vegas.
+---
