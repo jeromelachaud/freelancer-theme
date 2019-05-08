@@ -1,6 +1,5 @@
 ---
 title: Animation
-date: 2014-07-18 00:00:00 Z
 categories:
 - Adobe Photoshop
 - Adobe Illustrator

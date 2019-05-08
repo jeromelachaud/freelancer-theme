@@ -1,6 +1,5 @@
 ---
 title: WordPress Plugin Development
-date: 2014-07-18 00:00:00 Z
 categories:
 - WordPress Plugins Development
 - PHP

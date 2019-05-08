@@ -1,6 +1,5 @@
 ---
 title: Economic Analysis
-date: 2014-07-17 00:00:00 Z
 categories:
 - Web Development
 - WordPress
@@ -12,7 +11,6 @@ categories:
 modal-id: 2
 img: think-by-numbers.png
 alt: think-by-numbers
-project-date: 2014-04-01 00:00:00 Z
 project-name: Think by Numbers
 project-url: https://thinkbynumbers.org
 description: I created Think by Numbers where I use statistical analysis and entertaining

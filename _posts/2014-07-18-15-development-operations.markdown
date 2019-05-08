@@ -1,6 +1,5 @@
 ---
 title: Development Operations
-date: 2014-07-18 00:00:00 Z
 categories:
 - AWS
 - Azure

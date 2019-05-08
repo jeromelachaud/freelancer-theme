@@ -1,6 +1,5 @@
 ---
 title: iOS Development
-date: 2014-07-14 00:00:00 Z
 categories:
 - Ionic
 - iOS Development

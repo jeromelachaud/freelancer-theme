@@ -1,6 +1,5 @@
 ---
 title: Digital Marketing
-date: 2014-07-18 00:00:00 Z
 categories:
 - Google Adwords
 - Google My Business

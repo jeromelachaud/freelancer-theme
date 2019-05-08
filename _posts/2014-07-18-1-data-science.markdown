@@ -1,6 +1,5 @@
 ---
 title: Data Science
-date: 2014-07-18 00:00:00 Z
 categories:
 - Web Development
 - Machine Learning
