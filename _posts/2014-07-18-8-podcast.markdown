@@ -7,7 +7,7 @@ categories:
 - Audacity
 - Sony Vegas Audio
 layout: default
-modal-id: 8
+modal-id: 38
 img: podcast.png
 alt: podcast
 project-name: Think by Numbers Podcast

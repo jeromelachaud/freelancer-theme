@@ -15,7 +15,8 @@
             </div>
             <br>
             <div class="row">
-                {% assign items = site.posts %}
+                {% assign items = site.posts | sort: 'modal-id' %}
+                <!-- Give items with long title the highest modal-id so they're at the bottom or it breaks the layout -->
                 {% for post in items %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">

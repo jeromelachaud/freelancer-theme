@@ -9,7 +9,7 @@ categories:
 - Google My Business
 - Excel
 layout: default
-modal-id: 6
+modal-id: 26
 img: business-intelligence.png
 alt: business
 project-date: April 2014

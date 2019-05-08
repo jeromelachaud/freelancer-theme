@@ -6,7 +6,7 @@ categories:
 - HTML
 - CSS
 layout: default
-modal-id: 12
+modal-id: 52
 img: wordpress.png
 alt: wordpress
 project-name: QuantiModo WordPress Plugin

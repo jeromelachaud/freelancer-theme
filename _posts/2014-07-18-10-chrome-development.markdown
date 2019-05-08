@@ -5,7 +5,7 @@ categories:
 - HTML
 - CSS
 layout: default
-modal-id: 10
+modal-id: 50
 img: chrome.png
 alt: chrome
 project-name: MediModo Chrome Extension
