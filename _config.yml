@@ -33,10 +33,14 @@ social:
   url: http://twitter.com/thinkbynumbers
 - title: facebook
   url: https://www.facebook.com/mikepsinn
-- title: stack-overflow
-  url: http://stackoverflow.com/users/3785491/mikepsinn
+# - title: stack-overflow
+#   url: http://stackoverflow.com/users/3785491/mikepsinn
 - title: github
   url: http://github.com/mikepsinn
+- title: linkedin
+  url: https://www.linkedin.com/in/mikesinn/
+# - title: bitbucket
+#   url: http://bitbucket.com/mikepsinn
 address:
 - line: 167 Glenwood Dr.
 - line: Glen Carbon, IL 62034
