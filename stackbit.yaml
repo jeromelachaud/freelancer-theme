@@ -129,19 +129,9 @@ models:
         name: layout
         label: Layout
         hidden: true
-  feed:
-    type: page
-    label: Site Feed XML
-    file: "feed.xml"
-    singleInstance: true
-    fields:
-      - type: string
-        name: layout
-        label: Layout
-        hidden: true
   post:
     type: page
-    label: posts
+    label: Posts
     folder: _posts
     fields:
       - type: string
