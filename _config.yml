@@ -8,10 +8,10 @@ skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
 # Google webmaster tools
-google_verify:
+google_verify: ""
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: ""
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
@@ -28,7 +28,7 @@ color:
   primary: 18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary-dark: "233140" #A2122F
 
 # Footer settings
 footer:
@@ -42,7 +42,7 @@ social:
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
+    url: ""
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket

@@ -1,0 +1,177 @@
+stackbitVersion: ~0.2.0
+ssgName: custom
+publishDir: _site
+buildCommand: bundle install && bundle exec jekyll build
+uploadDir: img
+staticDir: ""
+pagesDir: "./"
+dataDir: "./"
+models:
+  config:
+    type: data
+    label: Config
+    file: _config.yml
+    fields:
+      - type: string
+        name: title
+        label: Site title
+        required: true
+      - type: string
+        name: email
+        label: Your Email
+      - type: string
+        name: url
+        label: Site URL
+      - type: string
+        name: description
+        label: Site Description
+      - type: string
+        name: keywords
+        label: Keywords for Search
+      - type: string
+        name: skills
+        label: Skills
+        description: Describe your skills
+      - type: string
+        name: meta_author
+        label: Author Name
+      - type: string
+        name: google_verify
+        label: Google Verify Code
+        description: Google webmaster tools
+      - type: string
+        name: bing_verify
+        label: Bing Verify Code
+        description: https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+      - type: enum
+        name: contact
+        label: Contact Form
+        options:
+          - static
+          - disqus
+      - type: string
+        name: disqus_shortname
+        label: Disqus Shortname
+      - type: object
+        name: color
+        label: Color Settings
+        fields:
+          - type: string
+            name: primary
+            label: Primary Color
+          - type: string
+            name: primary-rgb
+            label: Primary RGB Color
+          - type: string
+            name: secondary
+            label: Secondary Color
+          - type: string
+            name: secondary-dark
+            label: Secodary Dark Color
+      - type: object
+        name: footer
+        label: Footer Settings
+        fields:
+          - type: string
+            name: copyright
+            label: Copyright
+          - type: string
+            name: location
+            label: Location
+          - type: string
+            name: social
+            label: Social
+          - type: string
+            name: credits
+            label: Credits
+      - type: list
+        name: social
+        label: Social
+        items:
+          type: object
+          fields:
+            - type: string
+              name: title
+              label: Social Name
+            - type: string
+              name: url
+              label: Social URL
+      - type: list
+        name: address
+        label: Postal Address
+        items:
+          type: object
+          fields:
+            - type: string
+              name: line
+              label: Line
+      - type: string
+        name: credits
+        label: Credits
+        description: Credits Content
+      - type: string
+        name: markdown
+        label: Markdown
+        description: Build settings
+        hidden: true
+      - type: string
+        name: permalink
+        label: Permalink
+        description: Build Settings
+        hidden: true
+  home: 
+    type: page
+    label: Home Page
+    file: "index.html"
+    singleInstance: true
+    fields: 
+      - type: string
+        name: layout
+        label: Layout
+        hidden: true
+  feed:
+    type: page
+    label: Site Feed XML
+    file: "feed.xml"
+    singleInstance: true
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+        hidden: true
+  post:
+    type: page
+    label: posts
+    folder: _posts
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+        const: "default"
+        hidden: true
+      - type: number
+        name: modal-id
+        label: Modal ID
+      - type: date
+        name: date
+        label: Published Date
+      - type: image
+        name: img
+        label: Portfolio Image
+      - type: string
+        name: alt
+        label: Image Alt Text
+      - type: date
+        name: project-date
+        label: Project Date
+      - type: string
+        name: client
+        label: Client
+      - type: string
+        name: category
+        label: Job Category
+      - type: text
+        name: description
+        label: Work Description
+
+
