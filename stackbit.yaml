@@ -141,7 +141,7 @@ models:
       - type: string
         name: alt
         label: Image Alt Text
-      - type: date
+      - type: string
         name: project-date
         label: Project Date
       - type: string
