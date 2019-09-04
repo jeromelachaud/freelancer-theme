@@ -119,16 +119,6 @@ models:
         label: Permalink
         description: Build Settings
         hidden: true
-  home: 
-    type: page
-    label: Home Page
-    file: "index.html"
-    singleInstance: true
-    fields: 
-      - type: string
-        name: layout
-        label: Layout
-        hidden: true
   post:
     type: page
     label: Posts
