@@ -4,6 +4,3 @@ rvm:
 
 install: gem install jekyll
 script: jekyll build
-
-sudo: false
-exclude: [vendor]
