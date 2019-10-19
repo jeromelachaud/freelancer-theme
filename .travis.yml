@@ -1,4 +1,6 @@
 language: ruby
 install: gem install jekyll bundler
-script: bundle exec jekyll build
+script:
+  - bundle install
+  - bundle exec jekyll build
 cache: bundler
