@@ -11,10 +11,10 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2020-01-18
 img: cabin.png
 alt: image-alt
-project-date: July 2014
+project-date: January 2020
 client: The Client
 category: Web Development
 description: The description of the project
@@ -23,7 +23,7 @@ description: The description of the project
 ```
 
 ## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
+View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
 
 ## Screenshot
 ![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
