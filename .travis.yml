@@ -1,9 +1,7 @@
 language: ruby
-rvm:
-- 2.3.3
-
-install: gem install jekyll
-script: jekyll build
-
-sudo: false
-exclude: [vendor]
+script:
+  - gem install jekyll bundler
+  - bundle install
+  - bundle exec rake test
+  - bundle exec jekyll build
+cache: bundler
