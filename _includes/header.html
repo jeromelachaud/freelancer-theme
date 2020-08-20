@@ -8,6 +8,11 @@
           <span class="name">{{ site.title }}</span>
           <hr class="star-light" />
           <span class="skills">{{ site.skills }}</span>
+          <div class="inline btn btn-outline rounded-lg">
+            {% for landing in site.landing %}
+            <a class="btn btn-lg btn-primary rounded-md" href="{{ landing.url }}">{{ landing.title }}</a>
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>

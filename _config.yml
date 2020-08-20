@@ -1,11 +1,32 @@
 # Site settings
-title: Freelancer
+title: YALP
 email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
+url: https://github.com/secur3gamer/yalp
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "Security Analyst, Ocassional Web Developer"
 meta_author: LastName FirstName
+
+landing:
+  - title: Blog
+    url: https://firstexample.com
+  - title: Resume
+    url: https://secondexample.com
+  - title: Third Link
+    url: https://thirdexample.com
+  - title: Fourth Link
+    url: https://fourthexample.com
+  - title: Fifth Link
+    url: https://fifthexample.com
+
+aboutblurb:
+  - content: This is a fork of the Freelancer Jekyll theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+  - content: Because this is simply a landing page, posts have been removed. The portfolio grid was also removed.
+  - content: More content customisation is now possible in _config.yml, including the button links (landing) and the 'about' section.
+
+aboutbtn:
+  - title: Download Theme
+    url: https://github.com/secur3gamer/yalp
 
 # Google webmaster tools
 google_verify:
@@ -25,10 +46,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 333333 #333333
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: 429077 #429077
+  secondary-dark: 2c3e50 #2c3e50
 
 # Footer settings
 footer:
@@ -56,7 +77,7 @@ address:
   - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'YALP is a free to use, open source Bootstrap theme forked by <a href="https://github.com/secur3gamer/yalp" target="_blank">me</a>, originally created by <a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
