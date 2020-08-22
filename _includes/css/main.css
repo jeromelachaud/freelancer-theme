@@ -490,3 +490,25 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+
+/* ## UI ENHANCEMENT */
+.vertical-table{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.vertical-table__cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* ## SECTION FULL SCREEN */
+.welcome-banner, .about-us, .portfolio{
+    height: 100vh;
+}
+
+.portfolio{
+    padding: 0;
+}
