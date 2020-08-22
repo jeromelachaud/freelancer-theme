@@ -222,7 +222,10 @@ div.clear {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
-
+.member-profile-pic{
+    display: block;
+    margin: auto;
+}
 .portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
