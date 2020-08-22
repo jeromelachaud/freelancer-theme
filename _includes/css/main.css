@@ -562,7 +562,9 @@ transform: rotate(90deg);
 .portfolio {
     height: 100vh;
 }
-
+.portfolio {
+    padding: 0;
+}
 @media (max-width:639px) {
     .portfolio {
         height: auto;
@@ -570,6 +572,3 @@ transform: rotate(90deg);
     }
 }
 
-.portfolio {
-    padding: 0;
-}
