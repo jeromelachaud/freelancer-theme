@@ -512,6 +512,9 @@ footer .footer-below {
     .portfolio{
         height:auto
 }
+    .portfolio h2{
+        padding-top:30px
+}
 .portfolio{
     padding: 0;
 }
