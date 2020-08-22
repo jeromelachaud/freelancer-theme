@@ -3,7 +3,7 @@ title: Julius
 layout: default
 modal-id: m2
 date: 2014-07-17
-img: circus.png
+img: members/julius.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

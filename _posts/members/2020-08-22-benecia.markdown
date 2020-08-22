@@ -3,7 +3,7 @@ title: Benecia
 layout: default
 modal-id: m1
 date: 2014-07-16
-img: circus.png
+img: members/benecia.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

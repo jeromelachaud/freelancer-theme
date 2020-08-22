@@ -3,7 +3,7 @@ title: Werner
 layout: default
 modal-id: m5
 date: 2014-07-15
-img: circus.png
+img: members/werner.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

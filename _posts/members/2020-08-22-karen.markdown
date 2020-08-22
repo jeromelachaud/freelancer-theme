@@ -3,7 +3,7 @@ title: Karen
 layout: default
 modal-id: m3
 date: 2014-07-18
-img: circus.png
+img: members/karen.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

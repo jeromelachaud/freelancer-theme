@@ -3,7 +3,7 @@ title: Orphanage Visit
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: cabin.png
+img: events/cabin.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
