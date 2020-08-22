@@ -22,7 +22,10 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.primary }
+}
+
+;
 }
 
 h1,
@@ -32,7 +35,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -64,16 +67,25 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.primary }
+}
+
+;
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary }
+}
+
+;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
+    color: #{{ site.color.secondary }
+}
+
+;
+background-color: #fff;
 }
 
 .img-centered {
@@ -83,7 +95,10 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.primary }
+}
+
+;
 }
 
 header .container {
@@ -99,7 +114,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -150,7 +165,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -182,7 +197,10 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.primary }
+}
+
+;
 }
 
 div.clear {
@@ -217,15 +235,24 @@ div.clear {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+
+    background: rgba( {
+                {
+                site.color.primary-rgb
+            }
+        }
+
+        , .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
-.member-profile-pic{
+
+.member-profile-pic {
     display: block;
     margin: auto;
 }
+
 .portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
@@ -263,24 +290,27 @@ div.clear {
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
-      justify-content: space-between;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: space-between;
     }
+
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 49%;
-      max-width: 49%;
+        flex: 1 0 49%;
+        max-width: 49%;
     }
-  }
-  @media (min-width: 960px) {
+}
+
+@media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-      max-width: 32%;
+        flex: 1 0 32%;
+        max-width: 32%;
     }
-  }
-  /* A large grid might need four columns on widescreen layouts */
-  /* @media (min-width: 1380px) {
+}
+
+/* A large grid might need four columns on widescreen layouts */
+/* @media (min-width: 1380px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 23.5%;
       max-width: 23.5%;
@@ -301,8 +331,11 @@ div.clear {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    color: #{{ site.color.primary }
+}
+
+;
+background: #fff;
 }
 
 .floating-label-form-group {
@@ -322,7 +355,7 @@ div.clear {
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
-    box-shadow: none!important;
+    box-shadow: none !important;
     resize: none;
 }
 
@@ -337,10 +370,10 @@ div.clear {
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
 }
 
 .floating-label-form-group::not(:first-child) {
@@ -354,7 +387,10 @@ div.clear {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.primary }
+}
+
+;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -371,7 +407,10 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.secondary }
+}
+
+;
 }
 
 footer .footer-col {
@@ -380,7 +419,10 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary-dark }
+}
+
+;
 }
 
 .btn-social {
@@ -464,24 +506,33 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    background-color: #{{ site.color.secondary }
+}
+
+;
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
 }
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+    background-color: #{{ site.color.secondary }
+}
+
+;
+-webkit-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.secondary-dark }
+}
+
+ !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -494,24 +545,31 @@ footer .footer-below {
 
 
 /* ## UI ENHANCEMENT */
-.vertical-table{
+.vertical-table {
     display: table;
     width: 100%;
     height: 100%;
 }
-.vertical-table__cell{
+
+.vertical-table__cell {
     display: table-cell;
     vertical-align: middle;
 }
 
 /* ## SECTION FULL SCREEN */
-.welcome-banner, .about-us, .portfolio{
+.welcome-banner,
+.about-us,
+.portfolio {
     height: 100vh;
 }
-@media (max-width:639px){
-    .portfolio{
-        height:auto
+
+@media (max-width:639px) {
+    .portfolio {
+        height: auto;
+        padding: 0 30px;
+    }
 }
-.portfolio{
+
+.portfolio {
     padding: 0;
 }
