@@ -1,27 +1,36 @@
 
     <!-- Portfolio Grid Section -->
     <section id="members" class="portfolio">
-        <div class="container portfolio-flex-grid">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Members</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="portfolio-flex-row">
-                {% assign posts = site.posts | where: "type", "members" %}
-                {% for post in posts %}
-                    <div class="portfolio-flex-item portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
+        <div class="verticat-table">
+            <div class="vertical-table__cell">
+                <div class="container portfolio-flex-grid">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2>Members</h2>
+                            <hr class="star-primary">
+                        </div>
                     </div>
-                {% endfor %}
-            </div>
+                    <div class="portfolio-flex-row">
+                        {% assign posts = site.posts | where: "type", "members" %}
+                        {% for post in posts %}
+                            <div class="portfolio-flex-item portfolio-item">
+                                <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <i class="fa fa-search-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="img/{{ post.img }}" class="img-responsive member-profile-pic" alt="{{ post.alt }}">
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                </div>
         </div>
+
+
+
+    
     </section>

@@ -222,7 +222,10 @@ div.clear {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
-
+.member-profile-pic{
+    display: block;
+    margin: auto;
+}
 .portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
@@ -486,4 +489,26 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+
+
+/* ## UI ENHANCEMENT */
+.vertical-table{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.vertical-table__cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* ## SECTION FULL SCREEN */
+.welcome-banner, .about-us, .portfolio{
+    height: 100vh;
+}
+
+.portfolio{
+    padding: 0;
 }
