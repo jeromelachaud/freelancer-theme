@@ -185,6 +185,11 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+div.clear {
+    background: #fff;
+    border-radius: 0.5em;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
