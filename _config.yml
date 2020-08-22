@@ -25,38 +25,37 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: FF9D3F
+  primary-rgb: "224,288,156"
+  secondary: FE8000
+  secondary-dark: f5a11b
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Carmel Lights
   location: Location
   social: Around the Web
-  credits: Credits
+  contact: Contact
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: instagram
+    url: http://instagram.com/carmel.lights
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://facebook.com/carmel.lights
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/carmel-youth
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Carmelite Monastery
+  - line: Near Apollo Hospital
+  - line: Aquem, Margao, Goa
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+contacts:
+  - line: 'phone: +91 9765072913'
+  - line: 'email: carmelyouthgoa@gmail.com'
 
 # Build settings
 markdown: kramdown
