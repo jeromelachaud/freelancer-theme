@@ -64,7 +64,10 @@ permalink: pretty
 #for posts
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path: "_posts/members"
     values:
-      permalink: ""
+      type: "members"
+  - scope:
+      path: "_posts/events"
+    values:
+      type: "events"

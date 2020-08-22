@@ -4,12 +4,12 @@
         <div class="container portfolio-flex-grid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Activites</h2>
+                    <h2>Members</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="portfolio-flex-row">
-                {% assign posts = site.posts | where: "type", "events"%}
+                {% assign posts = site.posts | where: "type", "members" %}
                 {% for post in posts %}
                     <div class="portfolio-flex-item portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">

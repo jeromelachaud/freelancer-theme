@@ -1,8 +1,9 @@
 ---
+title: Fr. Fantino's birthday
 layout: default
-modal-id: 5
-date: 2014-07-14
-img: safe.png
+modal-id: 2
+date: 2014-07-17
+img: cake.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
