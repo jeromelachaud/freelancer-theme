@@ -225,6 +225,8 @@ div.clear {
 .member-profile-pic{
     display: block;
     margin: auto;
+    max-width: 150px;
+    border-radius: 100%;
 }
 .portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
@@ -505,12 +507,13 @@ footer .footer-below {
 }
 
 /* ## SECTION FULL SCREEN */
-.welcome-banner, .about-us, .portfolio{
+.welcome-banner, .about-us {
     height: 100vh;
 }
 @media (max-width:639px){
-    .portfolio{
+    .portfolio {
         height:auto
+    }
 }
 .portfolio{
     padding: 0;

@@ -1,9 +1,9 @@
 ---
-title: Aquatic Awareness drive
+title: Leif
 layout: default
-modal-id: 1
-date: 2014-07-18
-img: events/submarine.png
+modal-id: m19
+date: 2014-07-15
+img: members/leif.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

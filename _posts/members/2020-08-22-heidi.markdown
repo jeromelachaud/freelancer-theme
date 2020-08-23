@@ -1,0 +1,12 @@
+---
+title: Heidi
+layout: default
+modal-id: m8
+date: 2014-07-15
+img: members/heidi.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: I'm a simple, yet well know personality at the Carmelite Monastery. I live in the peaceful village of Davorlim and study Biotechnology at Smt. Parvatibai Chowgule College. I joined the Carmel Lights in 2018 and ever since, it has been a wonderful experience. Love for the poor and animals are of the highest priority. I'm really fond of nature and am always up for a picnic,outing or any youth event. I am a God fearing, joyful and a positive person.
+---

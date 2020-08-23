@@ -1,9 +1,9 @@
 ---
-title: Game Night
+title: Jesween
 layout: default
-modal-id: 4
+modal-id: m9
 date: 2014-07-15
-img: events/game.png
+img: members/jesween.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

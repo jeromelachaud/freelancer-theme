@@ -1,0 +1,12 @@
+---
+title: Johan
+layout: default
+modal-id: m10
+date: 2014-07-15
+img: members/johan.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: A mechanical engineering student hailing from the Port Town of Vasco da Gama. Passionate about sports and technology. A level-1 certified Rugby coach and having an active and enthusiastic personality. I love to joke around and have fun. A happy-go-lucky team player . Bruhh!!
+---

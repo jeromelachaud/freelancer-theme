@@ -1,9 +1,9 @@
 ---
-title: Werner
+title: Swizel
 layout: default
-modal-id: m18
+modal-id: m17
 date: 2014-07-15
-img: members/werner.png
+img: members/swizel.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

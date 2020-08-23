@@ -1,9 +1,9 @@
 ---
-title: picnic
+title: Fr. Fantino
 layout: default
-modal-id: 3
-date: 2014-07-16
-img: events/circus.png
+modal-id: m7
+date: 2014-07-15
+img: members/fantino.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

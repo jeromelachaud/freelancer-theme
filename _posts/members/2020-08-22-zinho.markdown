@@ -1,7 +1,7 @@
 ---
 title: Zinho
 layout: default
-modal-id: m6
+modal-id: m11
 date: 2014-07-15
 img: members/zinho.png
 alt: image-alt

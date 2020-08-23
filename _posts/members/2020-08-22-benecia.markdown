@@ -1,12 +1,12 @@
 ---
 title: Benecia
 layout: default
-modal-id: m1
+modal-id: m5
 date: 2014-07-16
 img: members/benecia.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: In the year of 2014, I started my beautiful journey with the youth group living according to the motto "Do Something Beautiful for God.” I always wanted to be a part of the Carmel Youth Group since I was a young Catechism student at the Carmelite Monastery. The thing I love the most about being a Light is that we can touch the lives of many youngsters from the youth group as well as from outside the youth group and help them see what God has planned for them. It is a place where we can nurture our talents and use them for the glory of God. I can say that I am proud to be a Light.
 ---
