@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hi, I'm Swizel Pereira and I'm from Aquem. I usually spend my time reading, singing and I absolutely love to cook! I'm the the Carmel Youth because it's a unqiue, special and very vibrant group. I love this group, the members are friendly, we share a loving bond and we have fun activites together. Being here has helped my grow spiritually, and I want to help others grow spiritually and help them live fruitful lives. I want to DO SOMETHING BEAUTIFUL FOR GOD!
 ---

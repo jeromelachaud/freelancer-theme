@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: I'm Keenan Cardozo, I'm from Varca and am currently pursuing my 3rd year in Mechanical Engineering at Don Bosco College of Engineering, Fatorda. I'm a "keen" enthusiast for sports like Taekwondo, Football and Table Tennis among others. I love to travel and visit new places with family and friends. After listening to many interesting stories about the Carmel Youth from my friends (Benecia and Karen) I wwas motivated to join. People in the Carmel youth are friendly, supportive, dedicated and caring. The activities organised and the work done here is really interesting - it keeps me engaged and I never get bored. As a member I would always love to help the community in whatever way I can and encourage more youth to join the Lights and be closer to God.
 ---

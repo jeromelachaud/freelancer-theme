@@ -1,0 +1,12 @@
+---
+title: Lisa
+layout: default
+modal-id: m24
+date: 2014-07-15
+img: members/lisa.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Hello everyone! I am Lisa De souza. I am student from Fatorda. I always wanted to be a part of the Carmel Youth. Being a youth member lets you to reach out to people in need and offer your service to God. In the year of 2019, I began my journey as a Light and I can say that I am glad that I have chosen to be a Light.
+---

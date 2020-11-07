@@ -1,0 +1,12 @@
+---
+title: Ramola
+layout: default
+modal-id: m20
+date: 2014-07-15
+img: members/ramola.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Hi, I'm Ramola D'silva! I'm from Benaulim, Goa. I'm 21 and have a degree in English and psychology. I like animals, art, movies and conspiracy theories. I'm an ambivert and love making friends. Which is one of the reasons I'm in the Carmel Youth. Other reasons are just to explore my spiritual side and do what I can to better myself as a person. I love the unity and the passion to do something good that I see in this group. These days, I'm homebound and also asthmatic, so I can't contribute as much as I'd like to. But I'm a Light, and I help out in all the little ways I can.
+---

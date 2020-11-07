@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: I moved to Margao around 6 years ago, and have enjoyed being a part of the vibrant Carmelite community. I am invested in baking, music and the welfare of animals, especially since my two dogs are rescued strays. I joined the Carmel Youth in order to be a part of the amazing work that it does, to ground myself in the Catholic faith, and to be a part of a group that works together for the betterment of society. As a member of the Youth, I hope to leverage my skills and talents to contribute to society, especially the elderly and the underprivileged, while learning from like-minded Youth members, under the mentorship of our Carmelite Priests.
 ---

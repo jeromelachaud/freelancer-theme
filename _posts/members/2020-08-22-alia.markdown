@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hii!! My name is Alia Colaco, I'm 17 and I live in Aquem. I enjoy singing, cooking, reading sometimes and just binge watching TV shows. The season I've joined the Carmel Youth is because as teenagers we often forget to include God in our lives. Therefore I have joined the youth to learn how to be in touch with God and serve Him and also go about with my daily life. What I love about the Youth is the bond everyone shares with each other, all the happy vibes and all the amazing people I get to call my friends.
 ---

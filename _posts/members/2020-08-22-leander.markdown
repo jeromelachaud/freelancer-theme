@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: My name's Leander Fernandes. I'm from Sao Jose De Areal. I'm a professional football player. I joined the youth so that I could be closer to God and get involved in activites that help others. I stayed in the youth, because I there's a very friendly atmostphere in the group. It feels like home, and no one is taken for granted.
 ---

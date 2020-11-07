@@ -6,3 +6,6 @@ _site
 .jekyll-metadata
 
 Gemfile.lock
+
+# WSL Files
+*:Zone.Identifier

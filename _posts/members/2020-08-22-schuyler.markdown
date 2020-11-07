@@ -1,0 +1,12 @@
+---
+title: Schuyler
+layout: default
+modal-id: m22
+date: 2014-07-15
+img: members/default.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Hello! I am Schuyler Pereira! I'm from Aquem. I enjoy playing the drum, photography and making and making terrariums. I'm in the Carmel Youth because it's a really energetic and dynamic youth, spreading joy and happiness amongst people in need. As a Light, I want to help others grow spiritually and also spread joy and happiness everywhere.
+---

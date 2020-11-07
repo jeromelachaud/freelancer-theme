@@ -8,5 +8,11 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hi there! I'm Loretta Rodrigues, a 20 something bibliophile, lover of literature, comics, food, art, movies/TV series, dogs and day dreaming.
+
+I recently completed my Post Graduation in English Literature from Parvatiai Chowgule Colege ofArt and Science and am working to get into the lecturing field one day. The thought of being able to share my knowledge with young adults and learn at the same is something I am excited about. I also enhoy content writing and academic writing... I'm a bit of a nerd there.
+
+I've been in the Carmel Youth for over two years now, and it's been two amazing years filled with love, laughter, learning and adventure with some of the best people I know. Visiting orphanages and making kids laugh, organising bake sales and raised funds for the poor, special confessions and reflections specialy for the youth, spiritual retreats with a hint of fun, and oh yes - football Sundays! There are just a few of the many things we do.
+
+Doing all these things sure is fun, but the best part is sharing these memories with these amazing people from the youth. That's why I love it so much! <3
 ---

@@ -1,0 +1,12 @@
+---
+title: Malaica
+layout: default
+modal-id: m27
+date: 2014-07-15
+img: members/malaica.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Hello, my name is Malaica D'silva. I'm 20 and live in Navelim. My hobbies include reading, painting and listening to music. Also, I love traveling. I joined the Lights 3 years ago as I felt it would help make my faith stronger. THe friendship an dbonding amost the member sof the youth is something I really admire. The youth has organised alot of amazing activites which feels good to be a part of.
+---

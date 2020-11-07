@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hey, my name is Jesween Shinde and I hail all the way from Navelim. My hobbies range from travelling, music, reading sleeping, tech-tinkering,and ethical hacking. I am a student pursuing my engieering degree in Computers and I work professionally as a DJ and music producer. I am part of the Carmel Youth because it has taught me a lot in these years and I've learnt to discipline a few of my habits. The fact that I like (of the youth) is the bonding with prayer as it's the only place we can slow down in our fast paced lives. I would really lovve to help in whichever way I can to make muself push the youth to being better.
 ---

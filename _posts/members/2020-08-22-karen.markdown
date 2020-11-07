@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hey! I'm Karen Coelho and I live in Aquem, super close to the monastery. I love music, and reading books. In my time with the youth, I've learnt a lot, made new friends, and received guidance from people who are wiser than me. It's a very welcoming group, one does not easily feel left out. It is a good place to put your talents to good use, and to do something beautiful for God!
 ---

@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hey, my name is Averlee Vaz, amd I'm from Navelim. My hobbies range from reading, music, dancing trekking, travelling gaming and sleeping. I am a BCom graduate in Honors of Business management and I am carrying on my dad's construction business. I'm a part of Carmel Youth ecause it has taught me alot in these years - discipline, dedication and humbleness! The like the fact that the youth encourages spending quality time in prayer. It's the only place where we can be calm. I also enjoy reading in church and participating in the choir. I would love to help in whatever way I can make myself useful to the Carmel Youth.
 ---

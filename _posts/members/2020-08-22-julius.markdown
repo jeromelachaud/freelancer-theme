@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hi, I'm Julius Alphonso! I'm usually the pianist who accompanies the youth choir. I joined the youth in 2017, soon after 12th std. I frequent mass and the monastery, enjoyed the youth's choir and wanted to be a part of it. I've found this group to be a very safe space. Where people can grown without being ridiculed, where friendships are forged wihout any opportunism, where charitable work is done without expecting to be repaid. Despite the organisational heirarchy that creeps into any such group. The Carmel Lights have stayed true to what they are - a group young adults, friends, growing together in faith with Christ at the center.
 ---

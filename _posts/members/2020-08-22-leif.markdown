@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hi I'm Leif! I live in Navelim, and I love to travel and all sorts of sports. I joined the Carmel Youth because of the amazing people in the group. Everyone here has an open mindset, and the priest are on a whole new level. I don't know how the manage to stay so jolly with all the responsibility they have on their shoulders. The Youth is a very active place. Despite us being in lockdown, I still see a health participation among everyone! I believe in actions over words, and being a Light helps me set peoples' hearts ablaze.
 ---

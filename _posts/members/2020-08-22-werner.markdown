@@ -8,5 +8,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Hello, I'm Werner Gomindes, a 20 year old from Margao. I'm studying Computer Engineering at GEC and have strong inclination towards music, singing and painting. During this lockdown, I've found myself reading a lot. I'm a regular at the Carmelite Monastary and enjoy Fr. Michael's sermons. It was because of him, and friend Karen (who described the youth as vivacious) that I joined the Youth. I've always wanted to contribute something meaningful to God, and the Youth has given me that opportunity. The priests are very approachable and encouraging, so this place feel like home. I love that we're so engaged in Church activites - be it the choir, spending time with orphans, or making cribs during Christmas. There's always immense joy in my heart whenever I take part in these activities. I want more youth to come closer to God, and meet more people and help each other grow together.
 ---

@@ -1,0 +1,12 @@
+---
+title: Neysa
+layout: default
+modal-id: m23
+date: 2014-07-15
+img: members/neysa.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: My name is Neysa Mae D'mello. I'm from Raia and my hobbies are singing, dancing and acting. When I was samll, I used to come to the Carmelite Monastery to hear mass and attend catechism. I always saw the Carmel Youth do so much to get build people's faith in God. They helped out in various church activities. I had already made up my mind then, that this is what I wanted to do. Among the many things I love about the Youth, the one that stands out most is the members' willinginess to help each other out. Wether it's a common activity or a personal issue, I can always find a support system here. As a youth member, from my own experience I want people to learn and understand the different ways in which God helps and guide us.
+---

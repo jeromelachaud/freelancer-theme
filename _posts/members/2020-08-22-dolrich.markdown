@@ -1,0 +1,12 @@
+---
+title: Dolrich
+layout: default
+modal-id: m21
+date: 2014-07-15
+img: members/dolrich.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Hey! I'm Dolirch Cabral, from Navelim. I like to read, sing and play sports. I just love football, and exploring new software and technologies. I'm not much of a social person, and don't make new friends very easily. But one day, my friend Swizel told me about this amazing group, "The Carmel Youth" and I just had to join. I like the mutual respect that's there here. It's like a second family to me. I really look up to the committed members we have. I've learnt and am still learning a lot from them. The good thing abou the Youth is that we always support one another, just like a family does. We work hard, but we also enjoy each other's company, so time really flies. The youth has changed me a lot. As a Light, I love to help the youth grow by contributing my ideas and skills. And like all other Lights, I want to get closer to God, and help others get closer to Him too.
+---
