@@ -10,11 +10,6 @@
             <div class="portfolio-flex-row">
                 {% for post in site.posts %}
                     <div class="portfolio-flex-item portfolio-item">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                     </div>
                 {% endfor %}
