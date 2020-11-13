@@ -88,19 +88,19 @@ header {
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 1.50em;
     font-weight: 700;
 }
 
@@ -111,12 +111,12 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 125px;
+        padding-bottom: 80px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 4.0em;
     }
 
     header .intro-text .skills {
@@ -126,7 +126,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 6px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -258,11 +258,11 @@ section.success {
       display: flex;
       flex-flow: row wrap;
       align-items: stretch;
-      justify-content: space-between;
+      justify-content:  space-evenly;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 49%;
-      max-width: 49%;
+      flex: 1 0 48%;
+      max-width: 48%;
     }
   }
   @media (min-width: 960px) {
