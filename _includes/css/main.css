@@ -279,6 +279,59 @@ section.success {
     }
   } */
 
+  .vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+  }
+
+  #custom-app .custom-app-item {
+      right: 0;
+      margin: 0 0 10px;
+  }
+
+  #custom-app .custom-app-gif {
+      right: 0;
+      margin: 10px 0 10px;
+      max-width: 80%;
+  }
+
+  #custom-app * {
+      z-index: 2;
+  }
+
+  @media(min-width:767px) {
+      #custom-app .custom-app-item {
+          margin: 0 0 20px;
+          /* flex: 1 0 30%; */
+          /* max-width: 4%; */
+      }
+  }
+
+  /* Flexbox Portfolio Grid */
+  @media (min-width: 640px) {
+      .custom-app-flex-grid .custom-app-flex-row {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: space-evenly;
+      }
+      .custom-app-flex-grid .custom-app-flex-row .custom-app-flex-item {
+        flex: 1 0 48%;
+        max-width: 48%;
+      }
+    }
+    @media (min-width: 960px) {
+      .custom-app-flex-grid .custom-app-flex-row .custom-app-flex-item {
+        flex: 1 0 25%;
+        max-width: 25%;
+      }
+    }
+
+
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
