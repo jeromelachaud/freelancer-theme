@@ -69,10 +69,12 @@ defaults:
       type: "posts"
     values:
       permalink: ""
-#for skills
-defaults:
   - scope:
       path: ""
       type: "skills"
     values:
       permalink: ""
+  - scope:
+      path: "gym"
+    values:
+      permalink: "/gym"
