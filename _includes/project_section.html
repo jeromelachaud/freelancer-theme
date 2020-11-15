@@ -1,0 +1,24 @@
+<section id="custom-app">
+  <div class="container">
+    <div class="row text-center align-items-center">
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if mod == 1 %}
+        <div class="col-md-4 vertical-center">
+          <img style=" float:left" src="{{ include.section.media }}" class="custom-app-gif"/>
+        </div>
+      {% endif %}
+      <div class="col-md-8 vertical-center">
+        <div>
+          <h4>{{ include.section.title}}</h4>
+          <p>{{ include.section.details }}</p>
+          </div>
+        </div>
+        {% if mod == 0 %}
+          <div class="col-md-4 vertical-center">
+            <img style=" float:right" src="/img/gym/topo_overall.gif" class="custom-app-gif"/>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+

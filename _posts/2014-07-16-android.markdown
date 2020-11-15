@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: proj
 modal-id: 3
 date: 2014-07-16
 img: android.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Skills
+category: skills
 description: Android is by far my favorite Mobile platform. I worked with native android at my job and for my projects in Java or Kotlin. 
 ---

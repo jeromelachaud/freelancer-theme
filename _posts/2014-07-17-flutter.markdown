@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: proj
 modal-id: 2
 date: 2014-07-17
 img: flutter.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Skills
+category: skills
 description: I started working with Flutter in June 2020. I wanted a fast and easy cross-platform option for my side projects.  
 ---

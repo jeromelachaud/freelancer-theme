@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
+    {% include project_header.html %}
+    {% if page.whitelabels.size > 0 %}
+    {% include project_whitelabel.html %}
+    {% endif %}
+    
+    {% for section in page.sections %}
+    {% include project_section.html index=forloop.index section=section %}
+    {% endfor %}
+    {% include js.html %}
+    </body>
+</html>

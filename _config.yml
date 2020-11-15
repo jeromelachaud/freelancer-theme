@@ -63,18 +63,9 @@ markdown: kramdown
 permalink: pretty
 
 #for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
-  - scope:
-      path: ""
-      type: "skills"
-    values:
-      permalink: ""
-  - scope:
-      path: "gym"
-    values:
-      permalink: "/gym"
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       permalink: ""

@@ -1,0 +1,18 @@
+<section id="custom-app">
+  <div class="container custom-app-flex-grid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>{{ page.title }}</h2>
+        <h4>{{ page.sub-title }}</h4>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="custom-app-flex-row">
+      {% for pictureUrl in page.header-pictures %}
+        <div class="custom-app-flex-item custom-app-item">
+          <img src="{{ pictureUrl }}" class="img-responsive" />
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section> 
