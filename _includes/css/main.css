@@ -197,7 +197,6 @@ header .intro-text .skills {
 }
 
 #css-table {
-  display: table;
 }
 
 #css-table .col:nth-child(even) {
@@ -208,6 +207,7 @@ header .intro-text .skills {
 }
 
 .sidebar{
+  min-width: inherit;
   color: #fff;
   text-align: center; 
   padding-left: 10px;
@@ -219,52 +219,42 @@ header .intro-text .skills {
   height: auto;
 }
 
-@media(min-width:767px) {
+@media(min-width:820px) {
   #css-table .col:nth-child(odd) {
   }
   #css-table .col {
-    display: table-row;
-  }
-  #css-table {
-    display: flex;
-  }
-  
-  .sidebar
-  {
-    color: #fff;
-    min-width: max-content;
-    text-align: left; 
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-/* Flexbox Portfolio Grid  */
-@media (min-width: 761px) {
-  #css-table .col {
     display: table-cell;
   }
+  #css-table {
+    display: table;
+  }
   
   .sidebar
   {
-    min-width: 300px;
+    color: #000;
+    min-width: 400px;
     text-align: center; 
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
  
   @media (min-width: 960px) {
+    #css-table {
+      display: table;
+    }
+    
     #css-table .col {
       display: table-cell;
     }
     
     .sidebar
     {
-      width: 40%;
+      color: #fff;
+      width: 500px;
       text-align: left; 
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
 
