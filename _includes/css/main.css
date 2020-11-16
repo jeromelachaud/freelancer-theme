@@ -93,6 +93,7 @@ header .container {
 
 header .container-medium {
     padding-top: 100px;
+    padding-bottom: 25px;
 }
 
 header .container-min {
