@@ -210,11 +210,17 @@ header .intro-text .skills {
 .sidebar{
   color: #fff;
   text-align: center; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 @media(min-width:767px) {
   #css-table .col:nth-child(odd) {
-    min-width: 100px
   }
   #css-table .col {
     display: table-row;
@@ -228,39 +234,37 @@ header .intro-text .skills {
     color: #fff;
     min-width: max-content;
     text-align: left; 
-    padding-left: 10px
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
-/* Flexbox Portfolio Grid 
-@media (min-width: 640px) {
-    #css-table .col:nth-child(odd) {
-      max-width: 100px
-    }
-    #css-table .col {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
-      justify-content: space-evenly;    }
-    #css-table {
-      display: block;
-    }
+/* Flexbox Portfolio Grid  */
+@media (min-width: 761px) {
+  #css-table .col {
+    display: table-cell;
   }
-  */
+  
+  .sidebar
+  {
+    min-width: 300px;
+    text-align: center; 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+ 
   @media (min-width: 960px) {
     #css-table .col {
       display: table-cell;
     }
     
-    #css-table .col:nth-child(odd) {
-      min-width: 400px
-    }
-    
     .sidebar
     {
-      min-width: 300px;
+      width: 40%;
       text-align: left; 
-      padding-left: 10px
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 
