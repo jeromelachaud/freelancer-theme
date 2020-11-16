@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-{% include nav.html %}
-<body id="page-top">
+<body id="page-top" class="index">
+  {% include nav.html %}
   {% include cv_header.html %}
   <div id="css-table">
     <div class="col">
@@ -16,9 +16,7 @@
       {% include cv_categories.html %}
     </div>
   </div>
-</body>
-<footer>
   {% include footer.html %}
   {% include js.html %}
-</footer>
+</body>
 </html>
