@@ -91,6 +91,15 @@ header .container {
     padding-bottom: 25px;
 }
 
+header .container-medium {
+    padding-top: 100px;
+}
+
+header .container-min {
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
 header img {
     display: block;
     margin: 0 auto 10px;
