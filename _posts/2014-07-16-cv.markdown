@@ -1,0 +1,80 @@
+---
+layout: cv
+client: cv
+category: cv
+modal-id: 0
+permalink: /razvantmz-cv
+date: 2014-07-16
+contact:
+  - type: Email
+    text: razvantmz@gmail.com
+  - type: Phone
+    text: "+40766345795"
+achievements:
+  - 1 month backpacking in romania
+  - hiked the first 2 highest mountains in romania
+  - 300 km bike trip
+  - Climbed a 7c+ Lead Route
+languages:
+  - English
+  - German
+work:
+  - company-name: "Deventure Software"
+  - position:
+      - name: Xamarin/Android Developer
+      - period: "Jan 2018 - Present"
+      - tasks:
+        - Ensure applications are properly integrated with our core projects and nuget packages
+        - Building and integrating cross platform components with/without MvvmCross
+        - Creating/Maintaining nuget packages on our private server
+        - Implementing new features in our IOS/Android Applications
+        - Contribute and participate on creating new applications from scratch
+      - name: + Team Leader
+      - period: Mar 2019
+      - tasks:
+        - Teaching and coordinating the interns, delegating tasks and creating timelines
+education:
+  - Computer science at West University of Timisoara | 2016 - 2019
+volunteering:
+  - company-name: AIESEC
+  - position:
+      - name: Team Leader Outgoing Global Entrepreneur(GE)
+      - period: Mar 2017 - Aug 2017
+      - tasks:
+        - I was responsible for the value delivery phase of the customer flow on the GE product
+        - coordinated a team of 4 people
+        - guaranteed the implementation of strategies
+califications:
+  - Created 5+ fully functioning applications for IOS/Android devices
+  - Known for improving and speeding up the development process
+  - Known for improving and speeding up the development process
+categories:
+  - title: Languages
+    content:
+      - C#
+      - Java/Kotlin
+      - MySQL
+      - Dart
+      - Python
+  - title: Tehnologies
+    content:
+      - Xamarin
+      - Android/IOS
+      - Flutter
+      - Django
+      - Jekyll
+  - title: Strengths
+    content:
+      - TeamWorker
+      - Solution Oriented
+      - Able to learn new things quickly
+      - Curios
+      - Adaptable
+  - title: Hobbies
+    content: 
+      - Backpacking
+      - Hitchhiking
+      - Reading
+      - Rock Climbing
+      - Hiking
+---

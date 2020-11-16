@@ -1,0 +1,22 @@
+<section class="cv-section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-left">
+                <h2>Work</h2>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            {% for entry in page.work %}
+                <h3>{{ entry.company-name }}</h3>
+                {% for position in entry.position %}
+                  <h4>{{ position.name }}{{ position.period }}</h4>
+                  {% for task in position.tasks %}
+                    <p> - {{task}} </p>  
+                  {% endfor %}
+                {% endfor %}
+            {% endfor %}
+          </div>
+        </div>
+    </div>
+</section>

@@ -47,6 +47,7 @@ hr.star-primary {
     overflow: visible;
 }
 
+
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
@@ -176,9 +177,104 @@ header .intro-text .skills {
     outline: 0;
 }
 
+.sidebar-body
+{
+  height: 100%;
+}
+
+
+#nav, #content, #sidebar {
+  height: 100%
+}
+
+
+/* Not necessary for this to work - remove these selectors when implementing */
+#nav {
+  color: #fff;
+  width: 30%;
+  float: left;
+  padding-left: 20px;
+}
+
+#css-table {
+  display: table;
+}
+
+#css-table .col:nth-child(even) {
+  background: white;
+}
+#css-table .col:nth-child(odd) {
+  background: #608199;
+}
+
+.sidebar{
+  color: #fff;
+  text-align: center; 
+}
+
+@media(min-width:767px) {
+  #css-table .col:nth-child(odd) {
+    min-width: 100px
+  }
+  #css-table .col {
+    display: table-row;
+  }
+  #css-table {
+    display: flex;
+  }
+  
+  .sidebar
+  {
+    color: #fff;
+    min-width: max-content;
+    text-align: left; 
+    padding-left: 10px
+  }
+}
+
+/* Flexbox Portfolio Grid 
+@media (min-width: 640px) {
+    #css-table .col:nth-child(odd) {
+      max-width: 100px
+    }
+    #css-table .col {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: stretch;
+      justify-content: space-evenly;    }
+    #css-table {
+      display: block;
+    }
+  }
+  */
+  @media (min-width: 960px) {
+    #css-table .col {
+      display: table-cell;
+    }
+    
+    #css-table .col:nth-child(odd) {
+      min-width: 400px
+    }
+    
+    .sidebar
+    {
+      min-width: 300px;
+      text-align: left; 
+      padding-left: 10px
+    }
+  }
+
+.cv-image
+{
+  min-width: 50%
+}
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+section.cv-section {
+    padding: 25px 0;
 }
 
 section {

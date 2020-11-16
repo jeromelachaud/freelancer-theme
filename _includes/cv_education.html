@@ -1,0 +1,16 @@
+<section class="cv-section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-left">
+                <h2>Education</h2>
+            </div>
+        </div>
+        <div class="row">
+              <div class="col-lg-10 col-lg-offset-1">
+                {% for entry in page.education %}
+                  <h3>{{ entry }}</h3>
+                {% endfor %}
+              </div>
+        </div>
+    </div>
+</section>

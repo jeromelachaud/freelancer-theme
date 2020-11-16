@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+{% include nav.html %}
+<body id="page-top">
+  {% include cv_header.html %}
+  <div id="css-table">
+    <div class="col">
+      {% include cv_sidebar.html %}
+    </div>
+    <div class="col">
+      {% include cv_work.html %}
+      {% include cv_education.html %}
+      {% include cv_volunteering.html %}
+      {% include cv_califications.html %}
+      {% include cv_categories.html %}
+    </div>
+  </div>
+</body>
+<footer>
+  {% include footer.html %}
+  {% include js.html %}
+</footer>
+</html>

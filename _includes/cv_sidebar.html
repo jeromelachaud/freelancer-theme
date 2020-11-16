@@ -1,0 +1,25 @@
+<section>
+    <div class="no-gutters">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 sidebar">
+            <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
+            <h3 class="name"> Razvan Tamazlicariu </h3>
+            <br>
+            <h4>Contact</h4>
+            {% for contact in page.contact %}
+            <p>{{ contact.type }}: {{ contact.text}}</p>
+            {% endfor %}
+            <br>
+            <h4>Achievements</h4>
+            {% for achievement in page.achievements %}
+            <p>• {{ achievement }}</p>
+            {% endfor %}
+            <br>
+            <h4>Languages</h4>
+            {% for language in page.languages %}
+            <p>{{ language }}</p>
+            {% endfor %}
+          </div>
+        </div>
+  </div>
+</section>
