@@ -1,7 +1,7 @@
 # Site settings
 title: RazvanTmz
 email: razvantmz@gmail.com
-url: https://github.com/jeromelachaud/freelancer-theme
+url: https://razvantmzz.github.io/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "Mobile Developer"
@@ -62,10 +62,10 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 markdown: kramdown
 permalink: pretty
 
-#for posts
+# for posts
 # defaults:
 #   - scope:
-#       path: ""
+#       path: "_posts"
 #       type: "posts"
 #     values:
 #       permalink: ""
