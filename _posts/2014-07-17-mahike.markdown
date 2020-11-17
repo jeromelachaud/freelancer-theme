@@ -7,7 +7,16 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: portfolio
-sub-title: Project for bachelor exam
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-link: gym
+sub-title: Bachelor thesis
+description: Ueeeeese this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+header-pictures:
+  - /img/mahike/header1.png
+  - /img/mahike/header2.png
+  - /img/mahike/header3.png
+whitelabels_title: 
+whitelabels:
+sections:
+  - title: Map details
+    media: /img/mahike/section3.png
+    details: Every hiking trails has a detailed map with point of interest like Watersources, Cabins, Rescue Points, Shelters. The users can add personal bookmarks on a pins location. 
 ---
