@@ -1,5 +1,5 @@
 <section id="custom-app">
-  <div class="container custom-app-flex-grid">
+  <div class="container ">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h4>{{ page.whitelabels_title }}</h4>
@@ -13,20 +13,18 @@
           text-center">
           <p>{{ label.name }}</p>
           <img src="{{ label.img }}" class="img-responsive" />
-          <div class="container">
             <div class="row">
-              <div class="col-sm-2">
+              <div class="col-sm-6">
                 <a href="{{ label.app_store_url }}">
-                  <img src="/img/gym/app_store.png" class="img-responsive" />
+                  <img src="/img/gym/app_store.png" class="responsive" />
                 </a>
               </div>
-              <div class="col-sm-2">
+              <div class="col-sm-6">
                 <a href="{{ label.play_store_url }}">
-                  <img src="/img/gym/play_store.png" class="img-responsive" />
+                  <img src="/img/gym/play_store.png" class="responsive" />
                 </a>
               </div>
             </div>
-          </div>
         </div>
         {% endfor %}
         </div>

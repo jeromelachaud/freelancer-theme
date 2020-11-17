@@ -210,13 +210,12 @@ header .intro-text .skills {
   min-width: inherit;
   color: #fff;
   text-align: center; 
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .responsive {
   max-width: 100%;
   height: auto;
+  margin:auto;
 }
 
 @media(min-width:820px) {
@@ -233,9 +232,7 @@ header .intro-text .skills {
   {
     color: white;
     min-width: 400px;
-    text-align: center; 
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: left;
   }
 }
  
@@ -252,9 +249,7 @@ header .intro-text .skills {
     {
       color: #fff;
       width: 500px;
-      text-align: left; 
-      padding-left: 20px;
-      padding-right: 20px;
+      text-align: left;
     }
   }
 
@@ -268,7 +263,7 @@ header .intro-text .skills {
 }
 
 section.cv-section {
-    padding: 25px 0;
+    padding: 25px;
 }
 
 section {
@@ -394,7 +389,7 @@ section.success {
 
   #custom-app .custom-app-gif {
       right: 0;
-      margin: 10px 0 10px;
+      margin: auto;
       max-width: 80%;
   }
 
@@ -419,14 +414,14 @@ section.success {
         justify-content: space-evenly;
       }
       .custom-app-flex-grid .custom-app-flex-row .custom-app-flex-item {
-        flex: 1 0 48%;
-        max-width: 48%;
+        flex: 1 0 30%;
+        max-width: 30%;
       }
     }
     @media (min-width: 960px) {
       .custom-app-flex-grid .custom-app-flex-row .custom-app-flex-item {
-        flex: 1 0 25%;
-        max-width: 25%;
+        flex: 1 0 30%;
+        max-width: 30%;
       }
     }
 

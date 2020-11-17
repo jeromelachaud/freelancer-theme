@@ -5,12 +5,13 @@
     {% include nav.html %}
     {% include project_header.html %}
     {% if page.whitelabels.size > 0 %}
-    {% include project_whitelabel.html %}
+      {% include project_whitelabel.html %}
     {% endif %}
     
     {% for section in page.sections %}
-    {% include project_section.html index=forloop.index section=section %}
+      {% include project_section.html index=forloop.index section=section %}
     {% endfor %}
+
     {% include footer.html %}
     {% include js.html %}
     </body>
