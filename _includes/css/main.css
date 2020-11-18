@@ -10,6 +10,7 @@ body {
 
 p {
     font-size: 20px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p.small {
@@ -74,7 +75,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: white;
 }
 
 .img-centered {
@@ -188,6 +189,7 @@ header .intro-text .skills {
 }
 
 
+
 /* Not necessary for this to work - remove these selectors when implementing */
 #nav {
   color: #fff;
@@ -206,6 +208,13 @@ header .intro-text .skills {
   background: #608199;
 }
 
+.highlight-primary
+{
+  padding: 50px 0;
+  background: #608199;
+  color:white
+}
+
 .sidebar{
   min-width: inherit;
   color: #fff;
@@ -216,6 +225,11 @@ header .intro-text .skills {
   max-width: 100%;
   height: auto;
   margin:auto;
+}
+
+.full-width {
+  width: 100%;
+  height: auto;
 }
 
 @media(min-width:820px) {
@@ -262,12 +276,12 @@ header .intro-text .skills {
     border: 0;
 }
 
-section.cv-section {
+section .cv-section {
     padding: 25px;
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
@@ -288,6 +302,13 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+.skills-item
+{
+  right: 0;
+  margin: 50px 0 15px;
+  padding: 0 10px
 }
 
 #portfolio .portfolio-item {

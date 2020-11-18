@@ -4,8 +4,12 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include project_header.html %}
+    
     {% if page.whitelabels.size > 0 %}
       {% include project_whitelabel.html %}
+    {% endif %}
+    {% if page.tech-talk != null  %}
+      {% include project_tech.html %}
     {% endif %}
     
     {% for section in page.sections %}

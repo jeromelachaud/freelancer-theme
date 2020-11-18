@@ -1,4 +1,4 @@
-<section id="custom-app">
+<section class="cv-section" id="custom-app">
   <div class="container">
     <div class="row text-center align-items-center">
       {% assign mod = forloop.index | modulo: 2 %}
@@ -15,7 +15,7 @@
         </div>
         {% if mod == 0 %}
           <div class="col-md-4 vertical-center">
-            <img style=" float:right" src="/img/gym/topo_overall.gif" class="custom-app-gif"/>
+            <img style=" float:right" src="{{ include.section.media }}" class="custom-app-gif"/>
           </div>
         {% endif %}
       </div>

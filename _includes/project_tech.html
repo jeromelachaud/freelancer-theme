@@ -1,0 +1,19 @@
+<section class="highlight-primary">
+  <div class="container ">
+    <div class="row text-left align-items-center">
+      <h4>Intro</h4>
+      <p> {{ page.intro }} </p>
+      <br>
+      <p><b>My role: </b> {{ page.my-role }} </p>
+      <br>
+      <h4>The tech talk</h4>
+      <p>{{ page.tech-talk }}</p>
+      {% if page.github != null %}
+      <p>
+        <b>Check it out on Github: </b>  
+        <a href="{{ page.github }}" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+      </p>
+      {% endif %}
+      </div>
+    </div>
+</section>

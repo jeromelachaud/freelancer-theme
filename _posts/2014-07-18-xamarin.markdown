@@ -7,5 +7,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: skills
-description: Over the last 3 years, I have worked as a Xamarin Developer for a Start Up in Timisoara, Romania. In this period, I participated in creating 10 iOS & Android application in domains such as Education, Aviation, Finance, Health and Games.
+description: Over the last 3 years, I have worked as a Xamarin Developer for a Start Up in Timisoara, Romania. In this period, I participated in creating multiple Xamarin iOS & Android application in domains such as Recruitment, Education, Aviation, Finance, Healthcare and , Marketing and Travel.
 ---
