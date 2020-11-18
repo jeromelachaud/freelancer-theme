@@ -1,17 +1,13 @@
 <section class="cv-section" id="custom-app">
-  <div class="container ">
-    <div class="row">
-      <div class="col-lg-11 text-center">
-        <h4>{{ page.whitelabels_title }}</h4>
-      </div>
-      <div class="container ">
-      <div class="row">
-        {% for label in page.whitelabels %}
-        <div class="col-sm-5
-          {% if page.whitelabels.first == label %}
+      <div class="container debug">
+        <div class="col-lg-12 text-center">
+<h4>{{ page.whitelabels_title }}</h4>
+</div>
+        <div class="row">
+          {% for label in page.whitelabels %}
+          <div class="col-sm-4 {% if page.whitelabels.first == label %}
             col-sm-offset-2
-          {% endif %}
-          text-center">
+          {% endif %} text-center">
           <p>{{ label.name }}</p>
           <img src="{{ label.img }}" class="img-responsive" />
           <div class="row">
@@ -26,10 +22,8 @@
               </a>
             </div>
           </div>
-          </div>
         </div>
         {% endfor %}
       </div>
     </div>
-  </div>
 </section>
