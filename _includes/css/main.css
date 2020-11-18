@@ -210,7 +210,7 @@ header .intro-text .skills {
 
 .highlight-primary
 {
-  padding: 50px 0;
+  padding: 50px 25px;
   background: #608199;
   color:white
 }
@@ -307,10 +307,16 @@ section.success {
 .skills-item
 {
   right: 0;
-  margin: 50px 0 15px;
-  padding: 0 10px
+  margin: 50px 0 0;
+  padding: 0 25px
 }
 
+.debug{
+  border: red solid 1px;
+}
+.debug2{
+  border: blue solid 1px;
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
