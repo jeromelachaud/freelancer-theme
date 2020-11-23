@@ -276,8 +276,8 @@ header .intro-text .skills {
     border: 0;
 }
 
-section .cv-section {
-    padding: 25px;
+.cv-section {
+    padding: 12px 0;
 }
 
 section {

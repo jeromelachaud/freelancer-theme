@@ -1,0 +1,28 @@
+# example slider
+- selector: playground
+  captions: false
+  bullets: false
+  images:
+    - src: /img/playground/add_event.png
+      alt: add event
+    - src: /img/playground/add_route.png
+      alt: image two
+    - src: /img/playground/events.png
+      alt: image three
+    - src: /img/playground/home.png
+      alt: image three
+    - src: /img/playground/route_details.png
+      alt: image three
+    - src: /img/playground/route_mark_as_sent.png
+      alt: image three
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:

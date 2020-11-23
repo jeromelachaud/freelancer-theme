@@ -8,7 +8,6 @@ project-date: April 2014
 client: Start Bootstrap
 category: portfolio
 sub-title: Bachelor thesis
-github: https://github.com/razvantmzz/Mahike
 description: Ueeeeese this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 header-pictures:
   - /img/mahike/header1.png

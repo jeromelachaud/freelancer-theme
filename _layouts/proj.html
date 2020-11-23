@@ -16,6 +16,12 @@
       {% include project_section.html index=forloop.index section=section %}
     {% endfor %}
 
+    {% if page.image_sliders != null  %}
+      {% for sliderName in page.image_sliders %}
+        {% include slider.html selector= sliderName %}
+      {% endfor %}
+    {% endif %}
+
     {% include footer.html %}
     {% include js.html %}
     </body>
