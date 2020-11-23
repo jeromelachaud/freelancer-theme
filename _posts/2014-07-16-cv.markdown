@@ -3,6 +3,7 @@ layout: cv
 client: cv
 category: cv
 modal-id: 0
+title: CV-Razvan Tamazlicariu
 permalink: /razvantmz-cv
 date: 2014-07-16
 contact:

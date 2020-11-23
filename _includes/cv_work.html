@@ -11,6 +11,7 @@
                 <h3>{{ entry.company-name }}</h3>
                 {% for position in entry.position %}
                   <h4>{{ position.name }}{{ position.period }}</h4>
+                  <p>{{ position.description }}</p>
                   {% for task in position.tasks %}
                     <p> - {{task}} </p>  
                   {% endfor %}
