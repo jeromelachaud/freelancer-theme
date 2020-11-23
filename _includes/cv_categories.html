@@ -3,7 +3,7 @@
         <div class="row">
           {% for entry in page.categories %}
           {% assign mod = forloop.index | modulo: 2 %}
-            <div class="col-lg-5 {% if mod == 1 %} col-lg-offset-1 {% endif %}">
+            <div class="col-lg-6">
                 <h4>{{ entry.title }}</h4>
                 {% for content in entry.content %}
                     <p> {{ content }} </p>  

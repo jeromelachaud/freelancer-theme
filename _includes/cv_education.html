@@ -1,14 +1,16 @@
 <section class="cv-section" id="about">
     <div class="container-min">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-left">
+            <div class="col-lg-12 text-left">
                 <h2>Education</h2>
             </div>
         </div>
         <div class="row">
-              <div class="col-lg-10 col-lg-offset-1">
+              <div class="col-lg-12">
                 {% for entry in page.education %}
-                  <h3>{{ entry }}</h3>
+                  <h3>{{ entry.title }}</h3>
+                  <h3>{{ entry.name }}</h3>
+                  <p>{{ entry.description }}</p>
                 {% endfor %}
               </div>
         </div>
