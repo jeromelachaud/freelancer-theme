@@ -7,12 +7,10 @@
         <hr class="star-light">
       </div>
     </div>
-    <div class="custom-app-flex-row">
-      {% for pictureUrl in page.header-pictures %}
-        <div class="custom-app-flex-item custom-app-item">
-          <img src="{{ pictureUrl }}" class="responsive" />
-        </div>
-      {% endfor %}
-    </div>
+      {% if page.image_sliders != null  %}
+        {% for sliderName in page.image_sliders %}
+          {% include slider.html selector= sliderName %}
+        {% endfor %}
+      {% endif %}
   </div>
 </header> 

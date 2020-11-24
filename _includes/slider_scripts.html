@@ -3,6 +3,17 @@
 <!-- v1.8 -->
 {%- assign page_sliders = page.image_sliders | uniq -%}
 {%- assign layout_sliders = layout.image_sliders | uniq -%}
+
+{% for sliderItem in page.image_sliders%}
+  {%- assign mobileSlider = sliderItem | append: 'Mobile' -%}
+  {% assign page_sliders = page_sliders | push: mobileSlider %}
+{% endfor%}
+
+{% for layoutItem in layout.image_sliders %}
+  {%- assign mobileLayout = layoutItem | append: 'Mobile' -%}
+  {% assign layout_sliders = layout_sliders | push: mobileLayout %}
+{% endfor%}
+
 {%- assign iis_slider_array = page_sliders | concat: layout_sliders | uniq -%}
 {%- if page.image_sliders_load_all == true -%}
   {%- assign site_sliders = site.data.sliders | uniq -%}

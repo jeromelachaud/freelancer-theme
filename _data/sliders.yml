@@ -1,20 +1,45 @@
 # example slider
 - selector: playground
   captions: false
-  bullets: false
+  bullets: true
   images:
-    - src: /img/playground/add_event.png
+    - src: /img/playground/header.webp
       alt: add event
-    - src: /img/playground/add_route.png
+    - src: /img/playground/header2.webp
       alt: image two
-    - src: /img/playground/events.png
+    - src: /img/playground/header3.webp
       alt: image three
-    - src: /img/playground/home.png
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+      
+          
+- selector: playgroundMobile
+  captions: false
+  bullets: true
+  images:
+    - src: /img/playground/add_route.webp
+      alt: image two
+    - src: /img/playground/events.webp
       alt: image three
-    - src: /img/playground/route_details.png
+    - src: /img/playground/home.webp
       alt: image three
-    - src: /img/playground/route_mark_as_sent.png
+    - src: /img/playground/route_details.webp
       alt: image three
+    - src: /img/playground/route_mark_as_sent.webp
+      alt: image three
+    - src: /img/playground/add_event.webp
+      alt: image two
+    - src: /img/playground/event_details.webp
+      alt: image two
   settings:
     height: 600
     initialHeight:

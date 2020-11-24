@@ -233,6 +233,23 @@ header .intro-text .skills {
   height: auto;
 }
 
+  .mobile-slider
+  {
+    position:relative;
+    left:0;
+    top:0;
+    z-index:2;
+    visibility: visible;
+  }
+  .web-slider
+  {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:2;
+    visibility: collapse;
+  }
+
 @media(min-width:820px) {
   #css-table .col:nth-child(odd) {
   }
@@ -248,6 +265,24 @@ header .intro-text .skills {
     color: white;
     min-width: 400px;
     text-align: left;
+  }
+  
+  .mobile-slider
+  {
+    position:relative;
+    left:0;
+    top:0;
+    z-index:2;
+    visibility: visible;
+  }
+  
+  .web-slider
+  {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:2;
+    visibility: collapse;
   }
 }
  
@@ -265,6 +300,24 @@ header .intro-text .skills {
       color: #fff;
       width: 500px;
       text-align: left;
+    }
+    
+    .mobile-slider
+    {
+      position:absolute;
+      left:0;
+      top:0;
+      z-index:2;
+      visibility: collapse;
+    }
+    
+    .web-slider
+    {
+      position:relative;
+      left:0;
+      top:0;
+      z-index:2;
+      visibility: visible;
     }
   }
 
