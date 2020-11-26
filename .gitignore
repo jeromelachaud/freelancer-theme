@@ -5,6 +5,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 
+# Site packages
+.bundle
+vendor
+
 Gemfile.lock
 
 # WSL Files
