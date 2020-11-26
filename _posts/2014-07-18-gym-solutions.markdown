@@ -3,24 +3,21 @@ layout: proj
 modal-id: 1
 date: 2014-07-18
 alt: image-alt
-img: cabin.png
+img: cabin.webp
 project-date: April 2014
 client: Start Bootstrap
 category: portfolio
 sub-title: Helps climbing gyms organise their routes, competitions and events
-description: Ueeeeese this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-header-pictures:
-  - /img/gym/skai_topo.png
-  - /img/gym/skai_details.png
-  - /img/gym/skai_rank.png
+image_sliders:
+  - gymSolution
 whitelabels_title: The app has 2 Whitelabels, used by 2 climbing gyms in Romania
 whitelabels:
   - name: OneMove
-    img: /img/gym/one_move_logo2.png
+    img: /img/gym/one_move_logo2.webp
     app_store_url: https://apps.apple.com/ro/app/one-move-climbing-gym/id1525557979?fbclid=IwAR1r8e1gyZCuq3o-BUn1xJ7snQrMSP1b4gu5KIpOjCEJOYUhdlDx_DPUMac
     play_store_url: https://play.google.com/store/apps/details?id=com.tmz.onemove
   - name: Skai
-    img: /img/gym/skai_logo2.png
+    img: /img/gym/skai_logo2.webp
     app_store_url: https://apps.apple.com/ro/app/skai-urban-crag/id1535805972
     play_store_url: https://play.google.com/store/apps/details?id=com.tmz.skai
 intro: I am the sole Developer of Gym Solutions which is still in development and planning to officially launch in early 2021. For now a beta version is released in 2 climbing gyms. This is my first real life application fully designed and owned by me. Gym solution offers an easy way for climbers to keep track of their projects, sent routes and compete against each other in their local gym. For gym owners offers a fast way of managing competitions with real time ranking, routes updates and different stages management. Also it offers a wide range of customizable features to make every whitelabel look and feel like their home gym.

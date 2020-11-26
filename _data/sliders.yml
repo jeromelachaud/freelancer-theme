@@ -1,4 +1,4 @@
-# example slider
+# playground
 - selector: playground
   captions: false
   bullets: true
@@ -52,7 +52,7 @@
     previousNavSelector:
     nextNavSelector:
 
-# mahike slider
+# mahike
 - selector: mahike
   captions: false
   bullets: true
@@ -92,6 +92,57 @@
       alt: image three
     - src: /img/mahike/section3.webp
       alt: image two
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+
+
+# mahike
+- selector: gymSolution
+  captions: false
+  bullets: true
+  images:
+    - src: /img/gym/header1.webp
+      alt: add event
+    - src: /img/gym/header2.webp
+      alt: add event
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+      
+          
+- selector: gymSolutionMobile
+  captions: false
+  bullets: true
+  images:
+    - src: /img/gym/skai_details.webp
+      alt: image two
+    - src: /img/gym/skai_rank.webp
+      alt: image three
+    - src: /img/gym/skai_topo.webp
+      alt: image three
+    - src: /img/gym/home.webp
+      alt: image three
+    - src: /img/gym/mark_s_sent.webp
+      alt: image three
+    - src: /img/gym/route_details.webp
+      alt: image three
   settings:
     height: 600
     initialHeight:
