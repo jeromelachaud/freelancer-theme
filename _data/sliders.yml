@@ -51,3 +51,55 @@
     keyboardNav:
     previousNavSelector:
     nextNavSelector:
+
+# mahike slider
+- selector: mahike
+  captions: false
+  bullets: true
+  images:
+    - src: /img/mahike/header-big.webp
+      alt: add event
+    - src: /img/mahike/header-big2.webp
+      alt: image two
+    - src: /img/mahike/header-big3.webp
+      alt: image three
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+      
+          
+- selector: mahikeMobile
+  captions: false
+  bullets: true
+  images:
+    - src: /img/mahike/header1.webp
+      alt: image two
+    - src: /img/mahike/header2.webp
+      alt: image three
+    - src: /img/mahike/header3.webp
+      alt: image three
+    - src: /img/mahike/section1.webp
+      alt: image three
+    - src: /img/mahike/section2.webp
+      alt: image three
+    - src: /img/mahike/section3.webp
+      alt: image two
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:

@@ -8,11 +8,9 @@ project-date: April 2014
 client: Start Bootstrap
 category: portfolio
 sub-title: Bachelor thesis
+image_sliders:
+  - mahike
 description: Ueeeeese this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-header-pictures:
-  - /img/mahike/header1.png
-  - /img/mahike/header2.png
-  - /img/mahike/header3.png
 whitelabels_title: 
 whitelabels:
 intro: Mahike was my Bachelor Thesis in Computer Science, written at West University of Timisoara, Romania. It focused on creating an easy way for people to find and explore hiking trails in romanian mountains. The application is a concept, not ready for real life scenarious. It offers a wide range of hiking trails, grouped my mountain regions, google maps integrations, point of interests around the trails and an S.O.S System.
@@ -21,12 +19,12 @@ tech-talk:
   - The app was developed in Android Studio using Java. Offers a wide integration with Google Cloud Services such as:&nbsp Google Maps, Google Places, Firebase Authentication, Realtime Database, Storage and Functions.  
 sections:
   - title: Hike Details
-    media: /img/mahike/section1.png
+    media: /img/mahike/section1.webp
     details: On the details screen we offer a gallery of images from the hike trail and destination. Different details such as difficulty, duration and availability helps the users decide if they want to go on this trail. For better orientation we provide the trails map.
   - title: Hike Map Details
-    media: /img/mahike/section2.png
+    media: /img/mahike/section2.webp
     details: Every hiking trails has a detailed map with point of interest like Watersources, Cabins, Rescue Points, Shelters. The users can add personal bookmarks on a pins location.
   - title: Points of interests
-    media: /img/mahike/section3.png
+    media: /img/mahike/section3.webp
     details: Points of interest can be of 4 types:&nbsp Watersources, Cabins, Rescue Points, Shelters. Each comes with details about localizations and access. Photos can be added to further help the user. 
 ---
