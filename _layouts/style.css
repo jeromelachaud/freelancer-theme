@@ -1,2 +1,4 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+{% include owlcarousel/assets/owl.carousel.min.css %}
+{% include owlcarousel/assets/owl.theme.default.min.css %}

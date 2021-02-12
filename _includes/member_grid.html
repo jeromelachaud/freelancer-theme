@@ -10,17 +10,13 @@
                             <hr class="star-primary">
                         </div>
                     </div>
-                    <div class="portfolio-flex-row">
+                    <div class="owl-carousel">
                         {% assign posts = site.posts | where: "type", "members" %}
                         {% for post in posts %}
-                            <div class="portfolio-flex-item portfolio-item">
+                            <div class="member-card">
                                 <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                                    <div class="caption">
-                                        <div class="caption-content">
-                                            <i class="fa fa-search-plus fa-3x"></i>
-                                        </div>
-                                    </div>
                                     <img src="img/{{ post.img }}" class="img-responsive member-profile-pic" alt="{{ post.alt }}">
+                                    <p>{{ post.title }}</p>
                                 </a>
                             </div>
                         {% endfor %}
@@ -30,7 +26,43 @@
                 </div>
         </div>
 
+    <style>
+        .owl-nav {
+            font-size: 3em;
+            text-align: center;
+        }
+        .member-card {
+            text-align: center;
+        }
+    </style>
 
-
-    
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+            owl.on('mousewheel', '.owl-stage', function (e) {
+                if (e.deltaY > 0) {
+                    owl.trigger('next.owl');
+                } else {
+                    owl.trigger('prev.owl');
+                }
+                e.preventDefault();
+            });
+        });
+    </script>
     </section>
