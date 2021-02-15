@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 2
 name: taffy tangle
 date: 2020-02-15
 img: taffytangle/demo.gif
