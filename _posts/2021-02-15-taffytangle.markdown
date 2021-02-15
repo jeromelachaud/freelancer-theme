@@ -6,7 +6,7 @@ date: 2020-02-15
 img: taffytangle/demo.gif
 source: https://github.com/bgunson/taffytangle
 alt: image-alt
-colour: '#00796b'
+colour: '#8c1621'
 project-date: November 2018
 description: A match three game made with Python.
 ---
