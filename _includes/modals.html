@@ -12,27 +12,21 @@
                     <div class="col-lg">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
+                            <hr >
                             <img src="img/portfolio/{{ post.img }}" style="background-color: {{ post.colour }}; border-radius: 50%" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                        <strong><a href="#">{{ post.project-date }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                {% if post.source %}
+                                    <li>Source Code:
+                                        <strong><a href="{{ post.source }}">{{ post.name }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}

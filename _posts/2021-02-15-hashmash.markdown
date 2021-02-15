@@ -4,9 +4,14 @@ modal-id: 2
 name: hashmash
 date: 2021-02-15
 img: hashmash/hash.png
+source: https://github.com/bgunson/HashMash
 alt: image-alt
 colour: '#512da8'
 project-date: February 2021
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: HashMash is an educational tool which with the intention of visually demonstrating hashing of plain text.
 ---
+
+___
+
+See a continuous deploment of HashMash here: [bgunson.github.io/HashMash/](https://bgunson.github.io/HashMash/).
