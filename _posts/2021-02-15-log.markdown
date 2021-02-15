@@ -22,7 +22,7 @@ ___
 
 So far, I have implemented my auth service (thanks to the amazing ui [ngx-auth-firebaseui](https://github.com/AnthonyNahas/ngx-auth-firebaseui) by Anthony Nahas) and now I am going onward to the database services. As it stands the app is set up with a Firebase I created and any new user that registers can create a log and see a selection on the sidebar of their currrent logs. 
 
-![update](img/portfolio/log/screenshot_feb52021.PNG){:height="100%" width="100%"}
+![update](assets/img/portfolio/log/screenshot_feb52021.PNG){:height="100%" width="100%"}
 
 Further on the agenda is to make clean up the sidebar interface, and working on the main content area where the log data will be displayed and manipulated.
 
