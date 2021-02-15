@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: cake.png
+name: hashmash
+date: 2021-02-15
+img: hashmash/hash.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+colour: '#512da8'
+project-date: February 2021
 category: Web Development
 description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
