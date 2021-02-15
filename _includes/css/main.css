@@ -417,6 +417,8 @@ footer .footer-below {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
+    padding-left: 10%;
+    padding-right: 10%;
     border-radius: 0;
     text-align: center;
     background-clip: border-box;
