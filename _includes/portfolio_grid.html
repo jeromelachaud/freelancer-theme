@@ -4,8 +4,8 @@
         <div class="container portfolio-flex-grid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <h2>Projects</h2>
+                    <hr>
                 </div>
             </div>
             <div class="portfolio-flex-row">
@@ -14,10 +14,13 @@
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                                    <h4>{{ post.name }}</h4>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <div class="project-img" style="background-color: {{ post.colour }}">
+                                <img src="assets/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            </div>
                         </a>
                     </div>
                 {% endfor %}
