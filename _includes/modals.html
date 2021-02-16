@@ -7,37 +7,35 @@
                     <div class="rl"></div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr >
-                            <img src="assets/img/portfolio/{{ post.img }}" style="background-color: {{ post.colour }}; border-radius: 50%" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
-                            <ul class="list-inline item-details">
-                                {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="#">{{ post.project-date }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.source %}
-                                    <li>Source Code:
-                                        <strong><a href="{{ post.source }}">{{ post.name }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                            </ul>
-                            <div class="post-content" style="text-align: left;">
-                                {{ post.content }}
-                            </div>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+            <div class="container" style="padding: 10%; align-content: left;">
+               
+                <div class="modal-body text-center">
+                    <h2>{{ post.title }}</h2>
+                    <hr >
+                    <img src="assets/img/portfolio/{{ post.img }}" style="background-color: {{ post.colour }}; border-radius: 50%" class="img-responsive img-centered" alt="{{ post.alt }}">
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
+                    {% endif %}
+                    <ul class="list-inline item-details">
+                        {% if post.project-date %}
+                            <li>Date:
+                                <strong><a href="#">{{ post.project-date }}</a>
+                                </strong>
+                            </li>
+                        {% endif %}
+                        {% if post.source %}
+                            <li>Source Code:
+                                <strong><a href="{{ post.source }}">{{ post.name }}</a>
+                                </strong>
+                            </li>
+                        {% endif %}
+                    </ul>
+                    <div class="post-content" style="text-align: left;">
+                        {{ post.content }}
                     </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                 </div>
+                    
             </div>
         </div>
     </div>
