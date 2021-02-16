@@ -2,39 +2,44 @@
  {% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
+            
             <div class="container" style="padding: 10%; align-content: left;">
-               
-                <div class="modal-body text-center">
-                    <h2>{{ post.title }}</h2>
-                    <hr >
-                    <img src="assets/img/portfolio/{{ post.img }}" style="background-color: {{ post.colour }}; border-radius: 50%" class="img-responsive img-centered" alt="{{ post.alt }}">
-                    {% if post.description %}
-                        <p>{{ post.description }}</p>
-                    {% endif %}
-                    <ul class="list-inline item-details">
-                        {% if post.project-date %}
-                            <li>Date:
-                                <strong><a href="#">{{ post.project-date }}</a>
-                                </strong>
-                            </li>
+               <div class="col">
+                    <div class="modal-body text-center">
+                        <h2>{{ post.title }}</h2>
+                        <hr >
+                        <img src="assets/img/portfolio/{{ post.img }}" style="background-color: {{ post.colour }}; border-radius: 50%" class="img-responsive img-centered" alt="{{ post.alt }}">
+                        {% if post.description %}
+                            <p>{{ post.description }}</p>
                         {% endif %}
-                        {% if post.source %}
-                            <li>Source Code:
-                                <strong><a href="{{ post.source }}">{{ post.name }}</a>
-                                </strong>
-                            </li>
-                        {% endif %}
-                    </ul>
-                    <div class="post-content" style="text-align: left;">
-                        {{ post.content }}
+                        <ul class="list-inline item-details">
+                            {% if post.project-date %}
+                                <li>Date:
+                                    <strong><a href="#">{{ post.project-date }}</a>
+                                    </strong>
+                                </li>
+                            {% endif %}
+                            {% if post.source %}
+                                <li>Source Code:
+                                    <strong><a href="{{ post.source }}">{{ post.name }}</a>
+                                    </strong>
+                                </li>
+                            {% endif %}
+                        </ul>
+                        <div class="post-content" style="text-align: left;">
+                            {{ post.content }}
+                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                </div>
+               </div>
+               <div class="col">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+               </div>
+        
                     
             </div>
         </div>
