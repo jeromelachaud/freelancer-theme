@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway 
+  branch: master
+
+# Allows for drafts, reviews, approvals...
+publish_mode: editorial_workflow
+
+# Where user uploaded media will be saved
+media_folder: "img/uploads"
+
+collections:
+  - name: "events" # Used in routes, e.g., /admin/collections/blog
+    label: "Event" # Used in the UI
+    folder: "_posts/events"
+    create: true # Allow users to create new documents in this collections
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Link format
+    fields: # The fields for each document, in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "img", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "members"
+    label: "Member"
+    folder: "_posts/members"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name:"layout", widget: "hidden", default: "member"}
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "hidden", default: "2010-10-20"}
+      - {label: "Profile Image", name: "img" widget: "image"}
+      - {label: "Bio", name: "body", widget: "markdown"}
