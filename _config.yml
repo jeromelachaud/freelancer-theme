@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Keon Jukes
+#   copyright: Keon Jukes
   location: Location
   social: Web Footprints
 #   credits: Credits
