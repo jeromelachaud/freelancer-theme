@@ -33,7 +33,6 @@ color:
 # Footer settings
 footer:
 #   copyright: Keon Jukes
-  location: Location
   social: Web Footprints
 #   credits: Credits
 
@@ -46,8 +45,7 @@ social:
 
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: Greater New York Area
+
 
 # # Credits content
 # credits: 'Keon Jukes.'
