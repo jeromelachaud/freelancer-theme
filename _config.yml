@@ -39,9 +39,9 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: LinkedIn
+  - title: linkedIn
     url: https://www.linkedin.com/in/keonjukes/
-  - title: Medium
+  - title: medium
     url: https://keonjukes.medium.com/
   - title: github
     url: https://github.com/terraformer-keon
