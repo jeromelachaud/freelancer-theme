@@ -4,7 +4,7 @@ email: keonjukes@gmail.com
 url: https://terraformer-keon.github.io/
 description: "Keon Jukes Software Engineer Portfolio Website."
 keywords: "keon jukes, software engineer"
-skills: "Fullstack Software Engineer - Explorer"
+skills: "Fullstack Software Engineer"
 meta_author: Jukes Keon
 
 # Google webmaster tools
@@ -39,7 +39,7 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: linkedIn
+  - title: linkedin
     url: https://www.linkedin.com/in/keonjukes/
   - title: medium
     url: https://keonjukes.medium.com/
