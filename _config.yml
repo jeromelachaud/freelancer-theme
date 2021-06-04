@@ -35,14 +35,12 @@ footer:
   copyright: Keon Jukes
   location: Location
   social: Web Footprints
-  credits: Credits
+#   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/keonjukes/
-  - title: medium
-    url: https://keonjukes.medium.com/
   - title: github
     url: https://github.com/terraformer-keon
 
@@ -51,8 +49,8 @@ social:
 location:
   - line: Greater New York Area
 
-# Credits content
-credits: 'Keon Jukes.'
+# # Credits content
+# credits: 'Keon Jukes.'
 
 # Build settings
 markdown: kramdown
