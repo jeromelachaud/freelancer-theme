@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #4f3f2b;
 }
 
 h1,
@@ -59,11 +59,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #4f3f2b;
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #4f3f2b;
     background-color: #{{ site.color.primary }};
 }
 
@@ -82,7 +82,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #4f3f2b;
     background: #{{ site.color.primary }};
 }
 
@@ -181,7 +181,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #4f3f2b;
     background: #{{ site.color.primary }};
 }
 
@@ -473,7 +473,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #4f3f2b !important;
 }
 
 /* Fix modal mouse wheel issues */
