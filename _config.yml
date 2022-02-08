@@ -1,7 +1,7 @@
 # Site settings
 title: Alexander Dohms
 email: devprestigious@gmail.com
-baseurl: https://devprestigious.github.io/portfolio/
+base: https://devprestigious.github.io/portfolio/
 description: "Portfolio for Alexander Dohms"
 keywords: "your keywords, separated by commas"
 skills: "Mobile Buff - Website Abecedarian - UIE Fanatic"
