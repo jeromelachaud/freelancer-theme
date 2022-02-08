@@ -1,11 +1,11 @@
 # Site settings
-title: Alexander Dohms
-email: devprestigious@gmail.com
-base: https://devprestigious.github.io/portfolio/
-description: "Portfolio for Alexander Dohms"
+title: Freelancer
+email: your-email@domain.com
+url: https://github.com/jeromelachaud/freelancer-theme
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Mobile Buff - Website Abecedarian - UIE Fanatic"
-meta_author: Dohms Alexander
+skills: "Web Developer - Graphic Artist - User Experience Designer"
+meta_author: LastName FirstName
 
 # Google webmaster tools
 google_verify:
@@ -25,35 +25,36 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 063E24 #80B3FF
+  primary: 18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 063E08 #FD6E8A
-  secondary-dark: 063C3E #A2122F
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Alexander Dohms
-  location: Locations
+  copyright: Dr. Henry Jekyll
+  location: Location
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: github
-    url: https://github.com/DevPrestigious
-  - title: linkedin
-    url: https://linkedin.com/in/dohmsalex
   - title: twitter
-    url: https://twitter.com/DevPrestigious
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
   - title: stack-overflow
-    url: https://stackoverflow.com/users/17909507/devprestigious
-
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
-  - line: United States of America, Utah
-  - line: Russia, Moscow
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
