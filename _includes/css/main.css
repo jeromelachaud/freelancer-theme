@@ -104,7 +104,7 @@ header .intro-text .name {
     display: block;
     /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 400;
 }
 
@@ -498,3 +498,8 @@ footer .footer-below {
 
 .navbar-toggle {background: transparent;}
 .navbar-default .navbar-toggle .icon-bar {background: #222;}
+
+/* Hover */
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {color:#FCC0C5}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
+.navbar-nav>.active>a {color:#222}
