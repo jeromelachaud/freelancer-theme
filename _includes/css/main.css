@@ -33,7 +33,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 hr.star-light,
@@ -112,16 +112,16 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 150px;
         padding-bottom: 100px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.75em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.6em;
     }
 }
 
@@ -166,7 +166,7 @@ header .intro-text .skills {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-
+.navbar-default {background: #fff;}
 .navbar-default,
 .navbar-inverse {
     border: 0;
@@ -483,3 +483,8 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.navbar-brand {color:#222}
+.navbar-default .navbar-nav>li>a {#222}
+.intro-text {margin-bottom:50px}
+.portfolio-flex-row {margin-top:50px}
