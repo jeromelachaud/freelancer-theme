@@ -497,9 +497,14 @@ footer .footer-below {
 .portfolio-flex-row {margin-top:50px}
 
 .navbar-toggle {background: transparent;}
+.navbar-default .navbar-toggle {border-color: transparent;}
 .navbar-default .navbar-toggle .icon-bar {background: #222;}
 
 /* Hover */
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {color:#FCC0C5}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus  {
+	color:#FCC0C5
+}
+
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
-.navbar-nav>.active>a {color:#222}
+.navbar-nav>.active>a {background-color: #222!important;}
