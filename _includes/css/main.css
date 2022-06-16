@@ -370,7 +370,8 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    /* background-color: #{{ site.color.secondary }}; */
+    background-color: #222;
 }
 
 footer .footer-col {
@@ -379,7 +380,8 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    /* background-color: #{{ site.color.secondary-dark }}; */
+    background-color: #111;
 }
 
 .btn-social {
