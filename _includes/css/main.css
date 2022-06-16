@@ -484,7 +484,11 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-.navbar-brand {color:#222}
-.navbar-default .navbar-nav>li>a {#222}
-.intro-text {margin-bottom:50px}
+.navbar-header>a {color:#222}
+.navbar-default .navbar-nav>li>a {color:#222}
+.intro-text {margin-bottom:50px; color:#222}
+.profile-content {background: #222;}
 .portfolio-flex-row {margin-top:50px}
+
+.navbar-toggle {background: transparent;}
+.navbar-default .navbar-toggle .icon-bar {background: #222;}
