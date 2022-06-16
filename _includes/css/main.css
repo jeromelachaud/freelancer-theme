@@ -84,7 +84,7 @@ header {
     text-align: center;
     color: #fff;
     /* background: #{{ site.color.primary }}; */
-		background: #222;
+		background-color: #222;
 }
 
 header .container {
