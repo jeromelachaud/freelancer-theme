@@ -22,7 +22,10 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    /* color: #{{ site.color.primary }}; */
+		color:#FCC0C5;
+
+
 }
 
 h1,
@@ -84,7 +87,7 @@ header {
     text-align: center;
     color: #fff;
     /* background: #{{ site.color.primary }}; */
-		background-color: #222;
+		background-color: #fff;
 }
 
 header .container {
@@ -121,7 +124,8 @@ header .intro-text .skills {
     }
 
     header .intro-text .skills {
-        font-size: 1.6em;
+        font-size: 1.4em;
+				text-transform: capitalize;
     }
 }
 
@@ -166,7 +170,7 @@ header .intro-text .skills {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-.navbar-default {background: #fff;}
+.navbar-default {background: #fff; box-shadow: 1px 1px 6px rgb(0 0 0 / 10%);}
 .navbar-default,
 .navbar-inverse {
     border: 0;
@@ -182,8 +186,9 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #FCC0C5;
+    /* background: #{{ site.color.primary }}; */
+    background: #222;
 }
 
 @media(max-width:767px) {
@@ -245,6 +250,7 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+		line-height: 1.5;
 }
 
 @media(min-width:767px) {
@@ -484,7 +490,7 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-.navbar-header>a {color:#222}
+.navbar-fixed-top .navbar-brand {color:#222}
 .navbar-default .navbar-nav>li>a {color:#222}
 .intro-text {margin-bottom:50px; color:#222}
 .profile-content {background: #222;}
