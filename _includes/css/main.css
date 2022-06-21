@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+		background: url('img/main_bg')no-repeat top /cover;
 }
 
 p {
@@ -104,7 +105,7 @@ header .intro-text .name {
     display: block;
     /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 4.5em;
+    font-size: 4.5em !important;
     font-weight: 700;
 }
 
@@ -185,7 +186,7 @@ section h2 {
     margin: 0;
     font-size: 30px;
 		font-weight:bold;
-		color:#222
+
 }
 
 section.success {
