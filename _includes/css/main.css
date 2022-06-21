@@ -126,7 +126,7 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.4em;
-				text-transform: capitalize;
+				/* text-transform: capitalize; */
     }
 }
 
@@ -573,3 +573,10 @@ footer .footer-below {
 .col-lg-offset-2 {width:90%; margin: 0 auto; padding:20px 0 0; text-align: center;}
 
 header {background:url('img/main_bg.png')no-repeat top/cover; background-position-y: 200px;}
+
+.btn-success {
+	color: #222;
+	background-color: #fff;
+	border-color: #222;
+	width: 100%;
+}
