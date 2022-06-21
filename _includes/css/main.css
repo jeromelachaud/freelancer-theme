@@ -6,7 +6,6 @@
 
 body {
     overflow-x: hidden;
-		background: url('img/main_bg.jpg')no-repeat top /cover;
 }
 
 p {
@@ -509,7 +508,7 @@ footer .footer-below {
 /* Hover */
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus  {
-	color:#FCC0C5
+	color:#e93225
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
@@ -571,3 +570,5 @@ footer .footer-below {
 
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {float: none;}
 .col-lg-offset-2 {width:90%; margin: 0 auto; padding:20px 0 0; text-align: center;}
+
+header {background:url('img/main_bg.png')no-repeat top/cover;}
