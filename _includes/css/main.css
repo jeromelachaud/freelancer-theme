@@ -104,13 +104,14 @@ header .intro-text .name {
     display: block;
     /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 3em;
+    font-size: 4.5em;
     font-weight: 700;
 }
 
 header .intro-text .skills {
     font-size: 16px;
     font-weight: 300;
+		color:#777
 }
 
 @media(min-width:768px) {
@@ -120,7 +121,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 3.75em;
+        font-size: 2em;
     }
 
     header .intro-text .skills {
@@ -184,6 +185,7 @@ section h2 {
     margin: 0;
     font-size: 30px;
 		font-weight:bold;
+		color:#222
 }
 
 section.success {
@@ -536,7 +538,7 @@ footer .footer-below {
 	bottom: 0%;
 	left: 0;
 	z-index: -1;
-	background: #db5b2d;
+	background: #e93225;
 	width: 70%;
 	height: 70%;
 	border-radius: 50%;
@@ -567,4 +569,4 @@ footer .footer-below {
 .row {margin-bottom: 20px;}
 
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {float: none;}
-.col-lg-offset-2 {width:60%; margin: 0 auto; padding:20px 0 0; text-align: center;}
+.col-lg-offset-2 {width:90%; margin: 0 auto; padding:20px 0 0; text-align: center;}
