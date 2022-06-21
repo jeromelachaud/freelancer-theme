@@ -291,9 +291,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #FCC0C5;
     font-size: 20px;
-    color: #fff;
+    color: #FCC0C5;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -302,9 +302,10 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    border: solid 2px #FCC0C5;
+    /* color: #{{ site.color.primary }}; */
+    color: #222;
+    background: #FCC0C5;
 }
 
 .floating-label-form-group {
@@ -391,7 +392,7 @@ footer .footer-below {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid #FCC0C5;
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -508,7 +509,7 @@ footer .footer-below {
 /* Hover */
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus  {
-	color:#e93225
+	color:#FCC0C5
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
@@ -571,4 +572,4 @@ footer .footer-below {
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {float: none;}
 .col-lg-offset-2 {width:90%; margin: 0 auto; padding:20px 0 0; text-align: center;}
 
-header {background:url('img/main_bg.png')no-repeat top/cover;}
+header {background:url('img/main_bg.png')no-repeat top/cover; background-position-y: 200px;}
