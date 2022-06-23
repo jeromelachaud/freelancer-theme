@@ -108,6 +108,7 @@ header .intro-text .name {
     font-family: 'Mr Dafoe', cursive;
     font-size: 4.5em;
     font-weight: 700;
+		color:#f2906d;
 }
 
 header .intro-text .skills {
@@ -123,7 +124,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 2em !important;
+        font-size: 2em;
     }
 
     header .intro-text .skills {
@@ -185,7 +186,7 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
 		font-weight:bold;
 
 }
@@ -500,7 +501,7 @@ footer .footer-below {
 
 .navbar-fixed-top .navbar-brand {color:#222}
 .navbar-default .navbar-nav>li>a {color:#222}
-.intro-text {margin-top:50px; color:#222}
+.intro-text {position:relative; margin-top:-110px; color:#222}
 .profile-content {background: transparent;}
 .portfolio-flex-row {margin-top:30px}
 
@@ -584,13 +585,14 @@ header {background:url('img/main_bg.png')no-repeat top/cover; background-positio
 }
 
 @media screen and (max-width:480px) {
-	section h2 {font-size:20px;}
+	section h2 {font-size:30px;}
 	h3 {font-size:20px;}
 	p {font-size:14px;}
 	section {padding:50px 0}
 	.row {margin-bottom:0;}
 	header .container {padding-top:50px;}
-	.intro-text {margin-top:30px;}
+	.intro-text {margin-top:0px;}
+	.intro-text .name {font-size:50px;}
 	.btn-social {width:40px; height:40px; line-height:40px; border-width:1px}
 	footer .footer-below {font-size:12px;}
 }
