@@ -32,7 +32,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  # copyright: Dr. Henry Jekyll Min Young 
+  copyright: Min Young 
   location: Location
   social: Around the Web
   credits: Credits
