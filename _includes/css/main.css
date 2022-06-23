@@ -336,6 +336,7 @@ section.success {
     background: 0 0;
     box-shadow: none!important;
     resize: none;
+		font-size:20px;
 }
 
 .floating-label-form-group label {
@@ -366,7 +367,8 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    /* color: #{{ site.color.primary }}; */
+		color:#db5b2d
 }
 
 form .row:first-child .floating-label-form-group {
@@ -591,6 +593,8 @@ header {background:url('img/main_bg.png')no-repeat top/cover; background-positio
 	width: 100%;
 	transition:all 0.3s
 }
+
+.form-control {color:#db5b2d}
 
 @media screen and (max-width:768px) {
 	header .intro-text {margin-top:0;}
