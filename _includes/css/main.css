@@ -106,8 +106,8 @@ header .intro-text .name {
     /* text-transform: uppercase; */
     /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-family: 'Mr Dafoe', cursive;
-    font-size: 4.5em;
-    font-weight: 700;
+    font-size: 150px;
+    /* font-weight: 700; */
 		color:#f2906d;
 }
 
@@ -123,9 +123,6 @@ header .intro-text .skills {
         padding-bottom: 100px;
     }
 
-    header .intro-text .name {
-        font-size: 2em;
-    }
 
     header .intro-text .skills {
         font-size: 1.4em;
@@ -584,15 +581,23 @@ header {background:url('img/main_bg.png')no-repeat top/cover; background-positio
 	width: 100%;
 }
 
+@media screen and (max-width:768px) {
+	header .intro-text {margin-top:0;}
+	header .intro-text .name {font-size:80px;}
+}
+
 @media screen and (max-width:480px) {
 	section h2 {font-size:30px;}
 	h3 {font-size:20px;}
 	p {font-size:14px;}
 	section {padding:50px 0}
 	.row {margin-bottom:0;}
+
 	header .container {padding-top:50px;}
-	.intro-text {margin-top:0px;}
-	.intro-text .name {font-size:50px;}
+	header .intro-text .name {font-size:50px;}
+	header .intro-text .skills {font-size:14px;}
+
+	.portfolio-flex-row {margin-top:20px;}
 	.btn-social {width:40px; height:40px; line-height:40px; border-width:1px}
 	footer .footer-below {font-size:12px;}
 }
