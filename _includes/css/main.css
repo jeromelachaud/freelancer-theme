@@ -596,6 +596,8 @@ header {background:url('img/main_bg.png')no-repeat top/cover; background-positio
 
 .form-control {color:#db5b2d}
 
+.skills-tit {font-size:24px;color:#f2906d}
+
 @media screen and (max-width:768px) {
 	header .intro-text {margin-top:0;}
 	header .intro-text .name {font-size:80px;}
