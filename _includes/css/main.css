@@ -597,7 +597,7 @@ header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3
 }
 
 .form-control {color:#db5b2d}
-.fa-icons::before {content: '/f86d';}
+.fa-icons::before {content: "\f86d";}
 
 @media screen and (max-width:768px) {
 	header .intro-text {margin-top:0;}
