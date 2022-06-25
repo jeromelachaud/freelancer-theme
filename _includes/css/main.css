@@ -586,7 +586,7 @@ footer .footer-below {
 
 header {background:url('img/main_bg.png')no-repeat top/cover; background-position-y: 200px;}
 
-header .intro-text .skills-tit {margin-bottom: 11px; margin-top:3%; font-size:24px; color:#f2906d;font-family: 'Quicksand', sans-serif;}
+header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3%; font-size:24px; color:#f2906d;font-family: 'Quicksand', sans-serif;}
 
 .btn-success {
 	color: #222;
