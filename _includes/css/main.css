@@ -549,10 +549,10 @@ footer .footer-below {
 	position: absolute;
 	content: '';
 	bottom: 0%;
-	left: 0;
+	left: 50px;
 	z-index: -1;
 	background: #e93225;
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	border-radius: 50%;
 }
@@ -597,7 +597,7 @@ header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3
 }
 
 .form-control {color:#db5b2d}
-.fa-icons::before {content: "\f86d";}
+.fa-icons:before {content: "\f86d";}
 
 @media screen and (max-width:768px) {
 	header .intro-text {margin-top:0;}
@@ -622,6 +622,7 @@ header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3
 	header .intro-text .skills {font-size:14px;}
 
 	.portfolio-flex-row {margin-top:20px;}
+	.portfolio-modal .modal-content h2 {font-size:2.5em;}
 	.btn-social {width:40px; height:40px; line-height:40px; border-width:1px}
 	footer .footer-below {font-size:12px;}
 }

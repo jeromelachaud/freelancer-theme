@@ -1564,3 +1564,8 @@
 .fa-bomb:before {
   content: "\f1e2";
 }
+
+/* 추가 */
+.fa-icons:before {
+	content: "\f86d";
+}
