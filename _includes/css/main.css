@@ -55,7 +55,7 @@ hr.star-primary {
     padding: 0;
     max-width: 250px;
     border: 0;
-    border-top: solid 5px;
+    border-top: solid 2px;
     text-align: center;
     overflow: visible;
 }
@@ -68,7 +68,7 @@ hr.star-primary:after {
     top: -.8em;
     padding: 0 .25em;
     font-family: FontAwesome;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 hr.star-light {
@@ -586,6 +586,8 @@ footer .footer-below {
 
 header {background:url('img/main_bg.png')no-repeat top/cover; background-position-y: 200px;}
 
+header .intro-text .skills-tit {margin-bottom: 11px; margin-top:3%; font-size:24px; color:#f2906d;font-family: 'Quicksand', sans-serif;}
+
 .btn-success {
 	color: #222;
 	background-color: #fff;
@@ -596,7 +598,6 @@ header {background:url('img/main_bg.png')no-repeat top/cover; background-positio
 
 .form-control {color:#db5b2d}
 
-.skills-tit {font-size:24px;color:#f2906d}
 
 @media screen and (max-width:768px) {
 	header .intro-text {margin-top:0;}
