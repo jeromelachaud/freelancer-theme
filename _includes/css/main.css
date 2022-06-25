@@ -605,6 +605,9 @@ header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3
 	header .intro-text .skills-tit {margin-top:5%; margin-bottom:6px; font-size:18px;}
 	.portfolio-flex-row {display:flex; flex-wrap:wrap; justify-content:space-between;}
 	#portfolio .portfolio-item {width:calc(100% / 2 - 8px)}
+	.btn-outline {font-size: 16px;}
+	.btn-lg, .btn-group-lg>.btn {padding:13px 27px}
+
 }
 
 @media screen and (max-width:480px) {
