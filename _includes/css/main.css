@@ -230,7 +230,8 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    /* background: rgba({{ site.color.primary-rgb }},.9); */
+    background: rgba(0,0,0,0.7);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -527,9 +528,8 @@ footer .footer-below {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
 .navbar-nav>.active>a {background-color: #222!important;}
 
-
+/* Customizing - 기능 및 이미지 수정*/
 /* 프로필 메인 이미지 */
-
 .face {
 	position: relative;
 	overflow: hidden;
@@ -597,11 +597,14 @@ header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3
 }
 
 .form-control {color:#db5b2d}
-
+.fa-browser::before {content: '/f86d';}
 
 @media screen and (max-width:768px) {
 	header .intro-text {margin-top:0;}
 	header .intro-text .name {font-size:80px;}
+	header .intro-text .skills-tit {margin-top:5%; margin-bottom:6px; font-size:18px;}
+	.portfolio-flex-row {display:flex; flex-wrap:wrap; justify-content:space-between;}
+	#portfolio .portfolio-item {width:calc(100% / 2 - 8px)}
 }
 
 @media screen and (max-width:480px) {
