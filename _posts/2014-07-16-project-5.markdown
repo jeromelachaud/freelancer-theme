@@ -2,10 +2,10 @@
 layout: default
 modal-id: 5
 date: 2022-06-01
-img: lush.png
+img: ooc.png
 alt: image-alt
-project-date: April 2022
+project-date: January 2021
 client: Min Young
-category: Clone Coding
-description: Lush Website
+category: Play
+description: OOC Website
 ---
