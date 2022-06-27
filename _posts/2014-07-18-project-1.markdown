@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2022-06-25
-img: her.png
+img: inni.png
 alt: image-alt
-project-date: Jun 2022
-client: Min Young
-category: Clone Coding
-description: Hersteller Webstie
+project-date: Jun 2022 - March 2021
+client: work
+category: work
+description: Innisfree Global Website
 ---

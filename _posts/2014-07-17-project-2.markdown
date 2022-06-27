@@ -6,6 +6,6 @@ img: yourname.png
 alt: image-alt
 project-date: May 2022
 client: Min Young
-category: Personal Project
+category: Play
 description: Your Name Is?
 ---
