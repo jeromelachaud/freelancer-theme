@@ -18,13 +18,10 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-														<p class="portfolio-desc">
-															<!-- #portfolioModal-{{ post.description }} -->
-															{% if post.description %}
-                                <p>{{ post.description }}</p>
-                         		  {% endif %}
-														</p>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+														<img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+														{% if post.description %}
+															<p class="portfolio-desc">{{ post.description }}</p>
+														{% endif %}
                         </a>
                     </div>
                 {% endfor %}

@@ -595,6 +595,7 @@ header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3
 	width: 100%;
 	transition:all 0.3s
 }
+.portfolio-desc {margin-top:10px; text-align:center; font-size:14px; color:#222}
 
 .form-control {color:#db5b2d}
 .fa-icons:before {content: "\f86d";}
