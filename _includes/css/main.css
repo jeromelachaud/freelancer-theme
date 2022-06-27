@@ -55,7 +55,7 @@ hr.star-primary {
     padding: 0;
     max-width: 250px;
     border: 0;
-    border-top: solid 5px;
+    border-top: solid 2px;
     text-align: center;
     overflow: visible;
 }
@@ -68,7 +68,7 @@ hr.star-primary:after {
     top: -.8em;
     padding: 0 .25em;
     font-family: FontAwesome;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 hr.star-light {
@@ -230,7 +230,8 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    /* background: rgba({{ site.color.primary-rgb }},.9); */
+    background: rgba(0,0,0,0.7);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -527,9 +528,8 @@ footer .footer-below {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
 .navbar-nav>.active>a {background-color: #222!important;}
 
-
+/* Customizing - 기능 및 이미지 수정*/
 /* 프로필 메인 이미지 */
-
 .face {
 	position: relative;
 	overflow: hidden;
@@ -549,10 +549,10 @@ footer .footer-below {
 	position: absolute;
 	content: '';
 	bottom: 0%;
-	left: 0;
+	left: 50px;
 	z-index: -1;
 	background: #e93225;
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	border-radius: 50%;
 }
@@ -586,6 +586,8 @@ footer .footer-below {
 
 header {background:url('img/main_bg.png')no-repeat top/cover; background-position-y: 200px;}
 
+header .intro-text .skills-tit {display:block; margin-bottom: 11px; margin-top:3%; font-size:24px; color:#f2906d;font-family: 'Quicksand', sans-serif;}
+
 .btn-success {
 	color: #222;
 	background-color: #fff;
@@ -595,10 +597,17 @@ header {background:url('img/main_bg.png')no-repeat top/cover; background-positio
 }
 
 .form-control {color:#db5b2d}
+.fa-icons:before {content: "\f86d";}
 
 @media screen and (max-width:768px) {
 	header .intro-text {margin-top:0;}
 	header .intro-text .name {font-size:80px;}
+	header .intro-text .skills-tit {margin-top:5%; margin-bottom:6px; font-size:18px;}
+	.portfolio-flex-row {display:flex; flex-wrap:wrap; justify-content:space-between;}
+	#portfolio .portfolio-item {width:calc(100% / 2 - 8px)}
+	.btn-outline {font-size: 16px;}
+	.btn-lg, .btn-group-lg>.btn {padding:13px 27px}
+
 }
 
 @media screen and (max-width:480px) {
@@ -613,6 +622,7 @@ header {background:url('img/main_bg.png')no-repeat top/cover; background-positio
 	header .intro-text .skills {font-size:14px;}
 
 	.portfolio-flex-row {margin-top:20px;}
+	.portfolio-modal .modal-content h2 {font-size:2.5em;}
 	.btn-social {width:40px; height:40px; line-height:40px; border-width:1px}
 	footer .footer-below {font-size:12px;}
 }
