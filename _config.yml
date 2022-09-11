@@ -1,11 +1,11 @@
 # Site settings
-title: Mitch Torkelson
-email: mitchtorkelson@gmail.com
-url: https://dinodiver.github.io
+title: "Mitch Torkelson"
+email: "mitchtorkelson@gmail.com"
+url: "https://dinodiver.github.io"
 description: "Scuba enthusiast living in Wilmington, NC doing my masters in Marine Science at UNCW."
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - PADI Divemaster - GIS - Data Entry - Conversational Spanish"
-meta_author: Torkelson Mitch
+meta_author: "Torkelson Mitch"
 
 # Google webmaster tools
 google_verify:
