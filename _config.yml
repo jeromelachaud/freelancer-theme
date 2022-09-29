@@ -2,8 +2,8 @@
 title: Uþwita Press
 email: your-email@domain.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: "Uþwita Press is a publisher of scholarly books. Since 2022, it has been working to provide the market with superior books for the thinking man."
+keywords: "keywords: "Uþwita Press, Arktos, books, publisher, media, national"
 skills: "Scholarly Books"
 meta_author: LastName FirstName
 
@@ -52,9 +52,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
+  - line: ACT
+  - line: Australia
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
