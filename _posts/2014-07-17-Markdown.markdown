@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 2
+modal-id: Markdown
 date: 2014-07-17
 img: Markdown.png
 alt: image-alt
