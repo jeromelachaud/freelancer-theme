@@ -1,8 +1,8 @@
 ---
 layout: default
-modal-id: Radionica
+modal-id: Jupyter-Lite
 date: 2014-07-15
-img: Radionica.png
+img: JupyterLite.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
