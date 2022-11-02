@@ -1,8 +1,8 @@
 ---
 layout: default
-modal-id: Vulkan-znanje
+modal-id: Google-Colaboratory
 date: 2014-07-14
-img: Vulkan.png
+img: Colab.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
