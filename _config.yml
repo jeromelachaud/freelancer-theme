@@ -7,6 +7,21 @@ keywords: "your keywords, separated by commas"
 skills: "Miloš Papić - Marija Blagojević - Dalibor Čukljević - Zoran Luković"
 meta_author: LastName FirstName
 
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+
+
 # Google webmaster tools
 google_verify:
 
