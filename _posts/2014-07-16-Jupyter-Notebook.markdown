@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: Jupyter
+modal-id: Jupyter-Notebook
 date: 2014-07-16
 img: Jupyter.png
 alt: image-alt
