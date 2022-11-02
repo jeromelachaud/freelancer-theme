@@ -1,8 +1,8 @@
 ---
 layout: default
-modal-id: Google-Colaboratory
+modal-id: JupyterLab
 date: 2014-07-15
-img: Colab.png
+img: JupyterLab.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
