@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: Github
 date: 2014-07-18
 img: Github.png
 alt: image-alt
