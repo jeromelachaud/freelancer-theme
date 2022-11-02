@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 6
+modal-id: Radionica
 date: 2014-07-15
 img: Radionica.png
 alt: image-alt
