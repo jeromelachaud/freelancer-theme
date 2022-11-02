@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: JupyterLab
+modal-id: Jupyter-Lab
 date: 2014-07-15
 img: JupyterLab.png
 alt: image-alt
