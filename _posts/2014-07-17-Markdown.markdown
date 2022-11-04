@@ -8,5 +8,5 @@ project-date: April 2014
 Predavač: Zoran Luković
 category: Web Development
 description: Nakon obrade teme nastavnik/-ca  
-* je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;
+je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;
 ---
