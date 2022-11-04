@@ -4,5 +4,5 @@ modal-id: Google-Colaboratory
 date: 2014-07-14
 img: Colab.png
 alt: image-alt
-description: <p class="text-justify">Nakon obrade teme nastavnik/-ca:<ul><li>je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;</li></ul></p>
+description: <p class="text-justify">Nakon obrade teme nastavnik/-ca:<ul><li>kreira nove sveske i manipuliše postojećim sveskama na svom Google disku u okruženju Google Colab;</li><li>shvata koncept saradničkog rada u okruženju Google Colab i primenjuje ga u nastavi u oblasti programiranja što do sada nije bilo moguće.</li></ul></p>
 ---
