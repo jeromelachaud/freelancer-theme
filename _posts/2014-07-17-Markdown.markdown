@@ -8,4 +8,3 @@ description: <p>Nakon obrade teme nastavnik/-ca <br> je upoznat/-a sa osnovama j
 ---
 
 
-
