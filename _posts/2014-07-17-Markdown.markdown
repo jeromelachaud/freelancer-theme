@@ -5,12 +5,12 @@ date: 2014-07-17
 img: Markdown.png
 alt: image-alt
 description: <p>Nakon obrade teme nastavnik/-ca <br> je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;> > #### The quarterly results look great!>> - Revenue was off the chart.> - Profits were higher than ever.>>  *Everything* is going according to **plan**.</p>
----
-
 <p>Nakon obrade teme nastavnik/-ca <br> je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;> > #### The quarterly results look great!>> - Revenue was off the chart.> - Profits were higher than ever.>>  *Everything* is going according to **plan**.</p>
 
 Nadamo se da ćemo se družiti i na našim **akreditovanim seminarima** tokom naredne tri školske godine (2022/2023., 2023/2024. i 2024/2025.):
 
 * [Nastava programiranja u oblaku: paradigma novog doba](https://zuov-katalog.rs/index.php?action=page/catalog/view&id=959) (sajt seminara: u izradi)
-* [Statičke i dinamičke prezentacije u svetlu novih tehnologija](https://zuov-katalog.rs/index.php?action=page/catalog/view&id=857) (sajt seminara: https://sites.google.com/view/moderneprezentacije)
+* [Statičke i dinamičke prezentacije u svetlu novih tehnologija](https://zuov-katalog.rs/index.php?action=page/catalog/view&id=857) (sajt seminara: https://sites.google.com/view/moderneprezentacije)---
+
+
 
