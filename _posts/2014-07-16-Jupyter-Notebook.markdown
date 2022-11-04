@@ -4,5 +4,5 @@ modal-id: Jupyter-Notebook
 date: 2014-07-16
 img: Jupyter.png
 alt: image-alt
-description: <p class="text-justify">Nakon obrade teme nastavnik/-ca:<ul><li>je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;</li></ul></p>
+description: <p class="text-justify">Nakon obrade teme nastavnik/-ca:<ul class="text-left"><li>kreira i uređuje lični onlajn repozitorijum na platformi GitHub i da postavlja nastavne sadržaje;</li><li>pregleda i uređuje sveske postavljene na onlajn repozitorijume preko servisa Nbviewer i Binder, te u okruženju Jupyter Notebook i JupyterLab;</li><li>povezuje svoj repozitorijum sa drugim repozitorijumima;</li></ul></p>
 ---
