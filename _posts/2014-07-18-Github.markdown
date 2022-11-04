@@ -7,5 +7,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: <p class="text-justify">Nakon obrade teme nastavnik/-ca:<ul class="list-group"><li class="list-group-item">First item</li><li class="list-group-item">Second item</li><li class="list-group-item">Third item</li></ul></p>
+description: <p class="text-justify">Nakon obrade teme nastavnik/-ca:<ul><li>je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;</li></ul></p>
 ---
