@@ -4,8 +4,5 @@ modal-id: Jupyter-Lab
 date: 2014-07-15
 img: JupyterLab.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: <p class="text-justify">Nakon obrade teme nastavnik/-ca:<ul><li>je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;</li></ul></p>
 ---
