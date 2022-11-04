@@ -5,8 +5,7 @@ date: 2014-07-17
 img: Markdown.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
+Predavač: Zoran Luković
 category: Web Development
-description:  Nakon obrade teme nastavnik/-ca
-  •	je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;
+description:  Nakon obrade teme nastavnik/-ca je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;
 ---
