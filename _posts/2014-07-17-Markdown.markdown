@@ -4,6 +4,6 @@ modal-id: Markdown
 date: 2014-07-17
 img: Markdown.png
 alt: image-alt
-description: Dodati opis.
+description: <p class="text-justify">Nakon obrade teme nastavnik/-ca:</p>
 ---
 
