@@ -4,7 +4,7 @@ modal-id: Markdown
 date: 2014-07-17
 img: Markdown.png
 alt: image-alt
-description: <p>Nakon obrade teme nastavnik/-ca <br> je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;>
+description: <p>Nakon obrade teme nastavnik/-ca <br> je upoznat/-a sa osnovama jezika za označavanje Markdown radi stilskog uređivanja repozitorijuma i onlajn svezaka sa zadacima;<p>
 ---
 
 
