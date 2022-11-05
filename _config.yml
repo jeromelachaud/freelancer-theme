@@ -9,18 +9,39 @@ meta_author: Čukljević Dalibor
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Miloš Papić
   pic: 1
-  position: Lead Designer
-
-- name: Larry Parker
+  position: a
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+      
+- name: Dalibor Čukljević
   pic: 2
-  position: Lead Marketer
-
-- name: Diana Petersen
+  position: b
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+      
+- name: Zoran Luković
   pic: 3
-  position: Lead Developer
-
+  position: c
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+      
 
 # Google webmaster tools
 google_verify:
