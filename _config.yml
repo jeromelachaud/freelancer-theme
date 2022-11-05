@@ -7,42 +7,6 @@ keywords: "your keywords, separated by commas"
 skills: "Miloš Papić - Dalibor Čukljević - Zoran Luković"
 meta_author: Čukljević Dalibor
 
-# Team names, titles and social links
-people:
-- name: Miloš Papić
-  pic: 1
-  position: a
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-      
-- name: Dalibor Čukljević
-  pic: 2
-  position: b
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-      
-- name: Zoran Luković
-  pic: 3
-  position: c
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-      
-
 # Google webmaster tools
 google_verify:
 
@@ -94,7 +58,7 @@ address:
   - line: Gospodara Vučića 245, Beograd
 
 # Credits content
-credits: 
+credits: '<a href="https://sites.google.com/view/moderneprezentacije">Statičke i dinamičke prezentacije u svetlu novih tehnologija</a> (kataloški broj <a href="https://zuov-katalog.rs/index.php?action=page/catalog/view&id=857">393</a>).'
 
 # Build settings
 markdown: kramdown
