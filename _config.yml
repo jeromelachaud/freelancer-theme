@@ -94,7 +94,7 @@ address:
   - line: Gospodara Vučića 245, Beograd
 
 # Credits content
-credits: '<a href="https://sites.google.com/view/moderneprezentacije">Statičke i dinamičke prezentacije u svetlu novih tehnologija.</a>'
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
