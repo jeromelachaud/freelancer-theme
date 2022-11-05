@@ -58,12 +58,12 @@ social:
     url: https://www.instagram.com/vulkan_znanje/
   - title: facebook
     url: https://www.facebook.com/vulkanznanje/
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
   - title: youtube
     url: https://www.youtube.com/channel/UCRrI0_nhGsf-DreGs3DX_6w
   - title: github
     url: https://github.com/vulkanobuka/vulkanobuka.github.io
+  - title: github
+    url: https://vulkanobuka.github.io/
 
 # Postal address (add as many lines as necessary)
 address:
