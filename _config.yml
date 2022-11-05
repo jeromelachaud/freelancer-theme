@@ -70,8 +70,8 @@ color:
 footer:
   copyright: Dr. Henry Jekyll
   location: Organizator
-  social: Around the Web
-  credits: Credits
+  social: POSETITE i
+  credits: OD ISTIH AUTORA
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -94,7 +94,7 @@ address:
   - line: Gospodara Vučića 245, Beograd
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '<a href="https://sites.google.com/view/moderneprezentacije">Statičke i dinamičke prezentacije u svetlu novih tehnologija</a> (kataloški broj 393).'
 
 # Build settings
 markdown: kramdown
