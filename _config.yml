@@ -75,16 +75,18 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: github
+    url: https://github.com/vulkanznanje/fajlovi
+  - title: github
+    url: https://vulkanznanje.github.io/
+  - title: youtube
+    url: https://www.youtube.com/@vulkanznanjeInformatika
   - title: instagram
     url: https://www.instagram.com/vulkan_znanje/
   - title: facebook
     url: https://www.facebook.com/vulkanznanje/
-  - title: youtube
-    url: https://www.youtube.com/@vulkanznanjeInformatika
-  - title: github
-    url: https://vulkanznanje.github.io/
-  - title: github
-    url: https://github.com/vulkanznanje/fajlovi
+
+
 
 # Postal address (add as many lines as necessary)
 address:
