@@ -94,7 +94,7 @@ address:
   - line: Gospodara Vučića 245, Beograd
 
 # Credits content
-credits: '<a href="https://sites.google.com/view/moderneprezentacije">Statičke i dinamičke prezentacije u svetlu novih tehnologija</a>.'
+credits: '<a href="https://sites.google.com/view/moderneprezentacije">Statičke i dinamičke prezentacije u svetlu novih tehnologija.</a>'
 
 # Build settings
 markdown: kramdown
