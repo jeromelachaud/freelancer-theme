@@ -7,6 +7,41 @@ keywords: "your keywords, separated by commas"
 skills: "Miloš Papić - Dalibor Čukljević - Zoran Luković"
 meta_author: Čukljević Dalibor
 
+# Team names, titles and social links
+people:
+- name: Miloš Papić
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Dalibor Čukljević
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Zoran Luković
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
 # Google webmaster tools
 google_verify:
 
