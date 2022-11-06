@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: Google-Colaboratory
+modal-id: Google-Colab
 date: 2014-07-14
 img: Colab.png
 alt: image-alt
