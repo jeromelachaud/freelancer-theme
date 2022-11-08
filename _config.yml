@@ -95,7 +95,7 @@ address:
 
 # Credits content
 credits: '<a href="https://sites.google.com/view/moderneprezentacije">Statičke i dinamičke prezentacije u svetlu novih tehnologija</a> (kataloški broj <a href="https://zuov-katalog.rs/index.php?action=page/catalog/view&id=857">376</a>).'
-
+![](https://komarev.com/ghpvc/?username=vulkanobuka&label=GithubPage+views)
 # Build settings
 markdown: kramdown
 permalink: pretty
