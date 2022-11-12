@@ -1,11 +1,11 @@
 # Site settings
 title: Freelancer
-email: your-email@domain.com
+email: vijilam65@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+description: "Hi, My name is M Vijaya lakshmi and I am a aspiring freelancer in graphic design and digital marketing."
+keywords: "vijayalakshmi,digitalmarketing,graphics"
+skills: "Web Developer - Graphic Artist - Digital Marketing"
+meta_author: Vijaya Lakshmi
 
 # Google webmaster tools
 google_verify:
@@ -21,7 +21,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: tobeudated
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: M. Vijaya Lakshmi
   location: Location
   social: Around the Web
   credits: Credits
