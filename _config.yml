@@ -30,6 +30,7 @@ color:
   primary-rgb: "30,30,30" #"128,179,255"
   secondary: ff6600 #FD6E8A
   secondary-dark: 4d4d4d #A2122F
+  links: ff6600
 
 # Footer settings
 footer:
