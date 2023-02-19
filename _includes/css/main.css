@@ -129,6 +129,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 5px 0;
+        
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -136,6 +137,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top .navbar-brand {
         font-size: 1.9em;
+        letter-spacing: 0.3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -143,6 +145,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 5px 0;
+        letter-spacing: 0.1em;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
