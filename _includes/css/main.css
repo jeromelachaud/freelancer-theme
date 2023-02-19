@@ -111,7 +111,7 @@ header .intro-text .skills {
     color: #{{ site.color.secondary-dark }};
 }
 
-@media(min-width:768px) {
+@media(min-width:668px) {
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
@@ -126,7 +126,7 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
+@media(min-width:668px) {
     .navbar-fixed-top {
         padding: 5px 0;
         
