@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 7
 date: 2014-07-15
-img: submarine.png
+img: game.png
+title: Related Use Cases
 alt: image-alt
-title: Licensing attributes
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development

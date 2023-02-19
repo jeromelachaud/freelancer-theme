@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 2
-date: 2023-04-02
-img: related.png
+date: 2014-04-01
+img: pricing.png
 alt: image-alt
-title: Related Data Products
+title: Pricing Plans
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
