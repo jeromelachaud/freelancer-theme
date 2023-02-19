@@ -106,7 +106,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    font-size: 1.75em;
+    font-size: 2.75em;
     font-weight: 300;
     color: #{{ site.color.secondary-dark }};
 }
