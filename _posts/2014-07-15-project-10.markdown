@@ -1,9 +1,9 @@
 ---
 layout: default
-modal-id: 9
+modal-id: 10
 date: 2014-07-15
-img: circus.png
-title: Vendor-neutral
+img: dataops.png
+title: DataOps
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
