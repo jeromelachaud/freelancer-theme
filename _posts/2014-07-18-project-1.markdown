@@ -4,6 +4,7 @@ modal-id: 1
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
+title: Vendor-neutral
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
