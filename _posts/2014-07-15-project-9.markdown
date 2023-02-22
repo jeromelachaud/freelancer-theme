@@ -3,7 +3,7 @@ layout: default
 modal-id: 9
 date: 2014-07-15
 img: circus.png
-title: Vendor-neutral
+title: Vendor-free Data Products
 alt: image-alt
-description: ODPS did not originate from internal metadata model of any commercial product. It vendor-free and so will be your data products if you use ODPS. One day it will be utilized by many vendors, but still even that case it remains independent and continues to decouple data products from the systems. 
+description: ODPS did not originate from internal metadata model of any commercial product. It vendor-free and so will be your data products if you use ODPS. One day it will be utilized by many vendors, but still even that case it remains independent and continues to decouple data products from the systems. With ODPS you will enable faster and easier data exchange between systems without any vendor lock-in. 
 ---
