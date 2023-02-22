@@ -5,5 +5,5 @@ date: 2014-07-15
 img: circus.png
 title: Vendor-neutral
 alt: image-alt
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: ODPS did not originate from internal metadata model of any commercial product. It vendor-free and so will be your data products if you use ODPS. One day it will be utilized by many vendors, but still even that case it remains independent and continues to decouple data products from the systems. 
 ---
