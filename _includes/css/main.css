@@ -501,7 +501,12 @@ footer .footer-below {
     margin-top:40px;
 }
 
-.row .usecases-link {
+.row a.usecases-link {
+    color:#000;
+    text-decoration: underline;
+}
+
+.row a.usecases-link:visited {
     color:#000;
     text-decoration: underline;
 }
