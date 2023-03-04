@@ -496,7 +496,16 @@ footer .footer-below {
 
 .row .usecases-h3 {
     margin-top:20px;
+    text-align: center;
 }
+
+.row .usecases-img {
+    margin-top:20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .row .usecases-h4 {
     margin-top:40px;
 }
