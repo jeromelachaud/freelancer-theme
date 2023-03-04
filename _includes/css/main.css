@@ -491,8 +491,12 @@ footer .footer-below {
 
 .row .usecase-list-items li {
     font-size: 19px;
+    margin-bottom: 5px;
 }
 
+.row .usecases-h3 {
+    margin-top:20px;
+}
 .row .usecases-h4 {
     margin-top:40px;
 }
