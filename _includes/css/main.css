@@ -488,3 +488,7 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.row .usecase-lsit-items {
+    font-size: 14px;
+}
