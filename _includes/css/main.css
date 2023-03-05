@@ -507,7 +507,7 @@ footer .footer-below {
   margin-right: auto;
 }
 
-.row .usecases-h4 {
+.row h4.usecases-h4 {
     margin-top:40px;
     border: 2px solid #fa860f;
     padding: 5px;
