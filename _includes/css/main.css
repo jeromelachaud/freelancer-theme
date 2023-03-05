@@ -509,6 +509,8 @@ footer .footer-below {
 
 .row .usecases-h4 {
     margin-top:40px;
+    border: 2px solid #fa860f;
+    padding: 5px;
 }
 
 .row a.usecases-link {
