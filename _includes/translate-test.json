@@ -1,5 +1,4 @@
-"pricingPlans": { 
-    "en": {  
+"en": {  
        {
           "name": "Premium Package Monthly",
           "priceCurrency": "EUR",
@@ -29,4 +28,4 @@
           "offering": ["100+ video guides from community" ]
        }
     }
-}
+
