@@ -494,10 +494,12 @@ footer .footer-below {
     margin-bottom: 5px;
 }
 
-.row .usecases-h3 {
+.row h3.usecases-h3 {
     margin-top:40px;
     font-size: 26px;
     margin-bottom: 20px;
+    padding: 10px;
+    background-color: #eee;
 }
 
 .row .usecases-img {
@@ -505,8 +507,7 @@ footer .footer-below {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
-    background-color: #eee;
+  
 }
 
 .row h4.usecases-h4 {
