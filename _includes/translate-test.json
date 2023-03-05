@@ -1,0 +1,32 @@
+"pricingPlans": { 
+    "en": {  
+       {
+          "name": "Premium Package Monthly",
+          "priceCurrency": "EUR",
+          "price": "5.00", 
+          "billingDuration": "month",
+          "unit": "recurring",
+          "maxTransactionQuantity": 10000,
+          "offering": ["20+ proofessional video guides", "20 hours of premium support" ]
+
+       },
+       {
+          "name": "Freemium Package",
+          "priceCurrency": "EUR",
+          "price": "0.00", 
+          "billingDuration": "month",
+          "unit": "recurring",
+          "maxTransactionQuantity": 1000,
+          "offering": ["100+ video guides from community" ]
+       },
+       {
+          "name": "Revenue sharing",
+          "priceCurrency": "percentage",
+          "price": "5.50",
+          "billingDuration": "month",
+          "unit": "revenue-sharing",
+          "maxTransactionQuantity": 20000,
+          "offering": ["100+ video guides from community" ]
+       }
+    }
+}
