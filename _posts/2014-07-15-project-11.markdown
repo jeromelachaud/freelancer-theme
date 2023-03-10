@@ -5,5 +5,5 @@ date: 2014-07-15
 img: dq.png
 title: Data Quality
 alt: image-alt
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Data quality framework with 7 described standard indicators. Data Quality one of the key elements regardless of internal or external usage. With QA element you can express the data quality to the data consumers. 
 ---

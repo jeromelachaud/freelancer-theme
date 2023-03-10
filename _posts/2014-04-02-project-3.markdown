@@ -5,5 +5,5 @@ date: 2014-04-02
 img: related.png
 alt: image-alt
 title: Related Data Products
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Expose data product related usecases and dataproducts as part of the package - customer can see how data product provides value. 
 ---

@@ -5,5 +5,5 @@ date: 2014-04-01
 img: pricing.png
 alt: image-alt
 title: Pricing Plans
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: ODPS contains 8 standardized pricing plans including freemium which allows customers to validate value before committing to paid plans. 
 ---

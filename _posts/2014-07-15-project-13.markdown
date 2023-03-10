@@ -5,5 +5,5 @@ date: 2014-07-15
 img: extendable.png
 title: Add your extensions
 alt: image-alt
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: While the Open Data Product Specification tries to accommodate most use cases, additional data can be added to extend the specification at certain points.. The extensions properties are implemented as patterned fields that are always prefixed by "x-". The extensions may or may not be supported by the available tooling.  
 ---

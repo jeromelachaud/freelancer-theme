@@ -5,5 +5,5 @@ date: 2014-07-15
 img: multilang.png
 title: Multilanguage Support
 alt: image-alt
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Data Products are sold and exposed to variety of customer segments. Providing core data product metadata in multiple languages is a must have. In ODPS translations for different languages are in the same data product definition - one JSON package, not multiple files. 
 ---
