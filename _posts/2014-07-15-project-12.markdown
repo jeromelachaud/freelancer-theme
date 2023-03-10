@@ -5,5 +5,5 @@ date: 2014-07-15
 img: multilang.png
 title: Multilanguage Support
 alt: image-alt
-description: Data Products are sold and exposed to variety of customer segments. Providing core data product metadata in multiple languages is a must have. In ODPS translations for different languages are in the same data product definition - one JSON package, not multiple files. 
+description: Data Products are sold and exposed to variety of customer segments. Providing core data product metadata in multiple languages is a must have. In ODPS translations for different languages are in the same data product definition - one JSON package, not multiple files. Amount of translations is limitless. 
 ---
