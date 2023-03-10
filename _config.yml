@@ -4,7 +4,7 @@ email: jarkko@vimo.fi
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "The Open Data Product Specification is a vendor-neutral, open-source machine-readable data product metadata model. It defines the objects and attributes as well as the structure of digital data products."
 keywords: "specification, standard, dataproduct, metadata"
-skills: "vendor-neutral | open source | machine-readable"
+skills: "vendor-neutral | open source | machine-readable | extendable"
 sub: "full-stack data product metadata model"
 meta_author: Jarkko Moilanen
 
