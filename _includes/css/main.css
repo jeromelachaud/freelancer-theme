@@ -534,7 +534,9 @@ footer .footer-below {
 
 .flex-child {
     flex: 1;
-    border: 2px solid yellow;
+    border: 2px solid #ff6600;
+    padding:10px;
+    margin:20px;
 }  
 
 .flex-child:first-child {
