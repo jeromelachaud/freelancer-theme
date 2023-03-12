@@ -531,6 +531,8 @@ footer .footer-below {
 .flex-container {
     display: flex;
     font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .flex-child {
