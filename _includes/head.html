@@ -17,6 +17,18 @@
   {% if site.google_verify %}
   <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2BRS2DSVKQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2BRS2DSVKQ');
+</script>
+
+
   <!-- Bing Verification -->
   {% if site.bing_verify %}
   <meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
