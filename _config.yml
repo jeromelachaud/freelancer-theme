@@ -44,7 +44,7 @@ social:
  # - title: facebook
  #   url:
  # - title: stack-overflow
- #   url: http://stackoverflow.com/questions/tagged/jekyll
+ #  url: http://stackoverflow.com/questions/tagged/jekyll
   - title: linkedin
    url: https://www.linkedin.com/in/deepakkumarvemula/
   - title: github
