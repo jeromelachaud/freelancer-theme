@@ -576,6 +576,7 @@ footer .footer-below {
     touch-action: manipulation;
     vertical-align: baseline;
     width: auto;
+    margin-top: 40px;
   }
   
   .button-5:hover,
