@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
+date: 2021-01-15
 img: submarine.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: January 2021
+client: State of California
+category: Data Strategy
+description: While working at a government-tech startup, Nathan Meyers worked on multiple $1 million+ contracts to set up GDPR-compliant data exchanges for the state of California. He engaged with multiple agencies simultaneously to set up systems complying with stringent privacy and compliance standards.
 ---
