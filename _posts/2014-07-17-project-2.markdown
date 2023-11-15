@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
+date: 2018-06-01
 img: cake.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: June 2018
+client: YouthForce NOLA
+category: General Strategy
+description: Brandon served as consultant and advisor to YouthForce NOLA - an education, business, and civic collaborative that prepares New Orleans public school students for successful pursuit of high-wage, high-demand career pathways and facilitates systems change to ensure equitable outcomes. As a consultant, Brandon was responsible for building the operations and business model of the organization, benchmarking the Youth Program with National Programs, and evaluating National certification programs for credentialing youth.
 ---
