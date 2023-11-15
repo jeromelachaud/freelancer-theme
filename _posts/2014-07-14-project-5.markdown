@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 5
-date: 2014-07-14
+date: 2017-04-14
 img: safe.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: April 2017
+client: WIOA
+category: General Strategy
+description: In 2017, Brandon worked with a city-wide WIOA program and economic development agency to restructure and merge the two organizations into one organization in an effort to better allocate resources and align industry needs with WIOA funding and program initiatives. 
 ---
