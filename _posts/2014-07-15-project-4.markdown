@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-15
+date: 2021-11-27
 img: game.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: November 2021
+client: WAIR
+category: Data Analytics
+description: Nate developed and deployed machine learning algorithms for WAIR, an e-commerce startup focused on sustainability. His algorithms contributed to a 10% decrease in returns accross 100 e-commerce brands, resulting in massive emission offsets.
 ---
