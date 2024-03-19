@@ -41,10 +41,10 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/pritesh-tadvi/
-  - title: Leetcode
+  - title: vscode.leetcode
     url: https://leetcode.com/__ppt_29/
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: https://stackoverflow.com/users/19354108/pritesh-tadvi
   - title: kaggle
     url: https://www.kaggle.com/priteshtadvi
   - title: github
