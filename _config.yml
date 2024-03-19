@@ -41,7 +41,7 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/pritesh-tadvi/
-  - title: leetcode
+  - title: leet-code
     url: https://leetcode.com/__ppt_29/
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
