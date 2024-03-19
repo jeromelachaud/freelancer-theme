@@ -39,16 +39,16 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
+  - title: linkedin
+    url: https://www.linkedin.com/in/pritesh-tadvi/
+  - title: leetcode
+    url: https://leetcode.com/__ppt_29/
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: kaggle
+    url: https://www.kaggle.com/priteshtadvi
   - title: github
-    url: http://github.com/pritesh2000
+    url: https://github.com/pritesh2000
 
 # Postal address (add as many lines as necessary)
 address:
