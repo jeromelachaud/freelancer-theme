@@ -15,7 +15,7 @@ bing_verify:
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
-- disqus : replace contact form by disqus thread
+# - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
 
@@ -51,12 +51,12 @@ social:
     url: https://github.com/pritesh2000
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+# address:
+  # - line: 3481 Melrose Place
+  # - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
