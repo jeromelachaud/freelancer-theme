@@ -1,11 +1,11 @@
 # Site settings
-title: Priteshkumar Tadvi
-email: priteshptadvi29@gmail.com
+title: "Priteshkumar Tadvi"
+email: "priteshptadvi29@gmail.com"
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "data scientist's portfolio"
 keywords: "data,science,analyst,portfolio"
 skills: "Data Scientist"
-meta_author: Tadvi Priteshkumar
+meta_author: "Tadvi Priteshkumar"
 
 # Google webmaster tools
 google_verify:
