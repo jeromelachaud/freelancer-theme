@@ -38,6 +38,15 @@
               </li>
               {% endif %}
             </ul>
+            <ul class="list-inline item-details">
+              {% if post.category %}
+              <li>Tools and Technology:
+                <strong>{{ post.category }}</strong>
+              </li>
+              {% endif %}
+            </ul>
+
+            
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
