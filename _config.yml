@@ -41,8 +41,8 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/pritesh-tadvi/
-  # - title: vscode.leetcode
-  #   url: https://leetcode.com/__ppt_29/
+  - title: tableau
+    url: https://public.tableau.com/app/profile/priteshkumar.tadvi
   - title: stack-overflow
     url: https://stackoverflow.com/users/19354108/pritesh-tadvi
   - title: kaggle
