@@ -22,6 +22,13 @@
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
+              {% if post.tools-and-technology %}
+              <li>Tools and Technology:
+                <strong>{{ post.tools-and-technology }}</strong>
+              </li>
+              {% endif %}
+            </ul>
+            <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
                 <strong>{{ post.client }}</strong>
@@ -38,13 +45,7 @@
               </li>
               {% endif %}
             </ul>
-            <ul class="list-inline item-details">
-              {% if post.tools-and-technology %}
-              <li>Tools and Technology:
-                <strong>{{ post.tools-and-technology }}</strong>
-              </li>
-              {% endif %}
-            </ul>
+
 
             
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
