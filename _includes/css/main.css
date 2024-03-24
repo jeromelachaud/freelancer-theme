@@ -16,6 +16,10 @@ p.small {
     font-size: 16px;
 }
 
+p.justi{
+    text-align: justify;
+}
+
 a,
 a:hover,
 a:focus,
