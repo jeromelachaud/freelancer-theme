@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 6
+date: 2022-03-15
+img: egarage_900.jpg
+alt: image-alt
+link: https://github.com/pritesh2000/env6
+project-date: March 2022
+category: Web Development
+tools-and-technology: Python, Django, PostgreSQL, Git, Bootstrap, Heroku, VS Code
+description: This project contains a web application. Used Django ORM(object relational mapping) to manipulate PostgreSQL database. Performed CRUD operation. Made django user authentication for customization of users. Also used heroku for deployment.
+---

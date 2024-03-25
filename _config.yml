@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: "Pritesh Tadvi"
+email: "f/mnqebkbp"
+url: egarage999.github.io
+description: "pritesh,tadvi,pritesh tadvi,data analyst,data scientist,portfolio, pritesh tadvi's portfolio"
+keywords: "pritesh,tadvi,data,science,analyst,portfolio"
+skills: "Data Scientist"
+meta_author: "Tadvi Priteshkumar"
 
 # Google webmaster tools
 google_verify:
@@ -32,31 +32,31 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: Pritesh Tadvi
+  # location: Location
+  # social: Around the Web
+  # credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
+  - title: linkedin
+    url: https://www.linkedin.com/in/pritesh-tadvi/
+  - title: hackerrank
+    url: https://www.hackerrank.com/profile/__ppt_29
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://stackoverflow.com/users/19354108/pritesh-tadvi
+  - title: kaggle
+    url: https://www.kaggle.com/priteshtadvi
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/pritesh2000
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+# address:
+  # - line: 3481 Melrose Place
+  # - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
