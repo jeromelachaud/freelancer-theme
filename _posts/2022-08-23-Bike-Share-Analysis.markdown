@@ -8,5 +8,5 @@ link: https://www.kaggle.com/code/priteshtadvi/case-study-1-bike-share-analysis
 project-date: August 2022
 category: Data Science
 tools-and-technology: R, Dplyr, Ggplot2, Lubridate, RStudio, Kaggle
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: This project involves a bike share company named Cyclistic(hypothetical company) which want to maximize the number of annual memberships. Created an ETL pipeline. Performed data cleaning and Exploratory data analysis(EDA). Used visualization to share insights and get conclusion based on that.
 ---
