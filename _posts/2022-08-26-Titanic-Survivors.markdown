@@ -8,5 +8,5 @@ link: https://github.com/pritesh2000/Competition_1_Titanic
 project-date: August 2022
 category: Data Science
 tools-and-technology: Python, Numpy, Pandas, Scikit-Learn, Jupyter Notebook
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: This project contains historic data of titanic passangers. Created an ETL pipeline, Performed data cleaning, Exploratory data analysis(EDA) and gathered insights from it. Random Forest Classifier is choosen as machine learning model because of its high accuracy among other models.
 ---
