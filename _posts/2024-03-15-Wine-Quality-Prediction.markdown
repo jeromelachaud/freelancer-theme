@@ -8,5 +8,5 @@ link: https://github.com/pritesh2000/Wine_Quality_Prediction
 project-date: March 2024
 category: Data Science
 tools-and-technology: Python, Flask, MLflow, AWS(IAM, ECR, EC2), Docker, VS Code
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: This project involves building a predictive model for wine quality using ElasticNet regression and deploying it as a web application using Flask, allowing users to input wine features and receive predictions through a user-friendly interface.
 ---
