@@ -1,0 +1,446 @@
+---
+layout: null
+title: Open Source | CD2 Retail Tech
+permalink: /projetos/
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="Projetos open source da CD2 Retail Tech: plugins de IA para dados de varejo, ferramentas para Claude Code e muito mais.">
+    <meta name="author" content="{{ site.meta_author }}">
+    <link rel="canonical" href="https://cd2tec.github.io/projetos/">
+    <meta property="og:title" content="Open Source | CD2 Retail Tech">
+    <meta property="og:description" content="Tecnologia para o varejo, construída em aberto.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lato:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #{{ site.color.primary }};
+            --primary-rgb: {{ site.color.primary-rgb }};
+            --secondary: #{{ site.color.secondary }};
+            --accent: #{{ site.color.secondary-dark }};
+            --ink: #1b1a2e;
+            --ink-soft: #4a4862;
+            --bg: #ffffff;
+            --bg-alt: #f4f6fb;
+            --line: #e3e6ef;
+            --code-bg: #15142a;
+            --code-ink: #e6e8f5;
+            --radius: 14px;
+        }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            font-family: "Lato", system-ui, sans-serif;
+            font-size: 17px;
+            line-height: 1.6;
+            color: var(--ink);
+            background: var(--bg);
+        }
+        h1, h2, h3, h4 { font-family: "Montserrat", sans-serif; line-height: 1.2; margin: 0 0 .5em; }
+        a { color: var(--primary); }
+        code, pre { font-family: "JetBrains Mono", ui-monospace, monospace; }
+        .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+
+        /* Nav */
+        .nav {
+            position: sticky; top: 0; z-index: 10;
+            background: rgba(255,255,255,.92);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--line);
+        }
+        .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+        .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-family: "Montserrat"; font-weight: 800; font-size: 20px; }
+        .brand-mark {
+            width: 34px; height: 34px; border-radius: 9px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #fff; display: grid; place-items: center; font-size: 14px;
+        }
+        .brand small { font-weight: 600; color: var(--ink-soft); font-size: 13px; letter-spacing: .04em; }
+        .nav ul { list-style: none; display: flex; gap: 24px; margin: 0; padding: 0; }
+        .nav ul a { text-decoration: none; color: var(--ink-soft); font-family: "Montserrat"; font-weight: 600; font-size: 14px; }
+        .nav ul a:hover { color: var(--primary); }
+
+        /* Hero */
+        .hero {
+            position: relative; overflow: hidden;
+            background: radial-gradient(1200px 500px at 85% -10%, rgba(var(--primary-rgb), .45), transparent 60%),
+                        linear-gradient(160deg, #1d1b3a 0%, var(--secondary) 100%);
+            color: #fff;
+            padding: 96px 0 104px;
+        }
+        .hero::after {
+            content: ""; position: absolute; inset: 0;
+            background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+            background-size: 44px 44px;
+            mask-image: linear-gradient(to bottom, #000 30%, transparent);
+            pointer-events: none;
+        }
+        .hero .wrap { position: relative; z-index: 1; }
+        .eyebrow {
+            display: inline-flex; align-items: center; gap: 8px;
+            font-family: "Montserrat"; font-weight: 700; font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+            background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2);
+            padding: 6px 12px; border-radius: 999px;
+        }
+        .hero h1 { font-size: clamp(36px, 6vw, 64px); font-weight: 800; margin: 22px 0 18px; max-width: 820px; }
+        .hero h1 em { font-style: normal; color: #9cc1ff; }
+        .hero p.lead { font-size: clamp(17px, 2vw, 21px); max-width: 680px; color: rgba(255,255,255,.85); margin: 0 0 34px; }
+        .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+        .btn {
+            display: inline-flex; align-items: center; gap: 9px;
+            padding: 13px 22px; border-radius: 10px; text-decoration: none;
+            font-family: "Montserrat"; font-weight: 700; font-size: 15px;
+            transition: transform .15s ease, background .15s ease;
+        }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-light { background: #fff; color: var(--ink); }
+        .btn-ghost { color: #fff; border: 1px solid rgba(255,255,255,.4); }
+        .btn-ghost:hover { background: rgba(255,255,255,.1); }
+        .stats { display: flex; flex-wrap: wrap; gap: 40px; margin-top: 56px; }
+        .stat strong { display: block; font-family: "Montserrat"; font-size: 32px; font-weight: 800; }
+        .stat span { color: rgba(255,255,255,.7); font-size: 14px; }
+
+        /* Sections */
+        section { padding: 88px 0; }
+        section.alt { background: var(--bg-alt); }
+        .section-head { max-width: 720px; margin-bottom: 44px; }
+        .section-head .kicker { color: var(--primary); font-family: "Montserrat"; font-weight: 700; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; }
+        .section-head h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-top: 10px; }
+        .section-head p { color: var(--ink-soft); margin: 0; }
+
+        /* Featured project */
+        .feature {
+            display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px;
+            background: #fff; border: 1px solid var(--line); border-radius: 20px;
+            padding: 40px; margin-bottom: 32px;
+            box-shadow: 0 18px 50px -30px rgba(27,26,46,.35);
+        }
+        .feature-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+        .tag {
+            font-family: "Montserrat"; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+            padding: 4px 10px; border-radius: 999px; background: rgba(var(--primary-rgb), .1); color: var(--primary);
+        }
+        .tag.accent { background: rgba(166,87,30,.1); color: var(--accent); }
+        .tag.purple { background: rgba(83,78,115,.12); color: var(--secondary); }
+        .feature h3 { font-size: 28px; font-weight: 800; }
+        .feature h3 .owner { color: var(--ink-soft); font-weight: 600; }
+        .feature p { color: var(--ink-soft); }
+        .feature ul.points { list-style: none; padding: 0; margin: 20px 0 26px; }
+        .feature ul.points li { display: flex; gap: 12px; margin-bottom: 12px; color: var(--ink); }
+        .feature ul.points i { color: var(--primary); margin-top: 5px; width: 16px; text-align: center; }
+        .links { display: flex; flex-wrap: wrap; gap: 10px; }
+        .btn-primary { background: var(--primary); color: #fff; }
+        .btn-outline { border: 1px solid var(--line); color: var(--ink); }
+        .btn-outline:hover { border-color: var(--primary); color: var(--primary); }
+
+        .terminal {
+            background: var(--code-bg); color: var(--code-ink);
+            border-radius: var(--radius); overflow: hidden; align-self: start;
+            box-shadow: 0 20px 40px -24px rgba(0,0,0,.6);
+        }
+        .terminal-bar { display: flex; align-items: center; gap: 7px; padding: 12px 16px; background: rgba(255,255,255,.05); }
+        .terminal-bar span { width: 11px; height: 11px; border-radius: 50%; background: #ff5f57; }
+        .terminal-bar span:nth-child(2) { background: #febc2e; }
+        .terminal-bar span:nth-child(3) { background: #28c840; }
+        .terminal-bar em { margin-left: auto; font-style: normal; font-size: 12px; color: rgba(255,255,255,.5); font-family: "JetBrains Mono"; }
+        .terminal pre { margin: 0; padding: 20px 20px 8px; font-size: 13.5px; line-height: 1.75; white-space: pre-wrap; word-break: break-word; }
+        .terminal .c { color: #7f84a8; }
+        .terminal .p { color: #9cc1ff; }
+        .terminal .g { color: #7ee2a8; }
+        .copy {
+            margin: 0 20px 20px; background: rgba(255,255,255,.08); color: var(--code-ink);
+            border: 1px solid rgba(255,255,255,.15); border-radius: 8px; padding: 8px 14px;
+            font-family: "Montserrat"; font-weight: 600; font-size: 13px; cursor: pointer;
+        }
+        .copy:hover { background: rgba(255,255,255,.15); }
+
+        .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+        .chip { font-family: "JetBrains Mono"; font-size: 12.5px; padding: 5px 10px; border-radius: 6px; background: var(--bg-alt); border: 1px solid var(--line); color: var(--ink-soft); }
+
+        /* Grid of other repos */
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+        .card {
+            display: flex; flex-direction: column; background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+            padding: 24px; text-decoration: none; color: var(--ink);
+            transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+        }
+        .card:hover { transform: translateY(-3px); border-color: rgba(var(--primary-rgb), .5); box-shadow: 0 16px 30px -22px rgba(var(--primary-rgb), .7); }
+        .card .icon { width: 42px; height: 42px; border-radius: 10px; display: grid; place-items: center; background: rgba(var(--primary-rgb), .1); color: var(--primary); font-size: 18px; margin-bottom: 16px; }
+        .card h4 { font-size: 17px; font-weight: 700; word-break: break-word; }
+        .card p { color: var(--ink-soft); font-size: 15px; margin: 0 0 16px; flex: 1; }
+        .card .meta { font-size: 13px; color: var(--ink-soft); display: flex; gap: 14px; }
+
+        /* About / founder */
+        .about { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+        .pillars { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .pillar { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+        .pillar i { color: var(--primary); font-size: 22px; margin-bottom: 10px; }
+        .pillar h4 { font-size: 16px; margin-bottom: 6px; }
+        .pillar p { margin: 0; color: var(--ink-soft); font-size: 14.5px; }
+        .founder {
+            margin-top: 28px; display: flex; gap: 18px; align-items: center;
+            padding: 20px; border-radius: var(--radius); background: #fff; border: 1px solid var(--line);
+        }
+        .avatar { width: 64px; height: 64px; border-radius: 50%; flex: none; background: linear-gradient(135deg, var(--primary), var(--accent)); color: #fff; display: grid; place-items: center; font-family: "Montserrat"; font-weight: 800; font-size: 22px; }
+        .founder strong { font-family: "Montserrat"; display: block; }
+        .founder span { color: var(--ink-soft); font-size: 14.5px; }
+
+        /* CTA */
+        .cta { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: #fff; border-radius: 22px; padding: 52px 44px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
+        .cta h2 { font-size: clamp(24px, 3.4vw, 34px); font-weight: 800; margin: 0 0 8px; }
+        .cta p { margin: 0; color: rgba(255,255,255,.85); max-width: 560px; }
+
+        footer { background: #15142a; color: rgba(255,255,255,.7); padding: 40px 0; font-size: 14px; }
+        footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; }
+        footer a { color: #fff; text-decoration: none; margin-left: 18px; }
+        footer a:first-child { margin-left: 0; }
+
+        @media (max-width: 860px) {
+            .feature, .about { grid-template-columns: 1fr; }
+            .feature { padding: 26px; }
+            .nav ul { display: none; }
+            .pillars { grid-template-columns: 1fr; }
+            .cta { padding: 36px 26px; }
+            section { padding: 64px 0; }
+            .hero { padding: 72px 0 80px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="nav">
+    <div class="wrap">
+        <a class="brand" href="/">
+            <span class="brand-mark">CD2</span>
+            <span>CD2 <small>RETAIL TECH</small></span>
+        </a>
+        <ul>
+            <li><a href="#destaques">Destaques</a></li>
+            <li><a href="#repositorios">Repositórios</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="/">Site</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="wrap">
+        <span class="eyebrow"><i class="fa fa-github"></i> Open Source na CD2</span>
+        <h1>Tecnologia para o varejo, <em>construída em aberto.</em></h1>
+        <p class="lead">Na CD2 a gente transforma ideias e projetos em resultado para o varejo: integração de sistemas, dados e IA aplicada. Parte do que construímos no caminho fica aberto para toda a comunidade.</p>
+        <div class="btns">
+            <a class="btn btn-light" href="#destaques"><i class="fa fa-rocket"></i> Ver projetos</a>
+            <a class="btn btn-ghost" href="https://github.com/cd2tec" target="_blank" rel="noopener"><i class="fa fa-github"></i> github.com/cd2tec</a>
+        </div>
+        <div class="stats">
+            <div class="stat"><strong>2016</strong><span>desde a fundação, em Florianópolis</span></div>
+            <div class="stat"><strong>MIT</strong><span>licença dos projetos em destaque</span></div>
+            <div class="stat"><strong>IA + varejo</strong><span>foco dos projetos novos</span></div>
+        </div>
+    </div>
+</header>
+
+<section id="destaques">
+    <div class="wrap">
+        <div class="section-head">
+            <span class="kicker">Projetos em destaque</span>
+            <h2>Do banco legado ao agente de IA</h2>
+            <p>Ferramentas que usamos no dia a dia com clientes e decidimos abrir. Instale, teste e contribua.</p>
+        </div>
+
+        <!-- Archeo Claude Plugins -->
+        <article class="feature">
+            <div>
+                <div class="feature-tags">
+                    <span class="tag">Claude Code Plugin</span>
+                    <span class="tag accent">Varejo · ERP</span>
+                    <span class="tag purple">MIT</span>
+                </div>
+                <h3><span class="owner">cd2tec /</span> archeo-claude-plugins</h3>
+                <p>Plugins para o <strong>Archeo MCP Creator</strong>, que conecta bancos de dados legados a assistentes de IA. Do banco legado ao painel executivo e às ferramentas de IA, com cada número conferido no seu banco.</p>
+                <ul class="points">
+                    <li><i class="fa fa-magic"></i><span><strong>add-mcp-tool</strong>: transforma uma pergunta de negócio em uma ferramenta MCP pronta, com SQL explorado, escrito e testado no banco conectado.</span></li>
+                    <li><i class="fa fa-bar-chart"></i><span><strong>add-mcp-dashboard</strong>: painel executivo de varejo a partir do ERP/PDV, com KPIs, índice de saúde, rankings e curva ABC.</span></li>
+                    <li><i class="fa fa-file-text-o"></i><span><strong>analyze-mcp-*</strong>: relatórios de estoque, vendas, compras, preços, perdas, fiscal, contábil e financeiro, cada um com conferência de reconciliação.</span></li>
+                    <li><i class="fa fa-lock"></i><span>Somente leitura: SELECTs parametrizados e validados, nada é registrado automaticamente.</span></li>
+                </ul>
+                <div class="links">
+                    <a class="btn btn-primary" href="https://github.com/cd2tec/archeo-claude-plugins" target="_blank" rel="noopener"><i class="fa fa-github"></i> Ver no GitHub</a>
+                </div>
+                <div class="chips">
+                    <span class="chip">SQL Server</span>
+                    <span class="chip">PostgreSQL</span>
+                    <span class="chip">Oracle</span>
+                    <span class="chip">MySQL / MariaDB</span>
+                </div>
+            </div>
+            <div class="terminal">
+                <div class="terminal-bar"><span></span><span></span><span></span><em>claude</em></div>
+<pre id="cmd-archeo"><span class="c"># no Claude Code</span>
+<span class="p">&gt;</span> /plugin marketplace add cd2tec/archeo-claude-plugins
+<span class="p">&gt;</span> /plugin install archeo@archeo-plugins
+
+<span class="c"># depois é só pedir</span>
+<span class="p">&gt;</span> Crie uma ferramenta que mostre a ruptura
+  de estoque por loja na última semana
+<span class="g">✓ SQL testado · especificação pronta para o MCP Creator</span></pre>
+                <button class="copy" data-copy="/plugin marketplace add cd2tec/archeo-claude-plugins&#10;/plugin install archeo@archeo-plugins"><i class="fa fa-clipboard"></i> Copiar instalação</button>
+            </div>
+        </article>
+
+        <!-- wrapper-code -->
+        <article class="feature">
+            <div>
+                <div class="feature-tags">
+                    <span class="tag">CLI · npm</span>
+                    <span class="tag accent">Claude Code</span>
+                    <span class="tag purple">MIT</span>
+                </div>
+                <h3><span class="owner">nayamonia /</span> wrapper-code</h3>
+                <p>Rode o harness do <strong>Claude Code</strong> com outros provedores de LLM sem mexer na sua configuração. Criado por <strong>Gabriel Fernandes</strong>, fundador da CD2.</p>
+                <ul class="points">
+                    <li><i class="fa fa-random"></i><span>Launchers prontos para DeepSeek, Ollama, Qwen Cloud, OpenRouter, Kimi e Z.ai. O <code>claude</code> normal continua usando a Anthropic.</span></li>
+                    <li><i class="fa fa-shield"></i><span>Configuração só para aquela sessão: nada é gravado em <code>~/.claude</code> e nenhuma variável vaza para o seu shell.</span></li>
+                    <li><i class="fa fa-users"></i><span>Várias contas Claude lado a lado com <code>--account</code> e <code>--temp</code> (macOS e Linux).</span></li>
+                    <li><i class="fa fa-line-chart"></i><span><code>wrapper-code usage</code>: uso de tokens por provedor e modelo, medido localmente, sem guardar prompts.</span></li>
+                </ul>
+                <div class="links">
+                    <a class="btn btn-primary" href="https://github.com/nayamonia/wrapper-code" target="_blank" rel="noopener"><i class="fa fa-github"></i> Ver no GitHub</a>
+                    <a class="btn btn-outline" href="https://www.npmjs.com/package/wrapper-code" target="_blank" rel="noopener"><i class="fa fa-cube"></i> npm</a>
+                </div>
+                <div class="chips">
+                    <span class="chip">Node.js 18+</span>
+                    <span class="chip">EN · PT · ES</span>
+                    <span class="chip">sem gateway</span>
+                </div>
+            </div>
+            <div class="terminal">
+                <div class="terminal-bar"><span></span><span></span><span></span><em>bash</em></div>
+<pre><span class="c"># instale uma vez</span>
+<span class="p">$</span> npm install -g wrapper-code
+
+<span class="c"># veja os provedores disponíveis</span>
+<span class="p">$</span> wrapper-code list
+
+<span class="c"># abra uma sessão do Claude Code no DeepSeek</span>
+<span class="p">$</span> wrapper-code deepseek
+
+<span class="c"># quanto você usou, por modelo</span>
+<span class="p">$</span> wrapper-code usage</pre>
+                <button class="copy" data-copy="npm install -g wrapper-code"><i class="fa fa-clipboard"></i> Copiar instalação</button>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section id="repositorios" class="alt">
+    <div class="wrap">
+        <div class="section-head">
+            <span class="kicker">Mais repositórios públicos</span>
+            <h2>Outros projetos abertos da CD2</h2>
+            <p>Integrações, desafios técnicos e experimentos publicados em <a href="https://github.com/cd2tec" target="_blank" rel="noopener">github.com/cd2tec</a>.</p>
+        </div>
+        <div class="grid">
+            <a class="card" href="https://github.com/cd2tec/cd2-integrador-c5-invent-banco-a-banco" target="_blank" rel="noopener">
+                <div class="icon"><i class="fa fa-exchange"></i></div>
+                <h4>cd2-integrador-c5-invent-banco-a-banco</h4>
+                <p>Integrador Oracle Consinco × Invent: DDL, jobs e documentação de integração banco a banco.</p>
+                <div class="meta"><span><i class="fa fa-code"></i> PL/SQL</span></div>
+            </a>
+            <a class="card" href="https://github.com/cd2tec/solucao-satelite" target="_blank" rel="noopener">
+                <div class="icon"><i class="fa fa-globe"></i></div>
+                <h4>solucao-satelite</h4>
+                <p>Cálculos de parâmetros orbitais de satélites.</p>
+                <div class="meta"><span><i class="fa fa-code"></i> Java</span></div>
+            </a>
+            <a class="card" href="https://github.com/cd2tec/JavaTest" target="_blank" rel="noopener">
+                <div class="icon"><i class="fa fa-coffee"></i></div>
+                <h4>JavaTest</h4>
+                <p>Desafio técnico usado nos processos seletivos para vagas Java na CD2.</p>
+                <div class="meta"><span><i class="fa fa-star"></i> 22</span><span><i class="fa fa-code-fork"></i> 120</span></div>
+            </a>
+            <a class="card" href="https://github.com/cd2tec/PHPtest" target="_blank" rel="noopener">
+                <div class="icon"><i class="fa fa-terminal"></i></div>
+                <h4>PHPtest</h4>
+                <p>Desafio técnico usado nos processos seletivos para vagas PHP na CD2.</p>
+                <div class="meta"><span><i class="fa fa-code-fork"></i> 74</span></div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="sobre">
+    <div class="wrap about">
+        <div>
+            <div class="section-head" style="margin-bottom:0">
+                <span class="kicker">Sobre a CD2</span>
+                <h2>Software sob medida para quem vende</h2>
+                <p>A CD2 Retail Tech nasceu em Florianópolis em 2016 e ajuda pessoas e empresas a transformar ideias e projetos em resultados, com consultoria, desenvolvimento e implantação de software sob demanda. Hoje o time é remote-first, espalhado pelo Brasil.</p>
+            </div>
+            <div class="founder">
+                <div class="avatar">GF</div>
+                <div>
+                    <strong>Gabriel Fernandes</strong>
+                    <span>Fundador e CEO da CD2 · autor do <a href="https://github.com/nayamonia/wrapper-code" target="_blank" rel="noopener">wrapper-code</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="pillars">
+            <div class="pillar"><i class="fa fa-plug"></i><h4>Integração de sistemas</h4><p>ERPs, PDVs, e-commerce e parceiros conversando entre si.</p></div>
+            <div class="pillar"><i class="fa fa-mobile"></i><h4>Produtos digitais</h4><p>Apps e plataformas web para o varejo e sua operação.</p></div>
+            <div class="pillar"><i class="fa fa-database"></i><h4>Dados e IA</h4><p>Do banco legado ao agente de IA, com números conferidos.</p></div>
+            <div class="pillar"><i class="fa fa-wrench"></i><h4>Sustentação</h4><p>Manutenção e evolução contínua dos sistemas críticos.</p></div>
+        </div>
+    </div>
+</section>
+
+<section style="padding-top:0">
+    <div class="wrap">
+        <div class="cta">
+            <div>
+                <h2>Quer construir algo junto?</h2>
+                <p>Abra uma issue, mande um pull request ou fale com a gente sobre o seu próximo projeto.</p>
+            </div>
+            <div class="btns">
+                <a class="btn btn-light" href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i> {{ site.email }}</a>
+                <a class="btn btn-ghost" href="https://www.cd2.com.br" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> cd2.com.br</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="wrap">
+        <span>&copy; {{ site.time | date: '%Y' }} {{ site.footer.copyright }}</span>
+        <span>
+            <a href="https://www.cd2.com.br" target="_blank" rel="noopener">cd2.com.br</a>
+            <a href="https://github.com/cd2tec" target="_blank" rel="noopener"><i class="fa fa-github"></i> cd2tec</a>
+            <a href="/">Início</a>
+        </span>
+    </div>
+</footer>
+
+<script>
+    document.querySelectorAll('.copy').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var text = btn.getAttribute('data-copy');
+            var label = btn.innerHTML;
+            var done = function () {
+                btn.innerHTML = '<i class="fa fa-check"></i> Copiado';
+                setTimeout(function () { btn.innerHTML = label; }, 1600);
+            };
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(done, function () {});
+            }
+        });
+    });
+</script>
+</body>
+</html>
